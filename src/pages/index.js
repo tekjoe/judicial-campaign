@@ -1,5 +1,5 @@
 import React from "react"
-import About from "../components/organisms/About/Index"
+import AboutSection from "../components/organisms/AboutSection/"
 import CallToAction from "../components/organisms/CallToAction"
 import Features from "../components/organisms/Features"
 import GetInvolved from "../components/organisms/GetInvolved"
@@ -15,7 +15,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <MastheadSection />
     <CallToAction />
-    <About />
+    <AboutSection />
     <GetInvolved />
     <Features />
     <Social />
