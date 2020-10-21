@@ -14,7 +14,6 @@ const FeaturesSection = styled.section`
 `
 const FlexBoxes = styled.div`
   display: flex;
-  gap: 1rem;
   flex-direction: column;
   @media (min-width: 768px) {
     flex-direction: row;
@@ -26,6 +25,16 @@ const Feature = styled.div`
   flex-basis: 300px;
   overflow: hidden;
   position: relative;
+  &:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    &:not(:last-of-type) {
+      margin-bottom: 0;
+      margin-right: 1rem;
+    }
+  }
   @media (min-width: 1024px) {
     flex-basis: auto;
     height: 400px;
@@ -71,13 +80,13 @@ const Features = () => {
             </Feature.Overlay>
           </Feature>
           <Feature>
-            <FeatureImage2 style={{ height: "100%" }} />
+            <FeatureImage1 style={{ height: "100%" }} />
             <Feature.Overlay>
               <span>Equality</span>
             </Feature.Overlay>
           </Feature>
           <Feature>
-            <FeatureImage3 style={{ height: "100%" }} />
+            <FeatureImage1 style={{ height: "100%" }} />
             <Feature.Overlay>
               <span>Integrity</span>
             </Feature.Overlay>

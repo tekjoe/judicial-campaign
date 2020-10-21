@@ -16,7 +16,6 @@ SocialSection.Title = styled.h3`
 const SocialGrid = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   @media (min-width: 768px) {
     flex-direction: row;
   }
@@ -27,8 +26,17 @@ const SocialCard = styled.div`
   background: #335c9e;
   color: white;
   padding: 2rem;
+  &:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
   & > *:not(:last-child) {
     margin-bottom: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    &:not(:last-of-type) {
+      margin-right: 1rem;
+      margin-bottom: 0;
+    }
   }
 `
 

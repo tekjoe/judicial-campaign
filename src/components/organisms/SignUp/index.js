@@ -45,7 +45,9 @@ SignUpSection.CTA = styled.div`
 const Form = styled.form`
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  input {
+    margin-bottom: 0.5rem;
+  }
 `
 
 const Input = styled.input`
