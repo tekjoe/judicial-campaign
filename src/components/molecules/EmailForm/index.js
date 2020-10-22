@@ -36,6 +36,7 @@ const EmailForm = ({ ...rest }) => {
     })
       .then(() => {
         setEmail("")
+        form.reset()
         setIsSubmitted(!isSubmitted)
       })
       .catch(error => alert(error))
@@ -54,6 +55,8 @@ const EmailForm = ({ ...rest }) => {
         placeholder="Email Address"
         value={email}
         onChange={handleChange}
+        name="email"
+        id="email"
         required
       />
       <Button type="submit">{isSubmitted ? "Sent!" : "Stay Connected"}</Button>
