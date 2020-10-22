@@ -18,10 +18,10 @@ function encode(data) {
 }
 
 const EmailForm = ({ ...rest }) => {
-  const [email, setEmail] = useState("")
+  const [email, setEmail] = useState({ email: "" })
   const [isSubmitted, setIsSubmitted] = useState(false)
   const handleChange = e => {
-    setEmail(e.target.value)
+    setEmail({ email: e.target.value })
   }
   const handleSubmit = e => {
     e.preventDefault()
@@ -35,7 +35,7 @@ const EmailForm = ({ ...rest }) => {
       }),
     })
       .then(() => {
-        setEmail("")
+        setEmail({ email: "" })
         form.reset()
         setIsSubmitted(!isSubmitted)
       })
@@ -53,7 +53,6 @@ const EmailForm = ({ ...rest }) => {
       <Input
         type="email"
         placeholder="Email Address"
-        value={email}
         onChange={handleChange}
         name="email"
         id="email"
