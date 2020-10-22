@@ -1,5 +1,6 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import styled from "styled-components"
+import queryString from "query-string"
 import { Column, Columns } from "../../atoms/Columns"
 import ContentContainer from "../../atoms/ContentContainer"
 import ContactImage from "../../atoms/ContactImage"
@@ -107,7 +108,45 @@ const Select = styled.select`
   }
 `
 
-const Contact = () => {
+const Contact = ({ queryParams }) => {
+  const parsed = queryString.parse(queryParams)
+  const [state, setState] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    message: "",
+    involved: "",
+  })
+  const handleChange = e => {
+    setState({ ...state, [e.target.name]: e.target.value })
+  }
+  const handleSubmit = e => {
+    e.preventDefault()
+    console.log(state)
+    // const form = e.target
+    // fetch("/", {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //   body: encode({
+    //     "form-name": form.getAttribute("name"),
+    //     ...state,
+    //   }),
+    // })
+    //   .then(() => {
+    //     form.reset()
+    //     setSubmitted(!submitted)
+    //   })
+    //   .catch(error => alert(error))
+  }
+  const getValueFromQueryParam = parsed => {
+    if (Object.keys(parsed).length) {
+      const [name, value] = Object.entries(parsed)[0]
+      setState({ ...state, [name]: value })
+    }
+  }
+  useEffect(() => {
+    getValueFromQueryParam(parsed)
+  }, [])
   return (
     <ContactSection centered>
       <SectionOverlay
@@ -123,41 +162,78 @@ const Contact = () => {
         <Columns>
           <Column></Column>
           <Column>
-            <ContactForm>
+            <ContactForm
+              onSubmit={handleSubmit}
+              name="contactForm"
+              method="post"
+            >
               <h1>Contact Us</h1>
               <Label>
                 <p>First Name</p>
-                <Input name="firstName" required />
+                <Input
+                  name="firstName"
+                  type="text"
+                  required
+                  onChange={handleChange}
+                  value={state.firstName}
+                />
               </Label>
               <Label>
                 <p>Last Name</p>
-                <Input name="lastName" required />
+                <Input
+                  name="lastName"
+                  type="text"
+                  required
+                  onChange={handleChange}
+                  value={state.lastName}
+                />
               </Label>
               <Label>
                 <p>Email Address</p>
-                <Input name="email" required />
+                <Input
+                  name="email"
+                  required
+                  type="email"
+                  onChange={handleChange}
+                  value={state.email}
+                />
               </Label>
               <Label>
                 <p>How would you like to get involved?</p>
                 <div>
-                  <Select id="budget" required name="budget">
-                    <option value="" selected disabled hidden>
+                  <Select
+                    id="involved"
+                    required
+                    name="involved"
+                    onChange={handleChange}
+                    value={state.involved}
+                  >
+                    <option value="" disabled hidden>
                       Select here
                     </option>
                     <option value="event">Host an event</option>
                     <option value="signs">Get yard signs</option>
                     <option value="endorse">Endorse</option>
+                    <option value="volunteer">Volunteer</option>
                     <option value="other">Other</option>
                   </Select>
                 </div>
               </Label>
               <Label>
-                <p>Your Message (Optional)</p>
-                <TextArea></TextArea>
+                <p>
+                  Your{" "}
+                  {state.involved && state.involved === "endorse"
+                    ? "Endorsement (Required)"
+                    : "Message (Optional)"}
+                </p>
+                <TextArea
+                  required={state.involved === "endorse" ? true : false}
+                  name="message"
+                  value={state.message}
+                  onChange={handleChange}
+                />
               </Label>
-              <Button type="submit" onClick={e => e.preventDefault()}>
-                Submit
-              </Button>
+              <Button type="submit">Submit</Button>
             </ContactForm>
           </Column>
         </Columns>

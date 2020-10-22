@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import masthead from "../../../images/masthead-placeholder.jpg"
+import EmailForm from "../../molecules/EmailForm"
 
 import ContentContainer from "../../atoms/ContentContainer"
 
@@ -42,31 +43,6 @@ SignUpSection.CTA = styled.div`
   }
 `
 
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  input {
-    margin-bottom: 0.5rem;
-  }
-`
-
-const Input = styled.input`
-  font-size: ${({ theme }) => theme.typography.paragraph};
-  padding: 1rem;
-`
-
-const Button = styled.button`
-  background: #f3304a;
-  padding: 1rem;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border: none;
-  font-size: 1.125rem;
-  cursor: pointer;
-`
-
 const Columns = styled.div`
   display: flex;
   flex-direction: column;
@@ -88,12 +64,7 @@ const SignUp = () => {
           <Column>
             <SignUpSection.CTA>
               <p>Stay up to date with the campaign</p>
-              <Form>
-                <Input type="email" placeholder="Email Address" />
-                <Button type="submit" onClick={e => e.preventDefault()}>
-                  Stay Connected
-                </Button>
-              </Form>
+              <EmailForm />
             </SignUpSection.CTA>
           </Column>
           <Column></Column>

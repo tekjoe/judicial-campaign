@@ -2,8 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import ContentContainer from "../../atoms/ContentContainer"
 import FeatureImage1 from "../../atoms/FeatureImage1"
-import FeatureImage2 from "../../atoms/FeatureImage2"
-import FeatureImage3 from "../../atoms/FeatureImage3"
 
 const FeaturesSection = styled.section`
   background: #d4ddea;

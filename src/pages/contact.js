@@ -5,12 +5,14 @@ import Layout from "../utils/layout"
 
 import SEO from "../utils/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Contact Us" />
-    <Contact />
-    <Footer />
-  </Layout>
-)
+const ContactPage = ({ location }) => {
+  return (
+    <Layout>
+      <SEO title="Contact Us" />
+      <Contact queryParams={location.search} />
+      <Footer />
+    </Layout>
+  )
+}
 
-export default IndexPage
+export default ContactPage

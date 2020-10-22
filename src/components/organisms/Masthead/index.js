@@ -3,6 +3,7 @@ import styled from "styled-components"
 import ContentContainer from "../../atoms/ContentContainer"
 
 import MastheadImage from "../../atoms/MastheadImage"
+import EmailForm from "../../molecules/EmailForm"
 
 const Masthead = styled.section`
   background: #264577;
@@ -54,36 +55,9 @@ Masthead.CTA = styled.div`
     }
   }
   @media (min-width: 1400px) {
-    top: 25%;
+    top: 20%;
     margin-left: 20%;
   }
-`
-
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  input {
-    margin-bottom: 0.5rem;
-  }
-`
-
-const Input = styled.input`
-  font-size: ${({ theme }) => theme.typography.paragraph};
-  padding: 1rem;
-  -moz-appearance: none;
-  border: none;
-`
-
-const Button = styled.button`
-  background: #f3304a;
-  padding: 1rem;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border: none;
-  font-size: 1.125rem;
-  cursor: pointer;
 `
 
 const MastheadSection = () => {
@@ -96,12 +70,7 @@ const MastheadSection = () => {
         <ContentContainer>
           <p>Proven Commitment to Justice</p>
           <h1>Judge Jeff Davis for Wisconsin Court of Appeals</h1>
-          <Form>
-            <Input type="email" placeholder="Email Address" />
-            <Button type="submit" onClick={e => e.preventDefault()}>
-              Stay Connected
-            </Button>
-          </Form>
+          <EmailForm />
         </ContentContainer>
       </Masthead.CTA>
     </Masthead>
