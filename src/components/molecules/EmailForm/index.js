@@ -59,6 +59,7 @@ const EmailForm = ({ ...rest }) => {
         id="email"
         required
       />
+      <input type="hidden" name="form-name" value="contactForm" />
       <Button type="submit">{isSubmitted ? "Sent!" : "Stay Connected"}</Button>
     </Form>
   )
