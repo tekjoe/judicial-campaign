@@ -114,29 +114,40 @@ const MobileNav = styled(motion.nav)`
   background: white;
   ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 0.75rem;
     &:last-of-type {
       padding-top: 0.75rem;
     }
     li {
+      &:last-of-type {
+        a {
+          background: #f3304a;
+          padding: 0.5rem 2rem;
+          color: white;
+          margin-top: 1rem;
+          font-weight: bold;
+          letter-spacing: 1px;
+        }
+      }
       a {
         padding: 0.75rem 0;
-        color: black;
+        color: #264577;
+        font-size: ${({ theme }) => theme.typography.h4};
         text-decoration: none;
-        text-transform: uppercase;
-        font-size: 0.9rem;
-        letter-spacing: 2px;
         display: block;
-        font-weight: 400;
+        font-weight: 800;
       }
     }
-  }
-  @media (min-width: 768px) {
-    top: 5rem;
+    @media (min-width: 768px) {
+      top: 5rem;
+    }
   }
 `
 
-export default () => {
+const HeaderComponent = () => {
   const [isToggled, setIsToggled] = useState(false)
   const toggleMenu = () => {
     setIsToggled(!isToggled)
@@ -212,16 +223,32 @@ export default () => {
         initial={false}
       >
         <motion.ul>
-          <motion.li variants={item} whileTap={{ scale: 0.95 }}>
+          <motion.li
+            onClick={toggleMenu}
+            variants={item}
+            whileTap={{ scale: 0.95 }}
+          >
             <Nav.Link to="/">Home</Nav.Link>
           </motion.li>
-          <motion.li variants={item} whileTap={{ scale: 0.95 }}>
+          <motion.li
+            onClick={toggleMenu}
+            variants={item}
+            whileTap={{ scale: 0.95 }}
+          >
             <Nav.Link to="/about">Meet Judge Davis</Nav.Link>
           </motion.li>
-          <motion.li variants={item} whileTap={{ scale: 0.95 }}>
+          <motion.li
+            onClick={toggleMenu}
+            variants={item}
+            whileTap={{ scale: 0.95 }}
+          >
             <Nav.Link to="/endorsements">Endorsements</Nav.Link>
           </motion.li>
-          <motion.li variants={item} whileTap={{ scale: 0.95 }}>
+          <motion.li
+            onClick={toggleMenu}
+            variants={item}
+            whileTap={{ scale: 0.95 }}
+          >
             <Nav.Link to="/contact">Get Involved</Nav.Link>
           </motion.li>
         </motion.ul>
@@ -229,3 +256,5 @@ export default () => {
     </Header>
   )
 }
+
+export default HeaderComponent

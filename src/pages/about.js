@@ -1,7 +1,6 @@
 import React from "react"
 import SignUp from "../components/organisms/SignUp"
 import Footer from "../components/organisms/Footer"
-import Layout from "../utils/layout"
 import PageHeader from "../components/organisms/PageHeader"
 import BlogLayout, { Blog } from "../components/organisms/BlogLayout"
 import MastheadImage from "../components/atoms/MastheadImage"
@@ -9,7 +8,7 @@ import MastheadImage from "../components/atoms/MastheadImage"
 import SEO from "../utils/seo"
 
 const AboutPage = () => (
-  <Layout>
+  <>
     <SEO title="About" />
     <PageHeader subtitle="About" title="Meet Judge Jeff Davis" withImage />
     <BlogLayout>
@@ -59,7 +58,7 @@ const AboutPage = () => (
     </BlogLayout>
     <SignUp />
     <Footer />
-  </Layout>
+  </>
 )
 
 export default AboutPage

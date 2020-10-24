@@ -7,11 +7,10 @@ import MastheadSection from "../components/organisms/Masthead"
 import SignUp from "../components/organisms/SignUp"
 import Social from "../components/organisms/Social"
 import Footer from "../components/organisms/Footer"
-import Layout from "../utils/layout"
 import SEO from "../utils/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <>
     <SEO title="Home" />
     <MastheadSection />
     <CallToAction />
@@ -21,7 +20,7 @@ const IndexPage = () => (
     <Social />
     <SignUp />
     <Footer />
-  </Layout>
+  </>
 )
 
 export default IndexPage

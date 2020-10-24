@@ -31,7 +31,7 @@ const About = () => {
             odio id ornare pellentesque molestie eget. Ipsum, lacus tincidunt
             sollicitudin ut mauris ipsum gravida urna.
           </p>
-          <LinkButton to="/about">Learn More</LinkButton>
+          <LinkButton to="/about">Meet Jeff Davis</LinkButton>
         </ContentBlock>
       </ContentContainer>
     </AboutSection>
