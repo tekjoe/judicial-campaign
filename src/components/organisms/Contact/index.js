@@ -108,6 +108,12 @@ const Select = styled.select`
   }
 `
 
+function encode(data) {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&")
+}
+
 const Contact = ({ queryParams }) => {
   const parsed = queryString.parse(queryParams)
   const [state, setState] = useState({
@@ -122,21 +128,19 @@ const Contact = ({ queryParams }) => {
   }
   const handleSubmit = e => {
     e.preventDefault()
-    console.log(state)
-    // const form = e.target
-    // fetch("/", {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    //   body: encode({
-    //     "form-name": form.getAttribute("name"),
-    //     ...state,
-    //   }),
-    // })
-    //   .then(() => {
-    //     form.reset()
-    //     setSubmitted(!submitted)
-    //   })
-    //   .catch(error => alert(error))
+    const form = e.target
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...state,
+      }),
+    })
+      .then(() => {
+        form.reset()
+      })
+      .catch(error => alert(error))
   }
   const getValueFromQueryParam = parsed => {
     if (Object.keys(parsed).length) {

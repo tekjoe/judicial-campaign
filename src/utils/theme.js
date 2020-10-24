@@ -17,4 +17,10 @@ export const baseTheme = {
     paragraph: "16px",
     small: "0.8rem",
   },
+  breakpoints: {
+    tablet: "768px",
+    desktopSm: "1024px",
+    desktopLg: "1200px",
+    desktopXl: "1400px",
+  },
 }
