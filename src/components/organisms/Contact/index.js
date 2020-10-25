@@ -9,7 +9,7 @@ const ContactSection = styled.section`
   display: ${props => (props.centered ? "flex" : "block")};
   justify-content: center;
   align-items: center;
-  padding: 8rem 0 2rem 0;
+  padding: 4rem 0;
   position: relative;
   @media (min-width: 1024px) {
     padding: 10rem 0;
@@ -60,12 +60,9 @@ const Label = styled.label`
 
 const Input = styled.input`
   font-size: ${({ theme }) => theme.typography.paragraph};
-  padding: 0.5rem;
+  padding: 1rem;
   border: none;
   -moz-appearance: none;
-  @media (min-width: 1024px) {
-    padding: 1rem;
-  }
 `
 
 const TextArea = styled.textarea`
@@ -98,14 +95,12 @@ const Button = styled.button`
 const Select = styled.select`
   border: none;
   width: 100%;
-  padding: 0.5rem;
-  font-size: 1rem;
+  padding: 1rem;
+  font-size: ${({ theme }) => theme.typography.paragraph};
   -moz-appearance: none;
   -webkit-appearance: none;
+  border: none;
   border-radius: 0;
-  @media (min-width: 1024px) {
-    padding: 1rem;
-  }
 `
 
 function encode(data) {

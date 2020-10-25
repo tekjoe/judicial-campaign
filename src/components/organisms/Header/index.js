@@ -24,6 +24,7 @@ const Header = styled.header`
 const Logo = styled.div`
   margin-right: 2rem;
   width: 10rem;
+  z-index: 10;
   img {
     display: block;
     height: auto;
@@ -97,6 +98,11 @@ const HamburgerButton = styled.a`
   width: 1.25rem;
   z-index: 10;
   margin-left: auto;
+  svg {
+    path {
+      fill: ${({ isToggled }) => (isToggled ? "white" : "black")};
+    }
+  }
   @media (min-width: 1024px) {
     display: none;
   }
@@ -108,10 +114,13 @@ const MobileNav = styled(motion.nav)`
   width: 100%;
   font-weight: bold;
   z-index: 1;
+  display: flex;
   overflow: hidden;
-  top: 5rem;
+  top: 0;
   left: 0;
   background: white;
+  justify-content: center;
+  align-items: center;
   ul {
     list-style-type: none;
     display: flex;
@@ -129,12 +138,11 @@ const MobileNav = styled(motion.nav)`
           color: white;
           margin-top: 1rem;
           font-weight: bold;
-          letter-spacing: 1px;
         }
       }
       a {
         padding: 0.75rem 0;
-        color: #264577;
+        color: white;
         font-size: ${({ theme }) => theme.typography.h4};
         text-decoration: none;
         display: block;
@@ -154,31 +162,24 @@ const HeaderComponent = () => {
   }
   const variants = {
     open: {
-      height: "auto",
+      height: "100vh",
       width: "100%",
       opacity: 1,
+      background: "#264577",
       transition: {
         type: "spring",
         damping: 15,
-        duration: 0.1,
-        staggerChildren: 0.03,
-        delayChildren: 0.2,
+        duration: 1,
         staggerDirection: -1,
-      },
-      transitionEnd: {
-        display: "block",
       },
     },
     closed: {
       height: 0,
       opacity: 0.1,
+      background: "white",
       transition: {
-        duration: 0.1,
-        staggerChildren: 0.03,
-        staggerDirection: 1,
-        when: "afterChildren",
+        duration: 1,
       },
-      transitionEnd: { display: "none" },
     },
   }
   const item = {
@@ -212,7 +213,7 @@ const HeaderComponent = () => {
       <CTA>
         <CTA.Button to="/contact">Get Involved</CTA.Button>
       </CTA>
-      <HamburgerButton onClick={toggleMenu}>
+      <HamburgerButton onClick={toggleMenu} isToggled={isToggled}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
         </svg>
