@@ -6,25 +6,23 @@ import { baseTheme } from "../utils/theme"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "../components/organisms/Header"
 
-const duration = 0.3
+const duration = 0.2
 
 const variants = {
   initial: {
     opacity: 0,
-    y: 20,
   },
   animate: {
     opacity: 1,
-    y: 0,
     transition: {
       duration: duration,
       delay: duration,
       when: "beforeChildren",
+      ease: "easeInOut",
     },
   },
   exit: {
     opacity: 0,
-    y: 20,
     transition: { duration: duration },
   },
 }

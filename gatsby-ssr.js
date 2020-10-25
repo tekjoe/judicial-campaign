@@ -1,11 +1,24 @@
 import React from "react"
-import { ThemeProvider } from "styled-components"
-import { baseTheme } from "./src/utils/theme"
-import { GlobalStyle } from "./src/utils/global"
+import Layout from "./src/utils/layout"
 
-export const wrapRootElement = ({ element }) => (
-  <ThemeProvider theme={baseTheme}>
-    <GlobalStyle />
-    {element}
-  </ThemeProvider>
-)
+const transitionDelay = 500
+
+export const wrapPageElement = ({ element, props }) => {
+  return <Layout {...props}>{element}</Layout>
+}
+
+export const shouldUpdateScroll = ({
+  routerProps: { location },
+  getSavedScrollPosition,
+}) => {
+  if (location.action === "PUSH") {
+    window.setTimeout(() => window.scrollTo(0, 0), transitionDelay)
+  } else {
+    const savedPosition = getSavedScrollPosition(location)
+    window.setTimeout(
+      () => window.scrollTo(...(savedPosition || [0, 0])),
+      transitionDelay
+    )
+  }
+  return false
+}

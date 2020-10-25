@@ -11,6 +11,7 @@ const _Button = styled.button`
   text-transform: uppercase;
   border: none;
   font-size: 1.125rem;
+  font-family: "Source Sans Pro", sans-serif;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
   &:hover {
