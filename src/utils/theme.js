@@ -3,10 +3,13 @@ export const baseTheme = {
   color: "#1F1F1F",
   elementBackground: "#203a4b",
   darkBlue: "hsl(230,21%,23%)",
-  blue: "#3088da",
   darkGray: "#34323d",
-  lightGray: "#c2c9d8",
   cyan: "#98cabf",
+  colors: {
+    blue: "#264577",
+    lightBlue: "#D4DDEA",
+    lightGray: "#c4c4c4",
+  },
   typography: {
     h1: "3.815rem",
     h2: "3.052rem",

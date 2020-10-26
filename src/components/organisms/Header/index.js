@@ -111,14 +111,15 @@ const HamburgerButton = styled.a`
 const MobileNav = styled(motion.nav)`
   position: absolute;
   padding: 1rem;
+  height: 100vh;
   width: 100%;
+  display: flex;
   font-weight: bold;
   z-index: 1;
-  display: flex;
   overflow: hidden;
   top: 0;
   left: 0;
-  background: white;
+  background: #264577;
   justify-content: center;
   align-items: center;
   ul {
@@ -160,32 +161,37 @@ const HeaderComponent = () => {
   const toggleMenu = () => {
     setIsToggled(!isToggled)
   }
-  const variants = {
-    open: {
-      height: "100vh",
-      width: "100%",
+  const menu = {
+    opened: {
       opacity: 1,
-      background: "#264577",
+      clipPath: "circle(4000px at top right)",
       transition: {
         type: "spring",
         damping: 15,
-        duration: 1,
-        staggerDirection: -1,
+        staggerChildren: 0.08,
+        delayChildren: 0.4,
+        staggerDirection: 1,
       },
     },
     closed: {
-      height: 0,
-      opacity: 0.1,
-      background: "white",
+      opacity: 0,
+      clipPath: "circle(32px at top right)",
       transition: {
-        duration: 1,
+        type: "spring",
+        damping: 15,
+        staggerChildren: 0.08,
+        delayChildren: 0.4,
+        when: "afterChildren",
+        staggerDirection: -1,
       },
     },
   }
+
   const item = {
-    open: { opacity: 1 },
+    opened: { opacity: 1 },
     closed: { opacity: 0 },
   }
+
   return (
     <Header>
       <Logo>
@@ -219,9 +225,9 @@ const HeaderComponent = () => {
         </svg>
       </HamburgerButton>
       <MobileNav
-        animate={isToggled ? "open" : "closed"}
-        variants={variants}
         initial={false}
+        animate={isToggled ? "opened" : "closed"}
+        variants={menu}
       >
         <motion.ul>
           <motion.li

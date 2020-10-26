@@ -65,7 +65,7 @@ function SEO({ description, lang, meta, title }) {
     >
       <style>
         @import
-        url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+        url('https://fonts.googleapis.com/css2?family=Passion+One&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
       </style>
     </Helmet>
   )
