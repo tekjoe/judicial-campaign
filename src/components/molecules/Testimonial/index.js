@@ -76,7 +76,7 @@ const Testimonial = () => {
           minus pariatur perferendis dignissimos tenetur!
         </Quote>
         <QuoteMark>"</QuoteMark>
-        <Attestant>Joe Ramirez, Local Leader</Attestant>
+        <Attestant>Joe Ramirez, Web Developer</Attestant>
       </Test>
     </Section>
   )

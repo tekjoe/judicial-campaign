@@ -113,9 +113,8 @@ const MobileNav = styled(motion.nav)`
   padding: 1rem;
   height: 100vh;
   width: 100%;
-  display: flex;
   font-weight: bold;
-  z-index: 1;
+  display: flex;
   overflow: hidden;
   top: 0;
   left: 0;
@@ -153,6 +152,9 @@ const MobileNav = styled(motion.nav)`
     @media (min-width: 768px) {
       top: 5rem;
     }
+    @media (min-width: 1024px) {
+      display: none;
+    }
   }
 `
 
@@ -179,8 +181,8 @@ const HeaderComponent = () => {
       transition: {
         type: "spring",
         damping: 15,
-        staggerChildren: 0.08,
-        delayChildren: 0.4,
+        staggerChildren: 0.05,
+        delayChildren: 0.1,
         when: "afterChildren",
         staggerDirection: -1,
       },
@@ -188,8 +190,8 @@ const HeaderComponent = () => {
   }
 
   const item = {
-    opened: { opacity: 1 },
-    closed: { opacity: 0 },
+    opened: { opacity: 1, x: 0 },
+    closed: { opacity: 0, x: 500 },
   }
 
   return (

@@ -3,6 +3,7 @@ import styled from "styled-components"
 import queryString from "query-string"
 import { Column, Columns } from "../../atoms/Columns"
 import ContentContainer from "../../atoms/ContentContainer"
+import Input from "../../atoms/Input"
 import ContactImage from "../../atoms/ContactImage"
 
 const ContactSection = styled.section`
@@ -27,7 +28,7 @@ const SectionOverlay = styled(ContactImage)`
 `
 
 const ContactForm = styled.form`
-  background: #1a2f51;
+  background: ${({ theme }) => theme.colors.blue};
   color: white;
   position: relative;
   z-index: 100;
@@ -58,18 +59,13 @@ const Label = styled.label`
   }
 `
 
-const Input = styled.input`
-  font-size: ${({ theme }) => theme.typography.paragraph};
-  padding: 1rem;
-  border: none;
-  -moz-appearance: none;
-`
-
 const TextArea = styled.textarea`
   font-size: ${({ theme }) => theme.typography.paragraph};
   padding: 0.5rem;
   border: none;
   -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
   resize: vertical;
   min-height: 5rem;
   font-family: inherit;
@@ -99,8 +95,10 @@ const Select = styled.select`
   font-size: ${({ theme }) => theme.typography.paragraph};
   -moz-appearance: none;
   -webkit-appearance: none;
+  background: white;
   border: none;
   border-radius: 0;
+  font-family: inherit;
 `
 
 function encode(data) {

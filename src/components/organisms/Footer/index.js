@@ -8,20 +8,21 @@ const FooterSection = styled.footer`
   background: #264577;
   color: white;
   padding: 4rem 0;
-  @media (min-width: 1200px) {
-    padding: 8rem 0;
-  }
 `
 
 const FooterNav = styled.nav`
   margin-bottom: 2rem;
   ul {
     display: flex;
-    gap: 1.5rem;
     justify-content: center;
     list-style-type: none;
     flex-wrap: wrap;
     flex-basis: 100%;
+    li {
+      margin: 0.5rem;
+    }
+  }
+  @media (min-width: 1024px) {
   }
 `
 
@@ -58,7 +59,7 @@ const Footer = () => {
                 <NavLink to="/">Contact Us</NavLink>
               </li>
               <li>
-                <NavLink to="/">About Jeff Davis</NavLink>
+                <NavLink to="/">About Jeff</NavLink>
               </li>
               <li>
                 <NavLink to="/">Get Involved</NavLink>

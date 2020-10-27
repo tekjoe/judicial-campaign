@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import masthead from "../../../images/masthead-placeholder.jpg"
 import EmailForm from "../../molecules/EmailForm"
-
+import { Column, Columns } from "../../atoms/Columns"
 import ContentContainer from "../../atoms/ContentContainer"
 
 const SignUpSection = styled.section`
@@ -36,24 +36,13 @@ SignUpSection.CTA = styled.div`
     margin-bottom: 2rem;
   }
   @media (min-width: 768px) {
+    padding: 4rem 1rem;
   }
   @media (min-width: 1024px) {
+    max-width: 400px;
   }
   @media (min-width: 1200px) {
   }
-`
-
-const Columns = styled.div`
-  display: flex;
-  flex-direction: column;
-  @media (min-width: 768px) {
-    flex-direction: row;
-  }
-`
-
-const Column = styled.div`
-  flex: 1;
-  padding: 1rem;
 `
 
 const SignUp = () => {
