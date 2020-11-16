@@ -74,19 +74,19 @@ const Features = () => {
           <Feature>
             <FeatureImage1 style={{ height: "100%" }} />
             <Feature.Overlay>
-              <span>Experience</span>
+              <span>Honor</span>
             </Feature.Overlay>
           </Feature>
           <Feature>
             <FeatureImage1 style={{ height: "100%" }} />
             <Feature.Overlay>
-              <span>Equality</span>
+              <span>Independence</span>
             </Feature.Overlay>
           </Feature>
           <Feature>
             <FeatureImage1 style={{ height: "100%" }} />
             <Feature.Overlay>
-              <span>Integrity</span>
+              <span>Respect</span>
             </Feature.Overlay>
           </Feature>
         </FlexBoxes>

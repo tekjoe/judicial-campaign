@@ -69,26 +69,40 @@ const Endorsements = () => {
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                <li>Judge Ralph Ramirez</li>
-                <li>Gov. Tony Evers</li>
-                <li>John Doe</li>
-                <li>John Doe</li>
+                <li>Chief Justice Patience Roggensack</li>
+                <li>Justice David Prosser (Ret'd)</li>
+                <li>Justice Annette Ziegler</li>
+                <li>Hon. Lisa Neubauer</li>
+                <li>Hon. Paul Reilly</li>
+                <li>Hon. Bill Brash</li>
+                <li>Hon. Kitty Brennan (Ret'd)</li>
+                <li>Hon. Joe Donald</li>
+                <li>Hon. Tim Dugan</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Judge Ralph Ramirez</li>
-                <li>Gov. Tony Evers</li>
-                <li>John Doe</li>
-                <li>John Doe</li>
+                <li>Hon. Maxine White</li>
+                <li>Hon. Mike Fitzpatrick</li>
+                <li>Hon. Joanne Kloppenburg</li>
+                <li>Hon. Jennifer Nashold</li>
+                <li>Hon. Brian Blanchard</li>
+                <li>Hon. Rachel Graham</li>
+                <li>Hon. Tom Hruz</li>
+                <li>Hon. Mark Seidl</li>
+                <li>Hon. Lisa Stark</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Judge Ralph Ramirez</li>
-                <li>Gov. Tony Evers</li>
-                <li>John Doe</li>
-                <li>John Doe</li>
+                <li>Hon. Andy Gonring</li>
+                <li>Hon. Pat Haughney (Ret'd)</li>
+                <li>Hon. Jim Kieffer (Ret'd)</li>
+                <li>Hon. Ralph Ramirez</li>
+                <li>Hon. Ellen Brostrom</li>
+                <li>Hon. Dave Swanson</li>
+                <li>Hon. Patrick Fiedler (Ret'd)</li>
+                <li>Mayor Shawn Reilly</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>
@@ -97,30 +111,23 @@ const Endorsements = () => {
       <Testimonial />
       <ContentContainer>
         <Grid>
-          <EndorsementsTitle>Organizations</EndorsementsTitle>
+          <EndorsementsTitle>Lawyers</EndorsementsTitle>
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                <li>Rotary</li>
-                <li>Gov. Tony Evers</li>
-                <li>Wisconsin Organization</li>
-                <li>John Doe</li>
+                <li>Atty. Tom Doerr</li>
+                <li>Atty. Paul Jones</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Rotary</li>
-                <li>Wisconsin Organization</li>
-                <li>Something Else</li>
-                <li>John Doe</li>
+                <li>Atty. Tina Jones</li>
+                <li>Atty. Jay Starrett</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Rotary</li>
-                <li>National Organization</li>
-                <li>John Doe</li>
-                <li>John Doe</li>
+                <li>Atty. Tonit Calaway</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>

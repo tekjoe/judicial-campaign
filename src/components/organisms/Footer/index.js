@@ -56,13 +56,13 @@ const Footer = () => {
           <FooterNav>
             <ul>
               <li>
-                <NavLink to="/">Contact Us</NavLink>
+                <NavLink to="/about">About Jeff</NavLink>
               </li>
               <li>
-                <NavLink to="/">About Jeff</NavLink>
+                <NavLink to="/endorsements">Endorsements</NavLink>
               </li>
               <li>
-                <NavLink to="/">Get Involved</NavLink>
+                <NavLink to="/contact">Get Involved</NavLink>
               </li>
             </ul>
           </FooterNav>

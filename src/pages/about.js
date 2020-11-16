@@ -11,7 +11,7 @@ const AboutPage = () => (
   <>
     <SEO title="About" />
     <PageHeader subtitle="About" title="Meet Judge Jeff Davis" withImage />
-    <BlogLayout>
+    <BlogLayout withImage>
       <Blog.Image isHeader>
         <MastheadImage style={{ maxHeight: "475px" }} />
       </Blog.Image>

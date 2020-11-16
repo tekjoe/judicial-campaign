@@ -45,7 +45,7 @@ const Nav = styled.nav`
       font-size: 0.8rem;
       margin-right: 2rem;
       text-transform: uppercase;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       cursor: pointer;
       font-weight: 500;
       &:hover {
