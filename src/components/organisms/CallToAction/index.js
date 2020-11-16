@@ -81,7 +81,7 @@ const CallToAction = () => {
     <CTASection>
       <ContentContainer>
         <FlexBoxes>
-          <Box to="/about">
+          <Box to="/judicial-philosophy">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
               <path
                 d="M3.33 8L10 12l10-6-10-6L0 6h10v2H3.33zM0 8v8l2-2.22V9.2L0 8zm10 12l-5-3-2-1.2v-6l7 4.2 7-4.2v6L10 20z"
@@ -90,14 +90,14 @@ const CallToAction = () => {
             </svg>
             <p>Philosophy</p>
           </Box>
-          <Box to="/">
+          <Box to="/about">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
               <path
-                d="M11 0h1v3l3 7v8a2 2 0 0 1-2 2H5c-1.1 0-2.31-.84-2.7-1.88L0 12v-2a2 2 0 0 1 2-2h7V2a2 2 0 0 1 2-2zm6 10h3v10h-3V10z"
+                d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7V5zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0v-3.32z"
                 fill="#fff"
               />
             </svg>
-            <p>Facebook</p>
+            <p>Meet Jeff</p>
           </Box>
           <Box to="/contact?involved=volunteer">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">

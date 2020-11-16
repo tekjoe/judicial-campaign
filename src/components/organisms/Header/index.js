@@ -212,6 +212,11 @@ const HeaderComponent = () => {
             </Nav.Link>
           </li>
           <li>
+            <Nav.Link to="/judicial-philosophy" activeClassName="active">
+              Judicial Philosophy
+            </Nav.Link>
+          </li>
+          <li>
             <Nav.Link to="/endorsements" activeClassName="active">
               Endorsements
             </Nav.Link>
@@ -245,6 +250,13 @@ const HeaderComponent = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Nav.Link to="/about">Meet Judge Davis</Nav.Link>
+          </motion.li>
+          <motion.li
+            onClick={toggleMenu}
+            variants={item}
+            whileTap={{ scale: 0.95 }}
+          >
+            <Nav.Link to="/judicial-philosophy">Judicial Philosophy</Nav.Link>
           </motion.li>
           <motion.li
             onClick={toggleMenu}

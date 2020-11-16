@@ -20,9 +20,9 @@ const Subtitle = styled.p`
   font-weight: 500;
   letter-spacing: 2px;
   color: #c4c4c4;
-  font-size: ${({ theme }) => theme.typography.h6};
+  font-size: 1rem;
   @media (min-width: 1024px) {
-    font-size: ${({ theme }) => theme.typography.h5};
+    font-size: ${({ theme }) => theme.typography.h6};
   }
 `
 
