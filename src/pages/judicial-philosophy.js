@@ -25,11 +25,11 @@ const JudicialPhilosophyPage = () => (
         <p>
           <strong>Independence.</strong> I pledge to continue to apply the law
           fairly and impartially. Independence is the bedrock of our legal
-          system; without it, our system fails. The judicial branch is not a
+          system and without it our system fails. The judicial branch is not a
           partisan branch of government. To the contrary it is a firewall
           against the political and societal pressures that often drive the
           decision-making of the other branches. I will continue to do my part
-          to keep it that way.
+          to preserve this role of the judiciary.
         </p>
         <p>
           <strong>Strong work ethic.</strong> Doing the job right means making
@@ -42,11 +42,14 @@ const JudicialPhilosophyPage = () => (
         <p>
           <strong>Humility and respect.</strong> I have been enormously
           impressed with the level of quality found in the trial courts of this
-          district. Can they make mistakes? Of course--that is inevitable where
-          dozens of decisions are being made in a single day, and that is why
-          appellate courts exist. We too can get it wrong, or apply law that is
-          in need of change, and if and when that happens, our supreme court
-          will let us know. It is all part of an ecosystem designed to achieve
+          district. Can legal error occur? Yes--it is inevitable where dozens of
+          decisions are being made in a single day, and that is why appellate
+          courts exist. The role of the court on which I sit is to apply the law
+          as we find it (whether we agree with it or not), while giving great
+          deference to the trial court’s superior position as the finder of
+          fact. Of course, we too can get the law wrong, or apply law that is in
+          need of change, and if and when that happens, our supreme court will
+          let us know. It is all part of an ecosystem designed to achieve
           justice in the best way our society knows how. I am humbled to play a
           small role in that ecosystem.
         </p>
@@ -56,15 +59,17 @@ const JudicialPhilosophyPage = () => (
       </Blog.Image>
       <Blog.Text>
         <p>
-          <strong>Real legal world experience.</strong> Admittedly, I am a bit
-          of a "law geek" (seriously, I could spend all day talking about the
-          Economic Loss Doctrine) and I am also someone who served in the
-          trenches, practicing law for 32 years. From boardrooms and general
-          counsel's offices helping to solve complex legal issues with enormous
-          stakes, to clients in prisons, pro bono legal clinics and mediations
-          helping to deal with problems where the issues can be just as complex,
-          and the stakes, at least for them, every bit as high – I’ve practiced
-          it all. I've not left those experiences behind.
+          <strong>Real legal world experience.</strong> While I am the first to
+          admit that I am a bit of a law nerd (seriously, I could spend all day
+          talking about the Economic Loss Doctrine), I also have over three
+          decades of real world, practical experiences that I bring to the job
+          as well. During my legal career I have advised corporate boards,
+          general counsels, small business owners, individuals and pro bono
+          clients to help solve a wide range of legal problems. I regularly
+          practiced appellate law before the court on which I now sit, in the
+          Wisconsin Supreme Court, and in State and Federal courts around the
+          country. I've not left those real world experiences behind--I bring
+          them to my job each and every day.
         </p>
         <p>
           <strong>In summary,</strong> a lot of what we do is technical,
@@ -75,11 +80,12 @@ const JudicialPhilosophyPage = () => (
         <p>
           Frankly, reaching a decision on how to apply the law is not always
           easy. A judge is not a bureaucrat. Applying the rule of law requires a
-          judge to be faithful to the law whether the judge agrees with it or
+          judge to be faithful to the law, whether the judge agrees with it or
           not. It requires intellectual honesty, both to the law and the factual
-          record before us. It requires thoughtful and thorough analysis and
-          that one be cognizant of public policy and long-term practical
-          consequences for the people who will be affected by our decisions.
+          record before us. It requires thoughtful and thorough analysis and,
+          within the confines of the law that we apply, that we be cognizant of
+          public policy and long-term practical consequences for the people who
+          will be affected by our decisions.
         </p>
         <p>
           My commitment to the citizens of the 12 counties of District II, as
@@ -88,8 +94,7 @@ const JudicialPhilosophyPage = () => (
         </p>
         <p>
           <strong>
-            I ask for your endorsement, campaign support, and most importantly –
-            your Vote of Confidence on Tuesday, April 6, 2021.
+            I ask for your Vote of Confidence on Tuesday, April 6, 2021.
           </strong>
         </p>
         <p>Very truly yours,</p>

@@ -163,6 +163,7 @@ const Contact = ({ queryParams }) => {
               onSubmit={handleSubmit}
               name="contactForm"
               method="post"
+              data-netlify="true"
             >
               <h1>Contact Us</h1>
               <Label>
