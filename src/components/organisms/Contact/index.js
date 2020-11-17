@@ -160,16 +160,18 @@ const Contact = ({ queryParams }) => {
           <Column></Column>
           <Column>
             <ContactForm
-              onSubmit={handleSubmit}
+              data-netlify="true"
               name="contactForm"
               method="post"
-              data-netlify="true"
+              action="/contact/"
+              onSubmit={handleSubmit}
             >
               <h1>Contact Us</h1>
               <Label>
                 <p>First Name</p>
                 <Input
                   name="firstName"
+                  id="firstName"
                   type="text"
                   required
                   onChange={handleChange}
@@ -180,6 +182,7 @@ const Contact = ({ queryParams }) => {
                 <p>Last Name</p>
                 <Input
                   name="lastName"
+                  id="lastName"
                   type="text"
                   required
                   onChange={handleChange}
@@ -190,6 +193,7 @@ const Contact = ({ queryParams }) => {
                 <p>Email Address</p>
                 <Input
                   name="email"
+                  id="email"
                   required
                   type="email"
                   onChange={handleChange}
@@ -227,10 +231,12 @@ const Contact = ({ queryParams }) => {
                 <TextArea
                   required={state.involved === "endorse" ? true : false}
                   name="message"
+                  id="message"
                   value={state.message}
                   onChange={handleChange}
                 />
               </Label>
+              <input type="hidden" name="form-name" value="contactForm" />
               <Button type="submit">Submit</Button>
             </ContactForm>
           </Column>
