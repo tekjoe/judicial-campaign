@@ -109,13 +109,7 @@ function encode(data) {
 
 const Contact = ({ queryParams }) => {
   const parsed = queryString.parse(queryParams)
-  const [state, setState] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    message: "",
-    involved: "",
-  })
+  const [state, setState] = useState({})
   const handleChange = e => {
     setState({ ...state, [e.target.name]: e.target.value })
   }
@@ -132,6 +126,7 @@ const Contact = ({ queryParams }) => {
     })
       .then(() => {
         form.reset()
+        setState({})
       })
       .catch(error => alert(error))
   }
@@ -163,7 +158,6 @@ const Contact = ({ queryParams }) => {
               data-netlify="true"
               name="contactForm"
               method="post"
-              action="/contact/"
               onSubmit={handleSubmit}
             >
               <h1>Contact Us</h1>
@@ -175,7 +169,6 @@ const Contact = ({ queryParams }) => {
                   type="text"
                   required
                   onChange={handleChange}
-                  value={state.firstName}
                 />
               </Label>
               <Label>
@@ -186,7 +179,6 @@ const Contact = ({ queryParams }) => {
                   type="text"
                   required
                   onChange={handleChange}
-                  value={state.lastName}
                 />
               </Label>
               <Label>
@@ -197,7 +189,6 @@ const Contact = ({ queryParams }) => {
                   required
                   type="email"
                   onChange={handleChange}
-                  value={state.email}
                 />
               </Label>
               <Label>
@@ -208,9 +199,8 @@ const Contact = ({ queryParams }) => {
                     required
                     name="involved"
                     onChange={handleChange}
-                    value={state.involved}
                   >
-                    <option value="" disabled hidden>
+                    <option value="" disabled selected hidden>
                       Select here
                     </option>
                     <option value="event">Host an event</option>
@@ -232,7 +222,6 @@ const Contact = ({ queryParams }) => {
                   required={state.involved === "endorse" ? true : false}
                   name="message"
                   id="message"
-                  value={state.message}
                   onChange={handleChange}
                 />
               </Label>
