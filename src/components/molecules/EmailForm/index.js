@@ -46,7 +46,7 @@ const EmailForm = ({ ...rest }) => {
       {...rest}
       onSubmit={handleSubmit}
       data-netlify="true"
-      name="contactForm"
+      name="emailForm"
       method="post"
       action="/contact/"
     >
@@ -58,7 +58,7 @@ const EmailForm = ({ ...rest }) => {
         id="email"
         required
       />
-      <input type="hidden" name="form-name" value="contactForm" />
+      <input type="hidden" name="form-name" value="emailForm" />
       <Button type="submit">{isSubmitted ? "Sent!" : "Stay Connected"}</Button>
     </Form>
   )
