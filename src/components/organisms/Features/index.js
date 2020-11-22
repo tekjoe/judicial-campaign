@@ -2,6 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import ContentContainer from "../../atoms/ContentContainer"
 import FeatureImage1 from "../../atoms/FeatureImage1"
+import FeatureImage2 from "../../atoms/FeatureImage2"
+import FeatureImage3 from "../../atoms/FeatureImage3"
 
 const FeaturesSection = styled.section`
   background: #d4ddea;
@@ -96,7 +98,7 @@ const Features = () => {
             </Feature.Overlay>
           </Feature>
           <Feature>
-            <FeatureImage1 style={{ height: "100%" }} />
+            <FeatureImage2 style={{ height: "100%" }} />
             <Feature.Overlay>
               <span>Hard Work</span>
               <OverlayDetails>
@@ -107,7 +109,7 @@ const Features = () => {
             </Feature.Overlay>
           </Feature>
           <Feature>
-            <FeatureImage1 style={{ height: "100%" }} />
+            <FeatureImage3 style={{ height: "100%" }} />
             <Feature.Overlay>
               <span>Experience</span>
               <OverlayDetails>

@@ -3,7 +3,8 @@ import SignUp from "../components/organisms/SignUp"
 import Footer from "../components/organisms/Footer"
 import PageHeader from "../components/organisms/PageHeader"
 import BlogLayout, { Blog } from "../components/organisms/BlogLayout"
-import MastheadImage from "../components/atoms/MastheadImage"
+import DavisCouple from "../components/atoms/DavisCouple"
+import DavisCoupleAlt from "../components/atoms/DavisCoupleAlt"
 
 import SEO from "../utils/seo"
 
@@ -13,7 +14,7 @@ const AboutPage = () => (
     <PageHeader subtitle="About" title="Meet Judge Jeff Davis" withImage />
     <BlogLayout withImage>
       <Blog.Image isHeader>
-        <MastheadImage style={{ maxHeight: "475px" }} />
+        <DavisCouple style={{ maxHeight: "475px" }} />
       </Blog.Image>
       <Blog.Text>
         <p>
@@ -40,7 +41,10 @@ const AboutPage = () => (
         </p>
       </Blog.Text>
       <Blog.Image>
-        <MastheadImage style={{ maxHeight: "475px" }} />
+        <DavisCoupleAlt
+          style={{ maxHeight: "475px" }}
+          imgStyle={{ objectPosition: "top" }}
+        />
       </Blog.Image>
       <Blog.Text>
         <p>

@@ -3,7 +3,7 @@ import SignUp from "../components/organisms/SignUp"
 import Footer from "../components/organisms/Footer"
 import PageHeader from "../components/organisms/PageHeader"
 import BlogLayout, { Blog } from "../components/organisms/BlogLayout"
-import MastheadImage from "../components/atoms/MastheadImage"
+import InvestitureImage from "../components/atoms/InvestitureImage"
 
 import SEO from "../utils/seo"
 
@@ -55,7 +55,7 @@ const JudicialPhilosophyPage = () => (
         </p>
       </Blog.Text>
       <Blog.Image>
-        <MastheadImage style={{ maxHeight: "475px" }} />
+        <InvestitureImage style={{ maxHeight: "475px" }} />
       </Blog.Image>
       <Blog.Text>
         <p>

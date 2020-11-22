@@ -19,7 +19,7 @@ Masthead.Image = styled.div`
     height: 100%;
     width: 100%;
     content: "";
-    background: hsla(0, 0%, 40%, 25%);
+    background: hsla(0, 0%, 20%, 25%);
   }
 `
 

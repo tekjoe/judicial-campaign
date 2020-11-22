@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import masthead from "../../../images/masthead-placeholder.jpg"
+import masthead from "../../../images/investiture.jpg"
 import EmailForm from "../../molecules/EmailForm"
 import { Column, Columns } from "../../atoms/Columns"
 import ContentContainer from "../../atoms/ContentContainer"

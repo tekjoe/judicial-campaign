@@ -6,7 +6,7 @@ const Image = ({ style }) => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(
-        relativePath: { eq: "feature-placeholder-1.jpg" }
+        relativePath: { eq: "jeff_davis_get_involved.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1400) {
