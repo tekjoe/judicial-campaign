@@ -21,15 +21,11 @@ const About = () => {
         <ContentBlock align="center">
           <h2>Experience you can count on</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis nunc
-            vitae quam diam urna maecenas arcu arcu. Ornare ac curabitur eu
-            netus ridiculus libero erat elementum ut. Et ultricies habitasse
-            volutpat erat id mattis augue amet, quis. Non vestibulum, facilisi
-            cursus in quam dictum eget fringilla. Magna enim odio augue sed
-            ipsum nulla mi elit elementum. Ullamcorper cursus pharetra aliquet
-            egestas lectus id ultricies integer turpis. Augue phasellus amet
-            odio id ornare pellentesque molestie eget. Ipsum, lacus tincidunt
-            sollicitudin ut mauris ipsum gravida urna.
+            With over 30 years of legal experience, Judge Jeff Davis has a track
+            record that the Wisconsin Court of Appeals needs. Judge Davis does
+            not take his work as an appointed appellate judge lightly. It is
+            with great honor and integrity that Judge Davis serves the state of
+            Wisconsin.
           </p>
           <LinkButton to="/about">Meet Jeff Davis</LinkButton>
         </ContentBlock>

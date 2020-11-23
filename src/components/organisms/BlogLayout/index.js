@@ -23,9 +23,24 @@ Blog.Text = styled.div`
     font-size: ${({ theme }) => theme.typography.h4};
     margin-bottom: 2rem;
   }
+  h4 {
+    margin-bottom: 1.5rem;
+  }
+  ul {
+    list-style-position: inside;
+    li {
+      line-height: 1.7;
+    }
+  }
   @media (min-width: 1024px) {
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
+    &:last-of-type {
+      margin-bottom: 5rem;
+    }
     grid-column: 3/-3;
+    ul {
+      font-size: 1.125rem;
+    }
     h2 {
       font-size: ${({ theme }) => theme.typography.h3};
     }
