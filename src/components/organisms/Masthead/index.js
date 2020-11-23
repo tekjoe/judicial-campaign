@@ -24,7 +24,7 @@ Masthead.Image = styled.div`
 `
 
 Masthead.CTA = styled.div`
-  padding: 4rem 0;
+  padding: 2rem 0;
   h1,
   p {
     color: white;
@@ -46,6 +46,7 @@ Masthead.CTA = styled.div`
     left: 0;
     max-width: 400px;
     margin-left: 5%;
+    padding: 1rem 0;
   }
   @media (min-width: 1024px) {
     top: 15%;
