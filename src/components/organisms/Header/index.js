@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React, { useState } from "react"
 import styled from "styled-components"
 import { motion } from "framer-motion"
-import logo from "../../../images/judge_davis_logo.png"
+import logo from "../../../images/judge-davis-logo.png"
 
 const Header = styled.header`
   padding: 1rem;
@@ -29,6 +29,12 @@ const Logo = styled.div`
     display: block;
     height: auto;
     width: 100%;
+  }
+  @media (min-width: 768px) {
+    width: 13rem;
+  }
+  @media (min-width: 1024px) {
+    width: 10rem;
   }
 `
 

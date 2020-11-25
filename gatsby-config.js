@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Re-elect Judge Jeff Davis`,
+    title: `Retain Judge Jeff Davis`,
     description: `Judge Jeff Davis for Wisconin Court of Appeals Disctrict II`,
     author: `@tekjoe`,
     siteURL: "localhost:8000",

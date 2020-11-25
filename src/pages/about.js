@@ -53,7 +53,7 @@ const AboutPage = () => (
         <p>Warmly,</p>
         <p>Rachel Schneider (Davis)</p>
       </Blog.Text>
-      <Blog.Text>
+      {/* <Blog.Text>
         <h4>Court Admissions</h4>
         <ul>
           <li>U.S. Supreme Court, 2004</li>
@@ -104,7 +104,7 @@ const AboutPage = () => (
             lists (Business Litigation)
           </li>
         </ul>
-      </Blog.Text>
+      </Blog.Text> */}
     </BlogLayout>
     <SignUp />
     <Footer />

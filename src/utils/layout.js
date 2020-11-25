@@ -28,7 +28,13 @@ const variants = {
 }
 
 const Main = styled(motion.main)`
-  padding-top: 5rem;
+  padding-top: 6rem;
+  @media (min-width: 768px) {
+    padding-top: 7.375rem;
+  }
+  @media (min-width: 1024px) {
+    padding-top: 6rem;
+  }
 `
 
 const Layout = ({ children, location }) => {

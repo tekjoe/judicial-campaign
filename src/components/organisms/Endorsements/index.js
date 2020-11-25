@@ -67,18 +67,18 @@ const Endorsements = () => {
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                <li>Chief Justice Patience Roggensack</li>
+                <li>Chief Justice Patience D. Roggensack</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Justice Annette Ziegler</li>
+                <li>Justice Annette K. Ziegler</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Justice David Prosser (Ret'd)</li>
-                <li>Justice Jon Wilcox (Ret'd)</li>
+                <li>Justice David T. Prosser, Jr.*</li>
+                <li>Justice Jon P. Wilcox*</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>
@@ -90,31 +90,32 @@ const Endorsements = () => {
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
+                <li>Hon. Brian W. Blanchard</li>
                 <li>Hon. William W. Brash, III</li>
-                <li>Hon. Kitty K. Brennan (Ret'd)</li>
-                <li>Chief Judge Richard S. Brown (Ret'd)</li>
+                <li>Hon. Kitty K. Brennan*</li>
+                <li>Chief Judge Richard S. Brown*</li>
                 <li>Hon. M. Joseph Donald</li>
                 <li>Hon. Timothy J. Dugan</li>
-                <li>Hon. Neal Nettesheim (Ret'd)</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Hon. Lisa Neubauer</li>
-                <li>Hon. Paul Reilly</li>
-                <li>Hon. Maxine A. White</li>
+                <li>Hon. Charles P. Dykman*</li>
                 <li>Hon. Michael R. Fitzpatrick</li>
+                <li>Hon. Rachel A. Graham</li>
+                <li>Hon. Thomas M. Hruz</li>
                 <li>Hon. JoAnne F. Kloppenburg</li>
                 <li>Hon. Jennifer E. Nashold</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Hon. Brian W. Blanchard</li>
-                <li>Hon. Rachel A. Graham</li>
-                <li>Hon. Thomas M. Hruz</li>
+                <li>Hon. Neal P. Nettesheim*</li>
+                <li>Chief Judge Lisa S. Neubauer</li>
+                <li>Hon. Paul F. Reilly</li>
                 <li>Hon. Mark A. Seidl</li>
                 <li>Hon. Lisa K. Stark</li>
+                <li>Hon. Maxine A. White</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>
@@ -123,50 +124,80 @@ const Endorsements = () => {
       <ContentContainer>
         <Grid>
           <EndorsementsTitle>
-            Wisconsin Circuit Court Justices
+            Court of Appeals – District II Circuit Court Judges
           </EndorsementsTitle>
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                <li>Hon. David M. Bastianelli (Ret'd)</li>
-                <li>Hon. Anthony G. Milisauskas</li>
-                <li>Hon. Robert Dewane</li>
-                <li>Hon. Jerilyn Dietz (Ret'd)</li>
-                <li>Hon. Jerome Fox (Ret'd)</li>
-                <li>Hon. Mark Rohrer</li>
-                <li>Hon. Jon Frederickson</li>
-                <li>Hon. L. Edward Stengel</li>
-                <li>Hon. Angela Sutkiewicz</li>
-                <li>Hon. David M. Reddy</li>
-              </EndorsementsList>
-            </Column>
-            <Column>
-              <EndorsementsList>
-                <li>Hon. Sandra Giernoth</li>
-                <li>Hon. Andrew T. Gonring (Ret'd)</li>
-                <li>Hon. Todd K. Martens</li>
-                <li>Hon. James K. Muehlbauer</li>
-                <li>Hon. James G. Pouros</li>
-                <li>Hon. Kathryn Foster (Ret'd)</li>
-                <li>Hon. Patrick C. Haughney (Ret'd)</li>
-                <li>Hon. James R. Kieffer (Ret'd)</li>
-                <li>Hon. Robert Mawdsley (Ret'd)</li>
-                <li>Hon. Ralph M. Ramirez</li>
-              </EndorsementsList>
-            </Column>
-            <Column>
-              <EndorsementsList>
-                <li>Hon. Phillip A. Koss</li>
                 <li>Hon. Teresa S. Basiliere</li>
-                <li>Hon. John ("Jigger") A. Jorgensen</li>
+                <li>Hon. David M. Bastianelli*</li>
+                <li>Hon. Robert P. Dewane</li>
+                <li>Hon. Jerilyn M. Dietz</li>
+                <li>Hon. Dale L. English</li>
+                <li>Hon. Faye M. Flancher</li>
+                <li>Hon. Kathryn W. Foster*</li>
+                <li>Hon. Jerome L. Fox*</li>
+                <li>Hon. Jon E. Frederickson</li>
+                <li>Hon. Sandra Jo Giernoth</li>
+                <li>Hon. Andrew T. Gonring*</li>
+              </EndorsementsList>
+            </Column>
+            <Column>
+              <EndorsementsList>
+                <li>Hon. Patrick C. Haughney*</li>
+                <li>Hon. Kent Hoffmann</li>
+                <li>Hon. John A. Jorgensen</li>
+                <li>Hon. Chad G. Kerkman</li>
                 <li>Hon. Barbara Hart Key</li>
-                <li>Hon. Karen Siefert</li>
+                <li>Hon. James R. Kieffer*</li>
+                <li>Hon. Barbara A. Kluka*</li>
+                <li>Hon. Phillip A. Koss</li>
+                <li>Hon. Todd K. Martens</li>
+                <li>Hon. Robert G. Mawdsley*</li>
+              </EndorsementsList>
+            </Column>
+            <Column>
+              <EndorsementsList>
+                <li>Hon. Anthony G. Milisauskas </li>
+                <li>Hon. James K. Muehlbauer </li>
+                <li>Hon. James G. Pouros </li>
+                <li>Hon. Ralph M. Ramirez </li>
+                <li>Hon. David M. Reddy </li>
+                <li>Hon. Mark R.Rohrer </li>
+                <li>Hon. Karen L. Siefert </li>
+                <li>Hon. L. Edward Stengel </li>
+                <li>Hon. Angela W. Sutkiewicz </li>
+                <li>Hon. Robert J. Wirtz</li>
+              </EndorsementsList>
+            </Column>
+          </EndorsementsGrid>
+        </Grid>
+      </ContentContainer>
+      <ContentContainer>
+        <Grid>
+          <EndorsementsTitle>Other Elected Officials</EndorsementsTitle>
+          <EndorsementsGrid>
+            <Column>
+              <EndorsementsList>
+                <li>DA Mark D. Bensen</li>
                 <li>Hon. Ellen A. Brostrom</li>
+                <li>Sen. Alberta Darling</li>
                 <li>Hon. Christopher Dee</li>
+              </EndorsementsList>
+            </Column>
+            <Column>
+              <EndorsementsList>
+                <li>Hon. Daniel T. Dillon</li>
+                <li>Hon. Patrick J. Fiedler*</li>
                 <li>Hon. Gregory B. Gill, Jr.</li>
-                <li>Hon. Dennis P. Moroney (Ret'd)</li>
+                <li>Hon. Dennis P. Moroney*</li>
+              </EndorsementsList>
+            </Column>
+            <Column>
+              <EndorsementsList>
+                <li>Mayor Shawn Reilly</li>
+                <li>Sheriff Christopher K. Schmaling</li>
                 <li>Hon. David C. Swanson</li>
-                <li>Hon. Patrick J. Fiedler (Ret'd)</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>
@@ -174,53 +205,74 @@ const Endorsements = () => {
       </ContentContainer>
       <ContentContainer>
         <Grid>
-          <EndorsementsTitle>Elected Officials</EndorsementsTitle>
+          <EndorsementsTitle>
+            Business, Community & Law Leaders
+          </EndorsementsTitle>
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                <li>District Attorney Mark D. Bensen, Washington County</li>
+                <li>Atty. Michael Aldana</li>
+                <li>Atty. Steve J. Berryman</li>
+                <li>Atty. Ave M. Bie</li>
+                <li>Joanne Bischmann </li>
+                <li>Tonit M. Calaway</li>
+                <li>Atty. John A. Dickens</li>
+                <li>Thomas L. Doerr </li>
+                <li>Atty. Daniel T. Flaherty</li>
+                <li>Mark P. Fogarty</li>
+                <li>Michelle M. Friedman</li>
+                <li>Atty. James D. Friedman</li>
+                <li>Atty. Carol A. Gehl</li>
+                <li>Atty. Brandon R. Gutschow</li>
+                <li>Douglas M. Hagerman</li>
+                <li>Atty. Scott W. Hansen</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Senator Alberta Darling, State of Wisconsin</li>
-                <li>Sheriff Christopher Schmaling, Racine County</li>
+                <li>Atty. Bryan B. House</li>
+                <li>Atty. Jonathan R. Ingrisano</li>
+                <li>Tina Jones</li>
+                <li>Paul J. Jones </li>
+                <li>Ted D. Kellner</li>
+                <li>John P. Kennedy</li>
+                <li>Jennie Kent</li>
+                <li>Atty. John Kirtley</li>
+                <li>Thomas F. Kissinger</li>
+                <li>Atty. Kevin M. Long</li>
+                <li>Atty. Susan E. Lovern</li>
+                <li>Atty. Quinn W. Martin </li>
+                <li>Atty. Eric W. Matzke</li>
+                <li>Jeffrey Mohr</li>
+                <li>Atty. David P. Muth</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Mayor Shawn Reilly, City of Waukesha</li>
+                <li>Jerome D. Okarma</li>
+                <li>Atty. Thomas C. Pence </li>
+                <li>Atty. Lisa Preston</li>
+                <li>Atty. Jay O. Rothman</li>
+                <li>Atty. John A. Rothstein</li>
+                <li>Atty. William P. Schultz</li>
+                <li>Atty. Sara P. Scullen</li>
+                <li>Atty. Sean Scullen</li>
+                <li>Atty. Jeffrey K. Spoerk</li>
+                <li>Atty. Jay R. Starrett</li>
+                <li>Thomas E. Valentyn</li>
+                <li>Atty. Nicholas P. Wahl</li>
+                <li>Brent Walters</li>
+                <li>Atty. Ralph A. Weber</li>
+                <li>Patricia M. Whaley</li>
+                <li>Atty. Mark C. Witt</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>
         </Grid>
-      </ContentContainer>
-      <ContentContainer>
         <Grid>
-          <EndorsementsTitle>Lawyers</EndorsementsTitle>
           <EndorsementsGrid>
             <Column>
-              <EndorsementsList>
-                <li>Atty. Tonit Calaway</li>
-                <li>Atty. Thomas L. Doerr (Ret'd)</li>
-                <li>Atty. Michael W. Grebe</li>
-                <li>Atty. Tina Jones</li>
-              </EndorsementsList>
-            </Column>
-            <Column>
-              <EndorsementsList>
-                <li>Atty. Paul Jones (Ret'd)</li>
-                <li>Atty. Jennie Kent</li>
-                <li>Atty. Susan Lovern</li>
-                <li>Atty. Jeffrey Mohr</li>
-              </EndorsementsList>
-            </Column>
-            <Column>
-              <EndorsementsList>
-                <li>Atty. David Muth</li>
-                <li>Atty. Jay Starrett</li>
-                <li>Atty. Brent Walters</li>
-              </EndorsementsList>
+              <p>* Indicates Former or Retired</p>
             </Column>
           </EndorsementsGrid>
         </Grid>

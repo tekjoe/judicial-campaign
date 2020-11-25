@@ -19,7 +19,7 @@ const SignUpSection = styled.section`
     height: 400px;
   }
   @media (min-width: 1200px) {
-    height: 800px;
+    height: 550px;
   }
 `
 
