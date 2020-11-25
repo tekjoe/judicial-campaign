@@ -20,7 +20,7 @@ const JudicialPhilosophyPage = () => (
         <p>
           It has been an incredible honor to serve you. In seeking to retain
           this position, I want to reiterate the commitments I made during my
-          formal investiture December 3, 2019.
+          formal investiture.
         </p>
         <p>
           <strong>Independence.</strong> I pledge to continue to apply the law
@@ -42,16 +42,16 @@ const JudicialPhilosophyPage = () => (
         <p>
           <strong>Humility and respect.</strong> I have been enormously
           impressed with the level of quality found in the trial courts of this
-          district. Can legal error occur? Yes--it is inevitable where dozens of
-          decisions are being made in a single day, and that is why appellate
-          courts exist. The role of the court on which I sit is to apply the law
-          as we find it (whether we agree with it or not), while giving great
-          deference to the trial court’s superior position as the finder of
-          fact. Of course, we too can get the law wrong, or apply law that is in
-          need of change, and if and when that happens, our supreme court will
-          let us know. It is all part of an ecosystem designed to achieve
-          justice in the best way our society knows how. I am humbled to play a
-          small role in that ecosystem.
+          district. Can legal error occur? Yes &mdash; it is inevitable where
+          dozens of decisions are being made in a single day, and that is why
+          appellate courts exist. The role of the court on which I sit is to
+          apply the law as we find it (whether we agree with it or not), while
+          giving great deference to the trial court’s superior position as the
+          finder of fact. Of course, we too can get the law wrong, or apply law
+          that is in need of change, and if and when that happens, our supreme
+          court will let us know. It is all part of an ecosystem designed to
+          achieve justice in the best way our society knows how. I am humbled to
+          play a small role in that ecosystem.
         </p>
       </Blog.Text>
       <Blog.Image>
@@ -68,8 +68,8 @@ const JudicialPhilosophyPage = () => (
           clients to help solve a wide range of legal problems. I regularly
           practiced appellate law before the court on which I now sit, in the
           Wisconsin Supreme Court, and in State and Federal courts around the
-          country. I've not left those real world experiences behind--I bring
-          them to my job each and every day.
+          country. I've not left those real world experiences behind &mdash; I
+          bring them to my job each and every day.
         </p>
         <p>
           <strong>In summary,</strong> a lot of what we do is technical,
@@ -79,23 +79,20 @@ const JudicialPhilosophyPage = () => (
         </p>
         <p>
           Frankly, reaching a decision on how to apply the law is not always
-          easy. A judge is not a bureaucrat. Applying the rule of law requires a
-          judge to be faithful to the law, whether the judge agrees with it or
-          not. It requires intellectual honesty, both to the law and the factual
-          record before us. It requires thoughtful and thorough analysis and,
-          within the confines of the law that we apply, that we be cognizant of
-          public policy and long-term practical consequences for the people who
-          will be affected by our decisions.
+          easy. A judge is not a bureaucrat. Applying the rule of law requires
+          intellectual honesty, both to the law and the factual record before
+          us. It requires thoughtful and thorough analysis and, within the
+          confines of the law that we apply, that we be cognizant of public
+          policy and long-term practical consequences for the people who will be
+          affected by our decisions.
         </p>
         <p>
           My commitment to the citizens of the 12 counties of District II, as
           well as the State at-large, is to continue to follow these principles
-          and ideals to the very best of ability.
+          and ideals to the very best of my ability.
         </p>
         <p>
-          <strong>
-            I ask for your Vote of Confidence on Tuesday, April 6, 2021.
-          </strong>
+          <strong>I ask for your Vote on Tuesday, April 6, 2021.</strong>
         </p>
         <p>Very truly yours,</p>
         <p>Judge Jeffrey O. Davis</p>

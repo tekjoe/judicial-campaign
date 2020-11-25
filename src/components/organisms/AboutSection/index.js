@@ -22,10 +22,11 @@ const About = () => {
           <h2>Experience you can count on</h2>
           <p>
             With over 30 years of legal experience, Judge Jeff Davis has a track
-            record that the Wisconsin Court of Appeals needs. Judge Davis does
-            not take his work as an appointed appellate judge lightly. It is
-            with great honor and integrity that Judge Davis serves the state of
-            Wisconsin.
+            record that the Wisconsin Court of Appeals needs and he's proven it
+            during his time on the bench. Judge Davis does not take his work as
+            an appellate judge lightly. It is with great honor and integrity
+            that Judge Davis serves the citizens of District II of the Court of
+            Appeals and the state.
           </p>
           <LinkButton to="/about">Meet Jeff Davis</LinkButton>
         </ContentBlock>

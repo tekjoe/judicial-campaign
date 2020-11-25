@@ -104,7 +104,7 @@ const Features = () => {
               <OverlayDetails>
                 Doing the job right means making sure each case receives a
                 thorough analysis and diligent review of the record and the law.
-                I commit to bring my passion for the law to work every day.
+                I continue to bring my passion for the law to work every day.
               </OverlayDetails>
             </Feature.Overlay>
           </Feature>
@@ -114,8 +114,8 @@ const Features = () => {
               <span>Experience</span>
               <OverlayDetails>
                 I have over three decades of real world, practical experiences
-                that I bring to the job. I commit to bring my passion for the
-                law to work every day.
+                that I bring to the job. I commit to continue providing
+                practical, real world guidance.
               </OverlayDetails>
             </Feature.Overlay>
           </Feature>

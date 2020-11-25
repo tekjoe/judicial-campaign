@@ -124,7 +124,7 @@ const Endorsements = () => {
       <ContentContainer>
         <Grid>
           <EndorsementsTitle>
-            Court of Appeals – District II Circuit Court Judges
+            District II Circuit Court Judges
           </EndorsementsTitle>
           <EndorsementsGrid>
             <Column>
@@ -158,15 +158,16 @@ const Endorsements = () => {
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Hon. Anthony G. Milisauskas </li>
-                <li>Hon. James K. Muehlbauer </li>
-                <li>Hon. James G. Pouros </li>
-                <li>Hon. Ralph M. Ramirez </li>
-                <li>Hon. David M. Reddy </li>
-                <li>Hon. Mark R.Rohrer </li>
-                <li>Hon. Karen L. Siefert </li>
-                <li>Hon. L. Edward Stengel </li>
-                <li>Hon. Angela W. Sutkiewicz </li>
+                <li>Hon. Anthony G. Milisauskas</li>
+                <li>Hon. James K. Muehlbauer</li>
+                <li>Hon. James G. Pouros</li>
+                <li>Hon. Ralph M. Ramirez</li>
+                <li>Hon. David M. Reddy</li>
+                <li>Hon. Mark R.Rohrer</li>
+                <li>Hon. Karen L. Siefert</li>
+                <li>Hon. L. Edward Stengel</li>
+                <li>Hon. Angela W. Sutkiewicz</li>
+                <li>Hon. Mary Kay Wagner</li>
                 <li>Hon. Robert J. Wirtz</li>
               </EndorsementsList>
             </Column>
@@ -212,7 +213,7 @@ const Endorsements = () => {
             <Column>
               <EndorsementsList>
                 <li>Atty. Michael Aldana</li>
-                <li>Atty. Steve J. Berryman</li>
+                <li>Steve J. Berryman</li>
                 <li>Atty. Ave M. Bie</li>
                 <li>Joanne Bischmann </li>
                 <li>Tonit M. Calaway</li>
@@ -226,11 +227,11 @@ const Endorsements = () => {
                 <li>Atty. Brandon R. Gutschow</li>
                 <li>Douglas M. Hagerman</li>
                 <li>Atty. Scott W. Hansen</li>
+                <li>Atty. Bryan B. House</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Atty. Bryan B. House</li>
                 <li>Atty. Jonathan R. Ingrisano</li>
                 <li>Tina Jones</li>
                 <li>Paul J. Jones </li>
@@ -245,20 +246,22 @@ const Endorsements = () => {
                 <li>Atty. Eric W. Matzke</li>
                 <li>Jeffrey Mohr</li>
                 <li>Atty. David P. Muth</li>
+                <li>Jerome D. Okarma</li>
+                <li>Atty. Thomas C. Pence </li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Jerome D. Okarma</li>
-                <li>Atty. Thomas C. Pence </li>
                 <li>Atty. Lisa Preston</li>
                 <li>Atty. Jay O. Rothman</li>
                 <li>Atty. John A. Rothstein</li>
                 <li>Atty. William P. Schultz</li>
                 <li>Atty. Sara P. Scullen</li>
                 <li>Atty. Sean Scullen</li>
+                <li>Tom Spero</li>
                 <li>Atty. Jeffrey K. Spoerk</li>
                 <li>Atty. Jay R. Starrett</li>
+                <li>Atty. Joe Tyson</li>
                 <li>Thomas E. Valentyn</li>
                 <li>Atty. Nicholas P. Wahl</li>
                 <li>Brent Walters</li>

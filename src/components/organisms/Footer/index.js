@@ -37,7 +37,7 @@ const NavLink = styled(Link)`
 const FooterBody = styled.div`
   margin: 0 auto;
   @media (min-width: 1024px) {
-    max-width: 40%;
+    max-width: 50%;
   }
 `
 const FooterCopy = styled.div`
@@ -57,6 +57,9 @@ const Footer = () => {
             <ul>
               <li>
                 <NavLink to="/about">About Jeff</NavLink>
+              </li>
+              <li>
+                <NavLink to="/judicial-philosophy">Judicial Philosophy</NavLink>
               </li>
               <li>
                 <NavLink to="/endorsements">Endorsements</NavLink>
