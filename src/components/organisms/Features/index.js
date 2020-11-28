@@ -30,6 +30,8 @@ const Feature = styled.div`
   }
 
   @media (min-width: 768px) {
+    flex-basis: 350px;
+    height: 275px;
     &:not(:last-of-type) {
       margin-bottom: 0;
       margin-right: 1rem;
