@@ -21,9 +21,9 @@ const AboutPage = () => (
       </Blog.Image>
       <Blog.Text>
         <p>
-          My husband is Appellate Judge Jeff Davis. I was so moved by his
-          investiture and proud of his compelling remarks I wanted to here and
-          tell you more about him.
+          My husband is Court of Appeals Judge Jeff Davis. I was so moved by his
+          investiture and proud of his compelling remarks, and I want to tell
+          you more about him.
         </p>
         <p>
           Our families, especially the kids, had not seen Jeff in his element
@@ -42,7 +42,7 @@ const AboutPage = () => (
           has truly found his calling as a judge on the Court of Appeals.
         </p>
         <p>
-          Sure, I’m biased and I’m in good company if you look at his impressive
+          Sure, I’m biased but I’m in good company if you look at his impressive
           endorsement list. Jeff is smart, hardworking and even-tempered. He’s
           also fair, kind and pragmatic. He exemplifies the competence,
           integrity and character we should demand of all our judges.
@@ -61,7 +61,7 @@ const AboutPage = () => (
         <h4>About Jeff</h4>
         <p>
           Jeff brings a unique perspective to the Court of Appeals with his
-          extensive civil law experience, including complex business litigation.{" "}
+          extensive civil law experience, including complex business litigation.
         </p>
         <p>
           Prior to joining the bench, Jeff practiced law for more than 30 years
@@ -82,12 +82,12 @@ const AboutPage = () => (
       <Blog.Text>
         <h4>Recognition & Court Admissions</h4>
         <ul>
-          <li>Martindale-Hubbel AV(R) Peer Review Rated</li>
+          <li>Martindale-Hubbel AV&reg; Peer Review Rated</li>
           <li>
             Listed in The Best Lawyers in America (2013-2019: Insurance Law)
           </li>
           <li>
-            Listed in Wisconsin Super Lawyers(R) (2005-2019: Business
+            Listed in Wisconsin Super Lawyers&reg; (2005-2019: Business
             Litigation)
           </li>
           <li>U.S. Supreme Court, 2004</li>

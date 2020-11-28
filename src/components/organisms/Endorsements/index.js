@@ -212,62 +212,65 @@ const Endorsements = () => {
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                <li>Atty. Michael Aldana</li>
+                <li>Michael Aldana</li>
                 <li>Steve J. Berryman</li>
-                <li>Atty. Ave M. Bie</li>
+                <li>Ave M. Bie</li>
                 <li>Joanne Bischmann </li>
                 <li>Tonit M. Calaway</li>
-                <li>Atty. John A. Dickens</li>
+                <li>Brian Cothroll</li>
+                <li>John A. Dickens</li>
                 <li>Thomas L. Doerr </li>
-                <li>Atty. Daniel T. Flaherty</li>
+                <li>Daniel T. Flaherty</li>
                 <li>Mark P. Fogarty</li>
                 <li>Michelle M. Friedman</li>
-                <li>Atty. James D. Friedman</li>
-                <li>Atty. Carol A. Gehl</li>
-                <li>Atty. Brandon R. Gutschow</li>
+                <li>James D. Friedman</li>
+                <li>Carol A. Gehl</li>
+                <li>Brandon R. Gutschow</li>
                 <li>Douglas M. Hagerman</li>
-                <li>Atty. Scott W. Hansen</li>
-                <li>Atty. Bryan B. House</li>
+                <li>Scott W. Hansen</li>
+                <li>Bryan B. House</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Atty. Jonathan R. Ingrisano</li>
+                <li>Jonathan R. Ingrisano</li>
                 <li>Tina Jones</li>
                 <li>Paul J. Jones </li>
                 <li>Ted D. Kellner</li>
                 <li>John P. Kennedy</li>
                 <li>Jennie Kent</li>
-                <li>Atty. John Kirtley</li>
+                <li>John Kirtley</li>
                 <li>Thomas F. Kissinger</li>
-                <li>Atty. Kevin M. Long</li>
-                <li>Atty. Susan E. Lovern</li>
-                <li>Atty. Quinn W. Martin </li>
-                <li>Atty. Eric W. Matzke</li>
+                <li>Kevin M. Long</li>
+                <li>Susan E. Lovern</li>
+                <li>Quinn W. Martin </li>
+                <li>Eric W. Matzke</li>
                 <li>Jeffrey Mohr</li>
-                <li>Atty. David P. Muth</li>
+                <li>David P. Muth</li>
                 <li>Jerome D. Okarma</li>
-                <li>Atty. Thomas C. Pence </li>
+                <li>Thomas C. Pence </li>
+                <li>Lisa Preston</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Atty. Lisa Preston</li>
-                <li>Atty. Jay O. Rothman</li>
-                <li>Atty. John A. Rothstein</li>
-                <li>Atty. William P. Schultz</li>
-                <li>Atty. Sara P. Scullen</li>
-                <li>Atty. Sean Scullen</li>
+                <li>Jay O. Rothman</li>
+                <li>John A. Rothstein</li>
+                <li>William P. Schultz</li>
+                <li>Sara P. Scullen</li>
+                <li>Sean Scullen</li>
                 <li>Tom Spero</li>
-                <li>Atty. Jeffrey K. Spoerk</li>
-                <li>Atty. Jay R. Starrett</li>
-                <li>Atty. Joe Tyson</li>
+                <li>Jeffrey K. Spoerk</li>
+                <li>Jay R. Starrett</li>
+                <li>Bill Toman</li>
+                <li>Joe Tyson</li>
                 <li>Thomas E. Valentyn</li>
-                <li>Atty. Nicholas P. Wahl</li>
+                <li>Nicholas P. Wahl</li>
                 <li>Brent Walters</li>
-                <li>Atty. Ralph A. Weber</li>
+                <li>Ralph A. Weber</li>
+                <li>Monte Weiss</li>
                 <li>Patricia M. Whaley</li>
-                <li>Atty. Mark C. Witt</li>
+                <li>Mark C. Witt</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>

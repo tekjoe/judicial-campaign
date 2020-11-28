@@ -228,14 +228,14 @@ const HeaderComponent = () => {
             </Nav.Link>
           </li>
           <li>
-            <Nav.Link to="/contact" activeClassName="active">
-              Get Involved
+            <Nav.Link to="/donate" activeClassName="active">
+              Donate
             </Nav.Link>
           </li>
         </ul>
       </Nav>
       <CTA>
-        <CTA.Button to="/donate">Donate</CTA.Button>
+        <CTA.Button to="/contact">Get Involved</CTA.Button>
       </CTA>
       <HamburgerButton onClick={toggleMenu} isToggled={isToggled}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -281,14 +281,14 @@ const HeaderComponent = () => {
             variants={item}
             whileTap={{ scale: 0.95 }}
           >
-            <Nav.Link to="/contact">Get Involved</Nav.Link>
+            <Nav.Link to="/donate">Donate</Nav.Link>
           </motion.li>
           <motion.li
             onClick={toggleMenu}
             variants={item}
             whileTap={{ scale: 0.95 }}
           >
-            <Nav.Link to="/donate">Donate</Nav.Link>
+            <Nav.Link to="/contact">Get Involved</Nav.Link>
           </motion.li>
         </motion.ul>
       </MobileNav>

@@ -69,13 +69,15 @@ const JudicialPhilosophyPage = () => (
           practiced appellate law before the court on which I now sit, in the
           Wisconsin Supreme Court, and in State and Federal courts around the
           country. I've not left those real world experiences behind &mdash; I
-          bring them to my job each and every day.
+          bring them to my job each and every day. In particular, I think it is
+          critically important to the people we serve that our opinions be "user
+          friendly" &mdash; clear, concise and easily understood and applied.
         </p>
         <p>
-          <strong>In summary,</strong> a lot of what we do is technical,
+          <strong>In summary,</strong> while a lot of what we do is technical,
           requiring the parsing of words contained in detailed contracts,
-          statutes and decades of legal precedent, and I think it is important
-          that we be practical too.
+          statutes and decades of legal precedent, it is important that we be
+          practical too.
         </p>
         <p>
           Frankly, reaching a decision on how to apply the law is not always
