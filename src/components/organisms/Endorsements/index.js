@@ -176,7 +176,9 @@ const Endorsements = () => {
       </ContentContainer>
       <ContentContainer>
         <Grid>
-          <EndorsementsTitle>Other Elected Officials</EndorsementsTitle>
+          <EndorsementsTitle>
+            Other Elected Officials & Judges
+          </EndorsementsTitle>
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
