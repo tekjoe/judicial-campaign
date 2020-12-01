@@ -3,7 +3,7 @@ module.exports = {
     title: `Retain Judge Jeff Davis`,
     description: `Judge Jeff Davis for Wisconin Court of Appeals Disctrict II`,
     author: `@tekjoe`,
-    siteURL: "localhost:8000",
+    siteUrl: "https://www.judgejeffdavis.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
