@@ -198,15 +198,16 @@ const Contact = ({ queryParams }) => {
                     id="involved"
                     required
                     name="involved"
+                    value={state.involved}
                     onChange={handleChange}
                   >
                     <option value="" disabled selected hidden>
                       Select here
                     </option>
-                    <option value="event">Host an event</option>
-                    <option value="signs">Get yard signs</option>
+                    <option value="zoom">Host a Zoom call</option>
                     <option value="endorse">Endorse</option>
-                    <option value="volunteer">Volunteer</option>
+                    <option value="donate">Donate</option>
+                    <option value="signs">Display a yard sign</option>
                     <option value="other">Other</option>
                   </Select>
                 </div>

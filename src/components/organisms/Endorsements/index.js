@@ -252,16 +252,18 @@ const Endorsements = () => {
                 <li>Susan E. Lovern</li>
                 <li>Quinn W. Martin </li>
                 <li>Eric W. Matzke</li>
+                <li>Todd Meyer</li>
+                <li>James W. Mohr</li>
                 <li>Jeffrey Mohr</li>
                 <li>David P. Muth</li>
                 <li>Deni D. Naumann</li>
                 <li>Michael E. Naumann</li>
                 <li>Jerome D. Okarma</li>
-                <li>Thomas C. Pence </li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
+                <li>Thomas C. Pence </li>
                 <li>Lisa Preston</li>
                 <li>Jay O. Rothman</li>
                 <li>John A. Rothstein</li>

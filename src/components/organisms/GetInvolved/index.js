@@ -36,8 +36,8 @@ const GetInvolved = () => {
           <p>
             I work hard every day to serve the great state of Wisconsin and its
             people. It's my sincere desire to continue my work as an appellate
-            judge, but I'm going to need your help. Find out how you can support
-            the campaign.
+            judge, but I am going to need your help. Find out how you can
+            support the campaign.
           </p>
           <LinkButton to="/contact">Get Involved</LinkButton>
         </ContentBlock>

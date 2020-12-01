@@ -16,9 +16,9 @@ const AboutPage = () => (
       withImage
     />
     <BlogLayout withImage>
-      <Blog.Image isHeader>
+      <Blog.Figure isHeader>
         <DavisCouple style={{ maxHeight: "475px" }} />
-      </Blog.Image>
+      </Blog.Figure>
       <Blog.Text>
         <p>
           My husband is Court of Appeals Judge Jeff Davis. I was so moved by his

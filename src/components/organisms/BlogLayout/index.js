@@ -47,7 +47,7 @@ Blog.Text = styled.div`
   }
 `
 
-Blog.Image = styled.div`
+Blog.Figure = styled.figure`
   grid-column: 1/-1;
   margin-bottom: 3rem;
   margin-top: ${({ isHeader }) => (isHeader ? "-4rem" : 0)};
@@ -57,6 +57,8 @@ Blog.Image = styled.div`
     grid-column: 2/-2;
   }
 `
+
+Blog.Caption = styled.figcaption``
 
 const BlogLayout = ({ children, withImage }) => {
   return <Blog withImage={withImage}>{children}</Blog>

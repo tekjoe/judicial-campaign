@@ -89,6 +89,20 @@ const Features = () => {
       <ContentContainer>
         <FlexBoxes>
           <Feature>
+            <FeatureImage3
+              style={{ height: "100%" }}
+              imgStyle={{ height: "100%" }}
+            />
+            <Feature.Overlay>
+              <span>Experience</span>
+              <OverlayDetails>
+                I have over three decades of real world, practical experiences
+                that I bring to the job. I commit to continue providing
+                practical, real world guidance.
+              </OverlayDetails>
+            </Feature.Overlay>
+          </Feature>
+          <Feature>
             <FeatureImage1 style={{ height: "100%" }} />
             <Feature.Overlay>
               <span>Independence</span>
@@ -107,17 +121,6 @@ const Features = () => {
                 Doing the job right means making sure each case receives a
                 thorough analysis and diligent review of the record and the law.
                 I continue to bring my passion for the law to work every day.
-              </OverlayDetails>
-            </Feature.Overlay>
-          </Feature>
-          <Feature>
-            <FeatureImage3 style={{ height: "100%" }} />
-            <Feature.Overlay>
-              <span>Experience</span>
-              <OverlayDetails>
-                I have over three decades of real world, practical experiences
-                that I bring to the job. I commit to continue providing
-                practical, real world guidance.
               </OverlayDetails>
             </Feature.Overlay>
           </Feature>

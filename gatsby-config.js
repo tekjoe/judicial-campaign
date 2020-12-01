@@ -7,6 +7,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -22,6 +23,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-127178111-8",
+        head: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

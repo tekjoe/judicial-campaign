@@ -54,9 +54,10 @@ const JudicialPhilosophyPage = () => (
           play a small role in that ecosystem.
         </p>
       </Blog.Text>
-      <Blog.Image>
+      <Blog.Figure>
         <InvestitureImage style={{ maxHeight: "475px" }} />
-      </Blog.Image>
+        <Blog.Caption></Blog.Caption>
+      </Blog.Figure>
       <Blog.Text>
         <p>
           <strong>Real legal world experience.</strong> While I am the first to
