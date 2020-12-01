@@ -154,16 +154,17 @@ const Endorsements = () => {
                 <li>Hon. Phillip A. Koss</li>
                 <li>Hon. Todd K. Martens</li>
                 <li>Hon. Robert G. Mawdsley*</li>
+                <li>Hon. Anthony G. Milisauskas</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Hon. Anthony G. Milisauskas</li>
                 <li>Hon. James K. Muehlbauer</li>
                 <li>Hon. James G. Pouros</li>
                 <li>Hon. Ralph M. Ramirez</li>
                 <li>Hon. David M. Reddy</li>
                 <li>Hon. Mark R.Rohrer</li>
+                <li>Hon. Jason A. Rossell</li>
                 <li>Hon. Karen L. Siefert</li>
                 <li>Hon. L. Edward Stengel</li>
                 <li>Hon. Angela W. Sutkiewicz</li>
@@ -215,13 +216,17 @@ const Endorsements = () => {
             <Column>
               <EndorsementsList>
                 <li>Michael Aldana</li>
+                <li>Chess Barbatelli</li>
                 <li>Steve J. Berryman</li>
                 <li>Ave M. Bie</li>
                 <li>Joanne Bischmann </li>
                 <li>Tonit M. Calaway</li>
+                <li>Jim Clark</li>
+                <li>Ignacio Cortina</li>
                 <li>Brian Cothroll</li>
                 <li>John A. Dickens</li>
                 <li>Thomas L. Doerr </li>
+                <li>Rob Dudek</li>
                 <li>Daniel T. Flaherty</li>
                 <li>Mark P. Fogarty</li>
                 <li>Michelle M. Friedman</li>
@@ -230,11 +235,11 @@ const Endorsements = () => {
                 <li>Brandon R. Gutschow</li>
                 <li>Douglas M. Hagerman</li>
                 <li>Scott W. Hansen</li>
-                <li>Bryan B. House</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
+                <li>Bryan B. House</li>
                 <li>Jonathan R. Ingrisano</li>
                 <li>Tina Jones</li>
                 <li>Paul J. Jones </li>
@@ -249,13 +254,15 @@ const Endorsements = () => {
                 <li>Eric W. Matzke</li>
                 <li>Jeffrey Mohr</li>
                 <li>David P. Muth</li>
+                <li>Deni D. Naumann</li>
+                <li>Michael E. Naumann</li>
                 <li>Jerome D. Okarma</li>
                 <li>Thomas C. Pence </li>
-                <li>Lisa Preston</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
+                <li>Lisa Preston</li>
                 <li>Jay O. Rothman</li>
                 <li>John A. Rothstein</li>
                 <li>William P. Schultz</li>
@@ -267,6 +274,7 @@ const Endorsements = () => {
                 <li>Bill Toman</li>
                 <li>Joe Tyson</li>
                 <li>Thomas E. Valentyn</li>
+                <li>Dan Vliet</li>
                 <li>Nicholas P. Wahl</li>
                 <li>Brent Walters</li>
                 <li>Ralph A. Weber</li>
