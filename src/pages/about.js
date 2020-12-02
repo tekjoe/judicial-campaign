@@ -10,7 +10,10 @@ import SEO from "../utils/seo"
 
 const AboutPage = () => (
   <>
-    <SEO title="About" />
+    <SEO
+      title="About"
+      description="Judge Jeff Davis brings over 30 years of legal experience to the Wisconsin Court of Appeals. Learn more about Judge Davis."
+    />
     <PageHeader
       subtitle="Experienced. Practical."
       title="Meet Judge Jeff Davis"

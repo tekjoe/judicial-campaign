@@ -7,7 +7,10 @@ import Endorse from "../components/organisms/Endorse"
 
 const EndorsementsPage = () => (
   <>
-    <SEO title="Endorsements" />
+    <SEO
+      title="Endorsements"
+      description="Judge Jeff Davis brings experience, hard work, and independence to the Wisconsin Court of Appeals. Hear it from his supporters."
+    />
     <PageHeader subtitle="my supporters" title="Endorsements" />
     <Endorsements />
     <Endorse />

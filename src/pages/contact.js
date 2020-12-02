@@ -7,7 +7,10 @@ import SEO from "../utils/seo"
 const ContactPage = ({ location }) => {
   return (
     <>
-      <SEO title="Contact Us" />
+      <SEO
+        title="Contact Us"
+        description="Check here to get involved, get in touch, or contribute to the campaign."
+      />
       <Contact queryParams={location.search} />
       <Footer />
     </>

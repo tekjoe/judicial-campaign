@@ -9,7 +9,10 @@ import SEO from "../utils/seo"
 
 const JudicialPhilosophyPage = () => (
   <>
-    <SEO title="Judicial Philosophy" />
+    <SEO
+      title="Judicial Philosophy"
+      description="Judge Jeff Davis is a hard worker who serves the citizens of Wisconsin with humility and respect. Learn more about his judicial philosophy."
+    />
     <PageHeader
       subtitle="Independence. Hard Work. Respect."
       title="My Judicial Philosophy"

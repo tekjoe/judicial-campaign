@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Retain Judge Jeff Davis`,
-    description: `Judge Jeff Davis for Wisconin Court of Appeals Disctrict II`,
+    description: `Judge Jeff Davis is a candidate for Wisconsin Court of Appeals, District II. Vote for Judge Davis on April 6, 2021.`,
     author: `@tekjoe`,
     siteUrl: "https://www.judgejeffdavis.com",
   },

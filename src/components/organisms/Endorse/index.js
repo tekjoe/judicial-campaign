@@ -53,7 +53,9 @@ const Endorse = () => {
           <Column>
             <EndorseSection.CTA>
               <p>Join Us - Endorse Judge Davis</p>
-              <LinkButton to="/contact?involved=endorse">Endorse</LinkButton>
+              <LinkButton to="/contact?involved=endorse">
+                Endorse Jeff
+              </LinkButton>
             </EndorseSection.CTA>
           </Column>
           <Column></Column>
