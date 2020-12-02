@@ -103,17 +103,6 @@ const Features = () => {
             </Feature.Overlay>
           </Feature>
           <Feature>
-            <FeatureImage1 style={{ height: "100%" }} />
-            <Feature.Overlay>
-              <span>Independence</span>
-              <OverlayDetails>
-                Independence is the bedrock of our legal system and without it
-                our system fails. I pledge to continue to apply the law fairly
-                and impartially.
-              </OverlayDetails>
-            </Feature.Overlay>
-          </Feature>
-          <Feature>
             <FeatureImage2 style={{ height: "100%" }} />
             <Feature.Overlay>
               <span>Hard Work</span>
@@ -121,6 +110,17 @@ const Features = () => {
                 Doing the job right means making sure each case receives a
                 thorough analysis and diligent review of the record and the law.
                 I continue to bring my passion for the law to work every day.
+              </OverlayDetails>
+            </Feature.Overlay>
+          </Feature>
+          <Feature>
+            <FeatureImage1 style={{ height: "100%" }} />
+            <Feature.Overlay>
+              <span>Independence</span>
+              <OverlayDetails>
+                Independence is the bedrock of our legal system and without it
+                our system fails. I pledge to continue to apply the law fairly
+                and impartially.
               </OverlayDetails>
             </Feature.Overlay>
           </Feature>

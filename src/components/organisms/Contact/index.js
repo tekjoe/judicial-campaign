@@ -160,7 +160,7 @@ const Contact = ({ queryParams }) => {
               method="post"
               onSubmit={handleSubmit}
             >
-              <h1>Contact Us</h1>
+              <h1>Contact us</h1>
               <Label>
                 <p>First Name</p>
                 <Input

@@ -56,7 +56,9 @@ const JudicialPhilosophyPage = () => (
       </Blog.Text>
       <Blog.Figure>
         <InvestitureImage style={{ maxHeight: "475px" }} />
-        <Blog.Caption></Blog.Caption>
+        <Blog.Caption>
+          December 3, 2019, Ceremonial Investiture: Judge Davis and family
+        </Blog.Caption>
       </Blog.Figure>
       <Blog.Text>
         <p>

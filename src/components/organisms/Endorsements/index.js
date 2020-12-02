@@ -140,11 +140,11 @@ const Endorsements = () => {
                 <li>Hon. Jon E. Frederickson</li>
                 <li>Hon. Sandra Jo Giernoth</li>
                 <li>Hon. Andrew T. Gonring*</li>
+                <li>Hon. Patrick C. Haughney*</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Hon. Patrick C. Haughney*</li>
                 <li>Hon. Kent Hoffmann</li>
                 <li>Hon. John A. Jorgensen</li>
                 <li>Hon. Chad G. Kerkman</li>
@@ -155,11 +155,12 @@ const Endorsements = () => {
                 <li>Hon. Todd K. Martens</li>
                 <li>Hon. Robert G. Mawdsley*</li>
                 <li>Hon. Anthony G. Milisauskas</li>
+                <li>Hon. James K. Muehlbauer</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Hon. James K. Muehlbauer</li>
+                <li>Hon. Emily S. Mueller</li>
                 <li>Hon. James G. Pouros</li>
                 <li>Hon. Ralph M. Ramirez</li>
                 <li>Hon. David M. Reddy</li>
@@ -216,6 +217,7 @@ const Endorsements = () => {
             <Column>
               <EndorsementsList>
                 <li>Michael Aldana</li>
+                <li>Brad Backer</li>
                 <li>Chess Barbatelli</li>
                 <li>Steve J. Berryman</li>
                 <li>Ave M. Bie</li>
@@ -250,7 +252,9 @@ const Endorsements = () => {
                 <li>Thomas F. Kissinger</li>
                 <li>Kevin M. Long</li>
                 <li>Susan E. Lovern</li>
+                <li>Natalie Maciolek</li>
                 <li>Quinn W. Martin </li>
+                <li>L. Katie Mason</li>
                 <li>Eric W. Matzke</li>
                 <li>Todd Meyer</li>
                 <li>James W. Mohr</li>
@@ -270,6 +274,8 @@ const Endorsements = () => {
                 <li>William P. Schultz</li>
                 <li>Sara P. Scullen</li>
                 <li>Sean Scullen</li>
+                <li>Lee Seese</li>
+                <li>John Shannon</li>
                 <li>Tom Spero</li>
                 <li>Jeffrey K. Spoerk</li>
                 <li>Jay R. Starrett</li>

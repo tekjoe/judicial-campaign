@@ -58,7 +58,10 @@ Blog.Figure = styled.figure`
   }
 `
 
-Blog.Caption = styled.figcaption``
+Blog.Caption = styled.figcaption`
+  font-size: ${({ theme }) => theme.typography.small};
+  margin-top: 0.5rem;
+`
 
 const BlogLayout = ({ children, withImage }) => {
   return <Blog withImage={withImage}>{children}</Blog>

@@ -4,6 +4,7 @@ import Footer from "../components/organisms/Footer"
 import PageHeader from "../components/organisms/PageHeader"
 import BlogLayout, { Blog } from "../components/organisms/BlogLayout"
 import DavisCouple from "../components/atoms/DavisCouple"
+import InvestitureImage from "../components/atoms/InvestitureImage"
 
 import SEO from "../utils/seo"
 
@@ -57,6 +58,12 @@ const AboutPage = () => (
         <p>Warmly,</p>
         <p>Rachel</p>
       </Blog.Text>
+      <Blog.Figure>
+        <InvestitureImage style={{ maxHeight: "475px" }} />
+        <Blog.Caption>
+          December 3, 2019, Ceremonial Investiture: Judge Davis and family
+        </Blog.Caption>
+      </Blog.Figure>
       <Blog.Text>
         <h4>About Jeff</h4>
         <p>

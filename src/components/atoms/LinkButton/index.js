@@ -6,9 +6,11 @@ import { Link } from "gatsby"
 const Button = styled(Link)`
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
   background: #f3304a;
   padding: 1rem;
   color: white;
+  display: inline-block;
   font-weight: bold;
   letter-spacing: 1px;
   min-width: 300px;
