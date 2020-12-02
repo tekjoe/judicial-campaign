@@ -124,7 +124,7 @@ const Endorsements = () => {
       <ContentContainer>
         <Grid>
           <EndorsementsTitle>
-            District II Circuit Court Judges
+            District II Circuit Court Judges & Municipal Judges
           </EndorsementsTitle>
           <EndorsementsGrid>
             <Column>
@@ -161,6 +161,7 @@ const Endorsements = () => {
             <Column>
               <EndorsementsList>
                 <li>Hon. Emily S. Mueller</li>
+                <li>Hon. Christine Ohlis</li>
                 <li>Hon. James G. Pouros</li>
                 <li>Hon. Ralph M. Ramirez</li>
                 <li>Hon. David M. Reddy</li>
