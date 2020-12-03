@@ -204,6 +204,7 @@ const Endorsements = () => {
               <EndorsementsList>
                 <li>Mayor Shawn Reilly</li>
                 <li>Sheriff Christopher K. Schmaling</li>
+                <li>Sheriff Martin Schulteis</li>
                 <li>Hon. David C. Swanson</li>
               </EndorsementsList>
             </Column>
