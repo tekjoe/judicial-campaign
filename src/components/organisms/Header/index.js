@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import { motion } from "framer-motion"
 import logo from "../../../images/judge-davis-logo.png"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const Header = styled.header`
   padding: 1rem;
@@ -66,6 +67,17 @@ const Nav = styled.nav`
 `
 
 Nav.Link = styled(Link)`
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+  &:hover {
+    color: #e25252;
+  }
+`
+
+Nav.OutboundLink = styled(OutboundLink)`
   text-decoration: none;
   font-weight: bold;
   color: inherit;
@@ -227,6 +239,11 @@ const HeaderComponent = () => {
               Endorsements
             </Nav.Link>
           </li>
+          <li>
+            <Nav.OutboundLink href="https://www.paypal.com/donate/?hosted_button_id=3D578XTW6HAY2">
+              Donate
+            </Nav.OutboundLink>
+          </li>
         </ul>
       </Nav>
       <CTA>
@@ -271,7 +288,15 @@ const HeaderComponent = () => {
           >
             <Nav.Link to="/endorsements">Endorsements</Nav.Link>
           </motion.li>
-
+          <motion.li
+            onClick={toggleMenu}
+            variants={item}
+            whileTap={{ scale: 0.95 }}
+          >
+            <Nav.OutboundLink href="https://www.paypal.com/donate/?hosted_button_id=3D578XTW6HAY2">
+              Donate
+            </Nav.OutboundLink>
+          </motion.li>
           <motion.li
             onClick={toggleMenu}
             variants={item}

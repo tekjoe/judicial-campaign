@@ -61,6 +61,7 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        { name: `msvalidate.01`, content: `A8AAE8BF7129E670726C386E623BCCD5` },
       ].concat(meta)}
     >
       <style>

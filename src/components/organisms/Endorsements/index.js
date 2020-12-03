@@ -156,13 +156,14 @@ const Endorsements = () => {
                 <li>Hon. Robert G. Mawdsley*</li>
                 <li>Hon. Anthony G. Milisauskas</li>
                 <li>Hon. James K. Muehlbauer</li>
+                <li>Hon. Emily S. Mueller</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Hon. Emily S. Mueller</li>
                 <li>Hon. Christine Ohlis</li>
                 <li>Hon. James G. Pouros</li>
+                <li>Hon. Gerald Ptacek*</li>
                 <li>Hon. Ralph M. Ramirez</li>
                 <li>Hon. David M. Reddy</li>
                 <li>Hon. Mark R.Rohrer</li>
@@ -223,6 +224,7 @@ const Endorsements = () => {
                 <li>Steve J. Berryman</li>
                 <li>Ave M. Bie</li>
                 <li>Joanne Bischmann </li>
+                <li>John Busch</li>
                 <li>Tonit M. Calaway</li>
                 <li>Jim Clark</li>
                 <li>Ignacio Cortina</li>
@@ -238,12 +240,13 @@ const Endorsements = () => {
                 <li>Brandon R. Gutschow</li>
                 <li>Douglas M. Hagerman</li>
                 <li>Scott W. Hansen</li>
+                <li>Bryan B. House</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Bryan B. House</li>
                 <li>Jonathan R. Ingrisano</li>
+                <li>Jerry Jendusa</li>
                 <li>Tina Jones</li>
                 <li>Paul J. Jones </li>
                 <li>Ted D. Kellner</li>
@@ -263,20 +266,23 @@ const Endorsements = () => {
                 <li>David P. Muth</li>
                 <li>Deni D. Naumann</li>
                 <li>Michael E. Naumann</li>
+                <li>Barbara A. O’Brien</li>
                 <li>Jerome D. Okarma</li>
+                <li>Thomas C. Pence </li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Thomas C. Pence </li>
                 <li>Lisa Preston</li>
                 <li>Jay O. Rothman</li>
                 <li>John A. Rothstein</li>
+                <li>Christopher M. Scherer</li>
                 <li>William P. Schultz</li>
                 <li>Sara P. Scullen</li>
                 <li>Sean Scullen</li>
                 <li>Lee Seese</li>
                 <li>John Shannon</li>
+                <li>Brian R. Smigelski</li>
                 <li>Tom Spero</li>
                 <li>Jeffrey K. Spoerk</li>
                 <li>Jay R. Starrett</li>
