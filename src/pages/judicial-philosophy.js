@@ -3,7 +3,8 @@ import SignUp from "../components/organisms/SignUp"
 import Footer from "../components/organisms/Footer"
 import PageHeader from "../components/organisms/PageHeader"
 import BlogLayout, { Blog } from "../components/organisms/BlogLayout"
-import InvestitureImage from "../components/atoms/InvestitureImage"
+import JeffDavisPortrait16x9 from "../components/atoms/JeffDavisPortrait16x9"
+import District2 from "../components/atoms/District2"
 
 import SEO from "../utils/seo"
 
@@ -16,8 +17,12 @@ const JudicialPhilosophyPage = () => (
     <PageHeader
       subtitle="Independence. Hard Work. Respect."
       title="My Judicial Philosophy"
+      withImage
     />
-    <BlogLayout>
+    <BlogLayout withImage>
+      <Blog.Figure isHeader>
+        <JeffDavisPortrait16x9 style={{ maxHeight: "475px" }} />
+      </Blog.Figure>
       <Blog.Text>
         <h2>A Message to District II Residents</h2>
         <p>
@@ -58,10 +63,7 @@ const JudicialPhilosophyPage = () => (
         </p>
       </Blog.Text>
       <Blog.Figure>
-        <InvestitureImage style={{ maxHeight: "475px" }} />
-        <Blog.Caption>
-          December 3, 2019, Ceremonial Investiture: Judge Davis and family
-        </Blog.Caption>
+        <District2 style={{ maxHeight: "600px" }} />
       </Blog.Figure>
       <Blog.Text>
         <p>

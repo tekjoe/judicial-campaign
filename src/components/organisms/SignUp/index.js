@@ -9,6 +9,7 @@ const SignUpSection = styled.section`
   display: ${props => (props.centered ? "flex" : "block")};
   justify-content: center;
   align-items: center;
+  position: relative;
   background: linear-gradient(
       to right,
       hsla(217, 52%, 31%, 60%),
@@ -45,9 +46,26 @@ SignUpSection.CTA = styled.div`
   }
 `
 
+SignUpSection.Overlay = styled.div`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  span {
+    color: white;
+    font-size: ${({ theme }) => theme.typography.small};
+  }
+`
+
 const SignUp = () => {
   return (
     <SignUpSection centered>
+      <SignUpSection.Overlay>
+        <span>
+          December 3, 2019: Judge Davis and colleagues attending his official
+          Investiture ceremony.
+        </span>
+      </SignUpSection.Overlay>
       <ContentContainer>
         <Columns>
           <Column>

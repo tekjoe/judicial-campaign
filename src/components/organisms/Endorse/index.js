@@ -8,6 +8,7 @@ import ContentContainer from "../../atoms/ContentContainer"
 const EndorseSection = styled.section`
   display: ${props => (props.centered ? "flex" : "block")};
   justify-content: center;
+  position: relative;
   align-items: center;
   background: linear-gradient(
       to right,
@@ -45,9 +46,26 @@ EndorseSection.CTA = styled.div`
   }
 `
 
+EndorseSection.Overlay = styled.div`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.25rem;
+  span {
+    color: white;
+    font-size: ${({ theme }) => theme.typography.small};
+  }
+`
+
 const Endorse = () => {
   return (
     <EndorseSection centered>
+      <EndorseSection.Overlay>
+        <span>
+          December 3, 2019: Judge Davis and colleagues attending his official
+          Investiture ceremony.
+        </span>
+      </EndorseSection.Overlay>
       <ContentContainer>
         <Columns>
           <Column>

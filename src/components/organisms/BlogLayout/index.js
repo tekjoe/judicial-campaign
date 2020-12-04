@@ -23,10 +23,12 @@ Blog.Text = styled.div`
     font-size: ${({ theme }) => theme.typography.h4};
     margin-bottom: 2rem;
   }
+  h3,
   h4 {
     margin-bottom: 1.5rem;
   }
-  ul {
+  ul,
+  ol {
     list-style-position: inside;
     li {
       line-height: 1.7;

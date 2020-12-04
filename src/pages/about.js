@@ -21,54 +21,12 @@ const AboutPage = () => (
     />
     <BlogLayout withImage>
       <Blog.Figure isHeader>
-        <DavisCouple style={{ maxHeight: "475px" }} />
-      </Blog.Figure>
-      <Blog.Text>
-        <p>
-          My husband is Court of Appeals Judge Jeff Davis. I was so moved by his
-          investiture and proud of his compelling remarks, and I want to tell
-          you more about him.
-        </p>
-        <p>
-          Our families, especially the kids, had not seen Jeff in his element
-          like that before, nor did they fully appreciate what this role is all
-          about &mdash; they saw their son, dad, step-dad and brother in a whole
-          new light. Jeff’s philosophy on the law and being a judge is shared on
-          this website and I encourage you to read it to find out more about
-          him.
-        </p>
-        <p>
-          Maybe it was moving to Milwaukee from Alabama at age 14, or then
-          moving to Cleveland for his senior year of high school, or being the
-          oldest of three brothers &mdash; whatever the combination of factors
-          and experiences, the result is a thoughtful, quietly competitive,
-          analytical and creative man who was a well-respected lawyer and who
-          has truly found his calling as a judge on the Court of Appeals.
-        </p>
-        <p>
-          Sure, I’m biased but I’m in good company if you look at his impressive
-          endorsement list. Jeff is smart, hardworking and even-tempered. He’s
-          also fair, kind and pragmatic. He exemplifies the competence,
-          integrity and character we should demand of all our judges.
-        </p>
-        <p>
-          Please vote to retain Jeff on the Court of Appeals. Be assured that
-          you are supporting someone who is in it for the right reasons, is
-          nonpartisan and who understands the role of the intermediate appellate
-          court &mdash; to apply the law, be fair and provide practical clarity
-          to litigants, law enforcement, lawyers and judges.
-        </p>
-        <p>Warmly,</p>
-        <p>Rachel</p>
-      </Blog.Text>
-      <Blog.Figure>
         <InvestitureImage style={{ maxHeight: "475px" }} />
         <Blog.Caption>
           December 3, 2019, Ceremonial Investiture: Judge Davis and family
         </Blog.Caption>
       </Blog.Figure>
       <Blog.Text>
-        <h4>About Jeff</h4>
         <p>
           Jeff brings a unique perspective to the Court of Appeals with his
           extensive civil law experience, including complex business litigation.
@@ -107,6 +65,52 @@ const AboutPage = () => (
           <li>U.S. District Court, Western District of Wisconsin, 1988</li>
           <li>U.S. District Court, Eastern District of Wisconsin, 1988</li>
         </ul>
+      </Blog.Text>
+      <Blog.Figure>
+        <DavisCouple style={{ maxHeight: "475px" }} />
+      </Blog.Figure>
+      <Blog.Text>
+        <p>
+          My husband is Court of Appeals Judge Jeff Davis. I was so moved by his
+          investiture and proud of his compelling remarks, and I want to tell
+          you more about him.
+        </p>
+        <p>
+          Our families, especially the kids, had not seen Jeff in his element
+          like that before, nor did they fully appreciate what this role is all
+          about &mdash; they saw their son, dad, step-dad and brother in a whole
+          new light. Jeff’s philosophy on the law and being a judge is shared on
+          this website and I encourage you to read it to find out more about
+          him.
+        </p>
+        <p>
+          Maybe it was moving to Milwaukee from Alabama at age 14, or then
+          moving to Cleveland for his senior year of high school, or being the
+          oldest of three brothers &mdash; whatever the combination of factors
+          and experiences, the result is a thoughtful, quietly competitive,
+          analytical and creative man who was a well-respected lawyer and who
+          has truly found his calling as a judge on the Court of Appeals.
+        </p>
+        <p>
+          Sure, I’m biased but I’m in good company if you look at his impressive
+          endorsement list. Jeff is smart, hardworking and even-tempered. He’s
+          also fair, kind and pragmatic. He exemplifies the competence,
+          integrity and character we should demand of all our judges.
+        </p>
+        <p>
+          Please vote to retain Jeff on the Court of Appeals. Be assured that
+          you are supporting someone who is in it for the right reasons, is
+          nonpartisan and who understands the role of the intermediate appellate
+          court &mdash; to apply the law, be fair and provide practical clarity
+          to litigants, law enforcement, lawyers and judges.
+        </p>
+        <p>
+          Warmly,
+          <br />
+          <strong>
+            <em>Rachel</em>
+          </strong>
+        </p>
       </Blog.Text>
     </BlogLayout>
     <SignUp />

@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { darken } from "polished"
 import { Link } from "gatsby"
 import ContentContainer from "../../atoms/ContentContainer"
+import nominationPapers from "../../../images/jeff-davis-nomination-papers.pdf"
 
 const CTASection = styled.section`
   background: #aabcd9;
@@ -76,6 +77,57 @@ const Box = styled(Link)`
   }
 `
 
+const ExternalBox = styled.a`
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #133987;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  &:nth-of-type(2n) {
+    background: #264577;
+    &:hover {
+      background: ${darken(0.1, "#264577")};
+    }
+  }
+  &:last-of-type {
+    background: #f3304a;
+    &:hover {
+      background: ${darken(0.1, "#f3304a")};
+    }
+  }
+  svg {
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  &:hover {
+    background: ${darken(0.1, "#133987")};
+  }
+  @media (min-width: 1024px) {
+    padding: 3rem;
+    svg {
+      height: 3rem;
+      width: 3rem;
+    }
+    p {
+      font-size: 1.25rem;
+    }
+  }
+`
+
 const CallToAction = () => {
   return (
     <CTASection>
@@ -99,15 +151,6 @@ const CallToAction = () => {
             </svg>
             <p>Meet Jeff</p>
           </Box>
-          <Box to="/contact?involved=signs">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-              <path
-                d="M7.03 2.6a3 3 0 0 1 5.94 0L15 3v1h1a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h1V3l2.03-.4zM5 6H4v12h12V6h-1v1H5V6zm5-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-                fill="#fff"
-              />
-            </svg>
-            <p>Support</p>
-          </Box>
           <Box to="/contact?involved=endorse">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
               <path
@@ -117,6 +160,15 @@ const CallToAction = () => {
             </svg>
             <p>Endorse</p>
           </Box>
+          <ExternalBox href={nominationPapers} download>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path
+                d="M7.03 2.6a3 3 0 0 1 5.94 0L15 3v1h1a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h1V3l2.03-.4zM5 6H4v12h12V6h-1v1H5V6zm5-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                fill="#fff"
+              />
+            </svg>
+            <p>Signatures</p>
+          </ExternalBox>
         </FlexBoxes>
       </ContentContainer>
     </CTASection>

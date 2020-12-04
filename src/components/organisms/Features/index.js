@@ -54,10 +54,15 @@ Feature.Overlay = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  background: hsla(0, 0%, 45%, 20%);
+  /* background: hsla(0, 0%, 45%, 20%); */
   transition: background 0.3s ease-in-out;
+  background: linear-gradient(
+    0deg,
+    hsla(0, 0%, 0%, 0.5) 25%,
+    hsla(0, 0%, 0%, 0.01) 75%
+  );
   &:hover {
-    background: hsla(0, 0%, 15%, 80%);
+    /* background: hsla(0, 0%, 15%, 80%); */
     & > div {
       opacity: 1;
     }
@@ -78,9 +83,12 @@ Feature.Overlay = styled.div`
 
 const OverlayDetails = styled.div`
   color: white;
-  font-size: 1.125rem;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  font-size: 1rem;
+  /* opacity: 0;
+  transition: opacity 0.3s ease-in-out; */
+  @media (min-width: 1024px) {
+    font-size: 1.125rem;
+  }
 `
 
 const Features = () => {
@@ -89,27 +97,13 @@ const Features = () => {
       <ContentContainer>
         <FlexBoxes>
           <Feature>
-            <FeatureImage3
-              style={{ height: "100%" }}
-              imgStyle={{ height: "100%" }}
-            />
+            <FeatureImage3 style={{ height: "100%" }} />
             <Feature.Overlay>
               <span>Experience</span>
               <OverlayDetails>
                 I have over three decades of real world, practical experiences
                 that I bring to the job. I commit to continue providing
                 practical, real world guidance.
-              </OverlayDetails>
-            </Feature.Overlay>
-          </Feature>
-          <Feature>
-            <FeatureImage2 style={{ height: "100%" }} />
-            <Feature.Overlay>
-              <span>Hard Work</span>
-              <OverlayDetails>
-                Doing the job right means making sure each case receives a
-                thorough analysis and diligent review of the record and the law.
-                I continue to bring my passion for the law to work every day.
               </OverlayDetails>
             </Feature.Overlay>
           </Feature>
@@ -121,6 +115,17 @@ const Features = () => {
                 Independence is the bedrock of our legal system and without it
                 our system fails. I pledge to continue to apply the law fairly
                 and impartially.
+              </OverlayDetails>
+            </Feature.Overlay>
+          </Feature>
+          <Feature>
+            <FeatureImage2 style={{ height: "100%" }} />
+            <Feature.Overlay>
+              <span>Hard Work</span>
+              <OverlayDetails>
+                Doing the job right means making sure each case receives a
+                thorough analysis and diligent review of the record and the law.
+                I continue to bring my passion for the law to work every day.
               </OverlayDetails>
             </Feature.Overlay>
           </Feature>
