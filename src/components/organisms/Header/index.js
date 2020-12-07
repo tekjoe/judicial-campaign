@@ -230,7 +230,7 @@ const HeaderComponent = () => {
 
           <li>
             <Nav.Link to="/contact" activeClassName="active">
-              Get Involved
+              Contact Jeff
             </Nav.Link>
           </li>
         </ul>
@@ -282,7 +282,7 @@ const HeaderComponent = () => {
             variants={item}
             whileTap={{ scale: 0.95 }}
           >
-            <Nav.Link to="/contact">Get Involved</Nav.Link>
+            <Nav.Link to="/contact">Contact Jeff</Nav.Link>
           </motion.li>
           <motion.li
             onClick={toggleMenu}

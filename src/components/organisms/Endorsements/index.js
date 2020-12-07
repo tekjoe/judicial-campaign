@@ -227,6 +227,7 @@ const Endorsements = () => {
                 <li>Joanne M. Bischmann </li>
                 <li>John A. Busch</li>
                 <li>Tonit M. Calaway</li>
+                <li>Brian Christensen</li>
                 <li>James R. Clark</li>
                 <li>Gerald E. Connolly</li>
                 <li>Ignacio A. Cortina</li>
@@ -242,6 +243,7 @@ const Endorsements = () => {
                 <li>Carol A. Gehl</li>
                 <li>Brandon R. Gutschow</li>
                 <li>Douglas M. Hagerman</li>
+                <li>Aaron Hall</li>
                 <li>Scott W. Hansen</li>
                 <li>Bryan B. House</li>
                 <li>Jonathan R. Ingrisano</li>

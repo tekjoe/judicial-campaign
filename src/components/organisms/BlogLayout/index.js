@@ -23,6 +23,9 @@ Blog.Text = styled.div`
     font-size: ${({ theme }) => theme.typography.h4};
     margin-bottom: 2rem;
   }
+  h3 {
+    font-size: ${({ theme }) => theme.typography.h5};
+  }
   h3,
   h4 {
     margin-bottom: 1.5rem;
@@ -45,6 +48,9 @@ Blog.Text = styled.div`
     }
     h2 {
       font-size: ${({ theme }) => theme.typography.h3};
+    }
+    h3 {
+      font-size: ${({ theme }) => theme.typography.h4};
     }
   }
 `

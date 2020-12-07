@@ -125,7 +125,8 @@ const Features = () => {
               <OverlayDetails>
                 Doing the job right means making sure each case receives a
                 thorough analysis and diligent review of the record and the law.
-                I continue to bring my passion for the law to work every day.
+                I will continue to bring my passion for the law to work every
+                day.
               </OverlayDetails>
             </Feature.Overlay>
           </Feature>

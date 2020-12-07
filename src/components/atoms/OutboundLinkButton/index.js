@@ -11,16 +11,15 @@ const Button = styled(OutboundLink)`
   font-weight: bold;
   letter-spacing: 1px;
   min-width: 150px;
-  font-size: 1.125rem;
+  font-size: 1rem;
   transition: background 0.3s ease-in-out;
   text-transform: uppercase;
   background: #264577;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   color: white;
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s;
-  margin: 1.5rem 0;
   &:hover {
     background: #e25252;
   }

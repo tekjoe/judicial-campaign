@@ -6,6 +6,7 @@ import BlogLayout, { Blog } from "../components/organisms/BlogLayout"
 import SEO from "../utils/seo"
 import OutboundLinkButton from "../components/atoms/OutboundLinkButton"
 import nominationPapers from "../images/jeff-davis-nomination-papers.pdf"
+import PayPalButton from "../components/atoms/PayPalButton"
 
 const DonatePage = () => (
   <>
@@ -22,28 +23,11 @@ const DonatePage = () => (
           Appeals District II deserves a judge who is experienced, hardworking,
           and independent. Jeff Davis is that judge.
         </p>
-        <OutboundLinkButton href="https://www.paypal.com/donate/?hosted_button_id=3D578XTW6HAY2">
-          Donate
-        </OutboundLinkButton>
-      </Blog.Text>
-      <Blog.Text>
-        <h3>Looking for other ways to get involved?</h3>
         <p>
-          <strong>
-            We need your help gathering signatures on Jeff's nomination papers.
-          </strong>
+          <PayPalButton />
         </p>
         <p>
-          Any adult in your office, home, or neighborhood, provided they are
-          eligible District II voters, can sign. Every signature is important!
-        </p>
-        <OutboundLinkButton href={nominationPapers}>
-          Download Nomination Papers
-        </OutboundLinkButton>
-      </Blog.Text>
-      <Blog.Text>
-        <p>
-          <strong>Thank you for your support</strong>
+          <strong>All contributions are greatly appreciated</strong>
           <br />
           This solicitation of funds is made by the registered campaign
           committee “Citizens for Judge Jeff Davis” not by Jeff Davis himself.
@@ -70,6 +54,23 @@ const DonatePage = () => (
               green card holder).
             </li>
           </ol>
+        </p>
+      </Blog.Text>
+      <Blog.Text>
+        <h3>Looking for other ways to get involved?</h3>
+        <p>
+          <strong>
+            We need your help gathering signatures on Jeff's nomination papers.
+          </strong>
+        </p>
+        <p>
+          Any adult in your office, home, or neighborhood, provided they are
+          eligible District II voters, can sign. Every signature is important!
+        </p>
+        <p>
+          <OutboundLinkButton href={nominationPapers}>
+            Download Nomination Papers
+          </OutboundLinkButton>
         </p>
       </Blog.Text>
     </BlogLayout>

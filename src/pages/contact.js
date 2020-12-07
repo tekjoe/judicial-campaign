@@ -8,7 +8,7 @@ const ContactPage = ({ location }) => {
   return (
     <>
       <SEO
-        title="Contact Us"
+        title="Contact Jeff"
         description="Check here to get involved, get in touch, or contribute to the campaign."
       />
       <Contact queryParams={location.search} />
