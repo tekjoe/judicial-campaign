@@ -124,7 +124,7 @@ const Endorsements = () => {
       <ContentContainer>
         <Grid>
           <EndorsementsTitle>
-            District II Circuit Court Judges & Municipal Judges
+            District II Circuit Court & Municipal Judges
           </EndorsementsTitle>
           <EndorsementsGrid>
             <Column>
@@ -161,9 +161,9 @@ const Endorsements = () => {
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Hon. Christine Ohlis</li>
+                <li>Hon. Christine E. Ohlis</li>
                 <li>Hon. James G. Pouros</li>
-                <li>Hon. Gerald Ptacek*</li>
+                <li>Hon. Gerald P. Ptacek*</li>
                 <li>Hon. Ralph M. Ramirez</li>
                 <li>Hon. David M. Reddy</li>
                 <li>Hon. Mark R.Rohrer</li>
@@ -220,19 +220,21 @@ const Endorsements = () => {
             <Column>
               <EndorsementsList>
                 <li>Michael Aldana</li>
-                <li>Brad Backer</li>
+                <li>Brad C. Backer</li>
                 <li>Chess Barbatelli</li>
                 <li>Steve J. Berryman</li>
                 <li>Ave M. Bie</li>
-                <li>Joanne Bischmann </li>
-                <li>John Busch</li>
+                <li>Joanne M. Bischmann </li>
+                <li>John A. Busch</li>
                 <li>Tonit M. Calaway</li>
-                <li>Jim Clark</li>
-                <li>Ignacio Cortina</li>
+                <li>James R. Clark</li>
+                <li>Gerald E. Connolly</li>
+                <li>Ignacio A. Cortina</li>
                 <li>Brian Cothroll</li>
+                <li>John W. Daniels, Jr.</li>
                 <li>John A. Dickens</li>
                 <li>Thomas L. Doerr </li>
-                <li>Rob Dudek</li>
+                <li>Robert Dudek</li>
                 <li>Daniel T. Flaherty</li>
                 <li>Mark P. Fogarty</li>
                 <li>Michelle M. Friedman</li>
@@ -252,52 +254,55 @@ const Endorsements = () => {
                 <li>Paul J. Jones </li>
                 <li>Olivia M. Kelley</li>
                 <li>Ted D. Kellner</li>
+                <li>Daniel J. Kennedy</li>
                 <li>John P. Kennedy</li>
+                <li>Rebecca F. Kennedy</li>
                 <li>Jennie Kent</li>
                 <li>John Kirtley</li>
                 <li>Thomas F. Kissinger</li>
                 <li>Daniel J. La Fave</li>
                 <li>Kevin M. Long</li>
                 <li>Susan E. Lovern</li>
-                <li>Natalie Maciolek</li>
+                <li>Natalie G. Maciolek</li>
                 <li>Quinn W. Martin </li>
                 <li>L. Katie Mason</li>
                 <li>Eric W. Matzke</li>
-                <li>Todd Meyer</li>
+                <li>Todd R. Meyer</li>
                 <li>James W. Mohr</li>
-                <li>Jeffrey Mohr</li>
+                <li>Jeffrey T. Mohr</li>
                 <li>David P. Muth</li>
                 <li>Deni D. Naumann</li>
                 <li>Michael E. Naumann</li>
                 <li>Barbara A. O’Brien</li>
                 <li>Jerome D. Okarma</li>
-                <li>Thomas C. Pence </li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
+                <li>Thomas C. Pence </li>
                 <li>Lisa Preston</li>
                 <li>Jay O. Rothman</li>
                 <li>John A. Rothstein</li>
                 <li>Christopher M. Scherer</li>
-                <li>Thomas L. Shriner, Jr.</li>
                 <li>William P. Schultz</li>
                 <li>Sara P. Scullen</li>
-                <li>Sean Scullen</li>
-                <li>Lee Seese</li>
-                <li>John Shannon</li>
+                <li>Sean M. Scullen</li>
+                <li>Lee M. Seese</li>
+                <li>John G. Shannon</li>
+                <li>Thomas L. Shriner, Jr.</li>
                 <li>Brian R. Smigelski</li>
-                <li>Tom Spero</li>
+                <li>Thomas L. Spero</li>
                 <li>Jeffrey K. Spoerk</li>
                 <li>Jay R. Starrett</li>
-                <li>Bill Toman</li>
-                <li>Joe Tyson</li>
+                <li>William J. Toman</li>
+                <li>Joseph B. Tyson, Jr.</li>
                 <li>Thomas E. Valentyn</li>
-                <li>Dan Vliet</li>
+                <li>Eric J. Van Vugt</li>
+                <li>Daniel G. Vliet</li>
                 <li>Nicholas P. Wahl</li>
                 <li>Brent Walters</li>
                 <li>Ralph A. Weber</li>
-                <li>Monte Weiss</li>
+                <li>Monte E. Weiss</li>
                 <li>Patricia M. Whaley</li>
                 <li>Mark C. Witt</li>
               </EndorsementsList>
