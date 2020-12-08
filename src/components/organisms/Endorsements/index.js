@@ -303,6 +303,7 @@ const Endorsements = () => {
                 <li>Daniel G. Vliet</li>
                 <li>Nicholas P. Wahl</li>
                 <li>Brent Walters</li>
+                <li>Blair Wangman</li>
                 <li>Ralph A. Weber</li>
                 <li>Monte E. Weiss</li>
                 <li>Patricia M. Whaley</li>

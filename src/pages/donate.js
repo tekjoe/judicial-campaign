@@ -23,8 +23,21 @@ const DonatePage = () => (
           Appeals District II deserves a judge who is experienced, hardworking,
           and independent. Jeff Davis is that judge.
         </p>
+        <p>Click here to contribute via credit/debit card or PayPal.</p>
         <p>
           <PayPalButton />
+        </p>
+        <p>
+          To contribute with a check, please make your check payable to{" "}
+          <strong>Citizens for Judge Jeff Davis</strong> and mail to:
+          <br />
+          <strong>
+            <span>Citizens for Judge Jeff Davis</span>
+            <br />
+            <span>PO Box 308</span>
+            <br />
+            <span>Thiensville WI, 53092</span>
+          </strong>
         </p>
         <p>
           <strong>All contributions are greatly appreciated</strong>
