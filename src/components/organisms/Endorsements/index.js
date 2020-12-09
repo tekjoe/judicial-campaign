@@ -167,7 +167,7 @@ const Endorsements = () => {
                 <li>Hon. Gerald P. Ptacek*</li>
                 <li>Hon. Ralph M. Ramirez</li>
                 <li>Hon. David M. Reddy</li>
-                <li>Hon. Mark R.Rohrer</li>
+                <li>Hon. Mark R. Rohrer</li>
                 <li>Hon. Jason A. Rossell</li>
                 <li>Hon. Karen L. Siefert</li>
                 <li>Hon. L. Edward Stengel</li>
@@ -227,6 +227,7 @@ const Endorsements = () => {
                 <li>Steve J. Berryman</li>
                 <li>Ave M. Bie</li>
                 <li>Joanne M. Bischmann </li>
+                <li>Keith Bruett</li>
                 <li>John A. Busch</li>
                 <li>Tonit M. Calaway</li>
                 <li>Brian Christensen</li>
@@ -282,11 +283,11 @@ const Endorsements = () => {
                 <li>John V. O'Connor</li>
                 <li>Jerome D. Okarma</li>
                 <li>Randy Pavlick</li>
+                <li>Thomas C. Pence </li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Thomas C. Pence </li>
                 <li>Lisa Preston</li>
                 <li>Jay O. Rothman</li>
                 <li>John A. Rothstein</li>
@@ -304,6 +305,7 @@ const Endorsements = () => {
                 <li>Jay R. Starrett</li>
                 <li>James F. Stern</li>
                 <li>William J. Toman</li>
+                <li>Xuan Thi Tran</li>
                 <li>Joseph B. Tyson, Jr.</li>
                 <li>Thomas E. Valentyn</li>
                 <li>Eric J. Van Vugt</li>
