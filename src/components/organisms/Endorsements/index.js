@@ -131,6 +131,7 @@ const Endorsements = () => {
               <EndorsementsList>
                 <li>Hon. Teresa S. Basiliere</li>
                 <li>Hon. David M. Bastianelli*</li>
+                <li>Hon. Michael O. Bohren</li>
                 <li>Hon. Robert P. Dewane</li>
                 <li>Hon. Jerilyn M. Dietz</li>
                 <li>Hon. Dale L. English</li>
