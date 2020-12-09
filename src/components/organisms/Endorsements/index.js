@@ -205,6 +205,7 @@ const Endorsements = () => {
                 <li>Mayor Shawn Reilly</li>
                 <li>Sheriff Christopher K. Schmaling</li>
                 <li>Sheriff Martin Schulteis</li>
+                <li>Hon. Michael A. Schumacher</li>
                 <li>Hon. David C. Swanson</li>
               </EndorsementsList>
             </Column>
@@ -245,6 +246,7 @@ const Endorsements = () => {
                 <li>Douglas M. Hagerman</li>
                 <li>Aaron Hall</li>
                 <li>Scott W. Hansen</li>
+                <li>David Hecker</li>
                 <li>Bryan B. House</li>
                 <li>Jonathan R. Ingrisano</li>
               </EndorsementsList>
@@ -276,7 +278,9 @@ const Endorsements = () => {
                 <li>Deni D. Naumann</li>
                 <li>Michael E. Naumann</li>
                 <li>Barbara A. O’Brien</li>
+                <li>John V. O'Connor</li>
                 <li>Jerome D. Okarma</li>
+                <li>Randy Pavlick</li>
               </EndorsementsList>
             </Column>
             <Column>
@@ -293,9 +297,11 @@ const Endorsements = () => {
                 <li>John G. Shannon</li>
                 <li>Thomas L. Shriner, Jr.</li>
                 <li>Brian R. Smigelski</li>
+                <li>Jesse Sondreal</li>
                 <li>Thomas L. Spero</li>
                 <li>Jeffrey K. Spoerk</li>
                 <li>Jay R. Starrett</li>
+                <li>James F. Stern</li>
                 <li>William J. Toman</li>
                 <li>Joseph B. Tyson, Jr.</li>
                 <li>Thomas E. Valentyn</li>
