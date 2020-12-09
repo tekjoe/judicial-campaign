@@ -28,6 +28,7 @@
     "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
+    "gatsby-plugin-force-trailing-slashes": "^1.0.4",
     "prettier": "2.1.2"
   },
   "keywords": [

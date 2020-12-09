@@ -213,23 +213,23 @@ const HeaderComponent = () => {
             </Nav.Link>
           </li>
           <li>
-            <Nav.Link to="/about" activeClassName="active">
+            <Nav.Link to="/about/" activeClassName="active">
               Meet Judge Davis
             </Nav.Link>
           </li>
           <li>
-            <Nav.Link to="/judicial-philosophy" activeClassName="active">
+            <Nav.Link to="/judicial-philosophy/" activeClassName="active">
               Judicial Philosophy
             </Nav.Link>
           </li>
           <li>
-            <Nav.Link to="/endorsements" activeClassName="active">
+            <Nav.Link to="/endorsements/" activeClassName="active">
               Endorsements
             </Nav.Link>
           </li>
 
           <li>
-            <Nav.Link to="/contact" activeClassName="active">
+            <Nav.Link to="/contact/" activeClassName="active">
               Contact Jeff
             </Nav.Link>
           </li>
@@ -261,35 +261,35 @@ const HeaderComponent = () => {
             variants={item}
             whileTap={{ scale: 0.95 }}
           >
-            <Nav.Link to="/about">Meet Judge Davis</Nav.Link>
+            <Nav.Link to="/about/">Meet Judge Davis</Nav.Link>
           </motion.li>
           <motion.li
             onClick={toggleMenu}
             variants={item}
             whileTap={{ scale: 0.95 }}
           >
-            <Nav.Link to="/judicial-philosophy">Judicial Philosophy</Nav.Link>
+            <Nav.Link to="/judicial-philosophy/">Judicial Philosophy</Nav.Link>
           </motion.li>
           <motion.li
             onClick={toggleMenu}
             variants={item}
             whileTap={{ scale: 0.95 }}
           >
-            <Nav.Link to="/endorsements">Endorsements</Nav.Link>
+            <Nav.Link to="/endorsements/">Endorsements</Nav.Link>
           </motion.li>
           <motion.li
             onClick={toggleMenu}
             variants={item}
             whileTap={{ scale: 0.95 }}
           >
-            <Nav.Link to="/contact">Contact Jeff</Nav.Link>
+            <Nav.Link to="/contact/">Contact Jeff</Nav.Link>
           </motion.li>
           <motion.li
             onClick={toggleMenu}
             variants={item}
             whileTap={{ scale: 0.95 }}
           >
-            <Nav.Link to="/donate">Donate</Nav.Link>
+            <Nav.Link to="/donate/">Donate</Nav.Link>
           </motion.li>
         </motion.ul>
       </MobileNav>

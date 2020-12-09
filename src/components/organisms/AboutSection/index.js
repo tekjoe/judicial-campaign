@@ -28,7 +28,7 @@ const About = () => {
             that Judge Davis serves the citizens of District II of the Court of
             Appeals and the state.
           </p>
-          <LinkButton to="/about">Meet Jeff Davis</LinkButton>
+          <LinkButton to="/about/">Meet Jeff Davis</LinkButton>
         </ContentBlock>
       </ContentContainer>
     </AboutSection>

@@ -39,7 +39,7 @@ const GetInvolved = () => {
             judge, but I am going to need your help. Find out how you can
             support the campaign.
           </p>
-          <LinkButton to="/contact">Get Involved</LinkButton>
+          <LinkButton to="/contact/">Get Involved</LinkButton>
         </ContentBlock>
       </GetInvolvedSection.Content>
     </GetInvolvedSection>

@@ -56,16 +56,18 @@ const Footer = () => {
           <FooterNav>
             <ul>
               <li>
-                <NavLink to="/about">About Jeff</NavLink>
+                <NavLink to="/about/">About Jeff</NavLink>
               </li>
               <li>
-                <NavLink to="/judicial-philosophy">Judicial Philosophy</NavLink>
+                <NavLink to="/judicial-philosophy/">
+                  Judicial Philosophy
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/endorsements">Endorsements</NavLink>
+                <NavLink to="/endorsements/">Endorsements</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Get Involved</NavLink>
+                <NavLink to="/contact/">Contact Jeff</NavLink>
               </li>
             </ul>
           </FooterNav>
