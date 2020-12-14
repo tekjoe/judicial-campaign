@@ -146,7 +146,7 @@ const Endorsements = () => {
             </Column>
             <Column>
               <EndorsementsList>
-                <li>Hon. Kent Hoffmann</li>
+                <li>Hon. Kent R. Hoffmann</li>
                 <li>Hon. John A. Jorgensen</li>
                 <li>Hon. Chad G. Kerkman</li>
                 <li>Hon. Barbara Hart Key</li>
@@ -190,7 +190,7 @@ const Endorsements = () => {
                 <li>DA Mark D. Bensen</li>
                 <li>Hon. Ellen A. Brostrom</li>
                 <li>Sen. Alberta Darling</li>
-                <li>Hon. Christopher Dee</li>
+                <li>Hon. T. Christopher Dee</li>
               </EndorsementsList>
             </Column>
             <Column>
@@ -229,18 +229,18 @@ const Endorsements = () => {
                 <li>Ave M. Bie</li>
                 <li>Joanne M. Bischmann </li>
                 <li>Patrick M. Blaney</li>
-                <li>Keith Bruett</li>
+                <li>Keith A. Bruett</li>
                 <li>John A. Busch</li>
                 <li>Tonit M. Calaway</li>
                 <li>Brian Christensen</li>
                 <li>James R. Clark</li>
                 <li>Gerald E. Connolly</li>
                 <li>Ignacio A. Cortina</li>
-                <li>Brian Cothroll</li>
+                <li>Brian E. Cothroll</li>
                 <li>John W. Daniels, Jr.</li>
                 <li>John A. Dickens</li>
                 <li>Thomas L. Doerr </li>
-                <li>Robert Dudek</li>
+                <li>Robert A. Dudek</li>
                 <li>Daniel T. Flaherty</li>
                 <li>Mark P. Fogarty</li>
                 <li>Michelle M. Friedman</li>
@@ -248,9 +248,10 @@ const Endorsements = () => {
                 <li>Carol A. Gehl</li>
                 <li>Brandon R. Gutschow</li>
                 <li>Douglas M. Hagerman</li>
-                <li>Aaron Hall</li>
+                <li>Aaron E. Hall</li>
                 <li>Scott W. Hansen</li>
                 <li>David Hecker</li>
+                <li>Thomas C. Hofbauer</li>
                 <li>Bryan B. House</li>
                 <li>Jonathan R. Ingrisano</li>
               </EndorsementsList>
@@ -261,17 +262,18 @@ const Endorsements = () => {
                 <li>Jerry Jendusa</li>
                 <li>Tina Jones</li>
                 <li>Paul J. Jones </li>
+                <li>Chris E. Kaltenbach</li>
                 <li>Olivia M. Kelley</li>
                 <li>Ted D. Kellner</li>
                 <li>Daniel J. Kennedy</li>
                 <li>John P. Kennedy</li>
                 <li>Rebecca F. Kennedy</li>
-                <li>Jennie Kent</li>
+                <li>Jennie J. Kent</li>
                 <li>Khalaf M. Khalaf</li>
-                <li>John Kirtley</li>
+                <li>John L. Kirtley</li>
                 <li>Thomas F. Kissinger</li>
                 <li>Daniel J. La Fave</li>
-                <li>Michael Levey</li>
+                <li>Michael A. Levey</li>
                 <li>Kevin M. Long</li>
                 <li>Susan E. Lovern</li>
                 <li>Natalie G. Maciolek</li>
@@ -288,13 +290,14 @@ const Endorsements = () => {
                 <li>Barbara A. O’Brien</li>
                 <li>John V. O'Connor</li>
                 <li>Jerome D. Okarma</li>
-                <li>Randy Pavlick</li>
+                <li>Randy M. Pavlick</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
                 <li>Thomas C. Pence</li>
                 <li>Lisa Preston</li>
+                <li>Bruce Prom</li>
                 <li>Jay O. Rothman</li>
                 <li>John A. Rothstein</li>
                 <li>Christopher M. Scherer</li>
@@ -315,7 +318,7 @@ const Endorsements = () => {
                 <li>Joseph B. Tyson, Jr.</li>
                 <li>Thomas E. Valentyn</li>
                 <li>Daniel G. Vliet</li>
-                <li>Heidi Vogt</li>
+                <li>Heidi L. Vogt</li>
                 <li>Eric J. Van Vugt</li>
                 <li>Nicholas P. Wahl</li>
                 <li>Brent Walters</li>
