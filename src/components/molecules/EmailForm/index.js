@@ -19,9 +19,13 @@ function encode(data) {
 
 const EmailForm = ({ ...rest }) => {
   const [email, setEmail] = useState({ email: "" })
+  const [fullName, setFullName] = useState({ fullName: "" })
   const [isSubmitted, setIsSubmitted] = useState(false)
-  const handleChange = e => {
+  const handleEmailChange = e => {
     setEmail({ email: e.target.value })
+  }
+  const handleFullNameChange = e => {
+    setFullName({ fullName: e.target.value })
   }
   const handleSubmit = e => {
     e.preventDefault()
@@ -32,10 +36,12 @@ const EmailForm = ({ ...rest }) => {
       body: encode({
         "form-name": form.getAttribute("name"),
         ...email,
+        ...fullName,
       }),
     })
       .then(() => {
         setEmail({ email: "" })
+        setFullName({ fullName: "" })
         form.reset()
         setIsSubmitted(!isSubmitted)
       })
@@ -51,9 +57,17 @@ const EmailForm = ({ ...rest }) => {
       action="/contact/"
     >
       <Input
+        type="text"
+        placeholder="Full Name"
+        onChange={handleFullNameChange}
+        name="fullName"
+        id="fullName"
+        required
+      />
+      <Input
         type="email"
         placeholder="Email Address"
-        onChange={handleChange}
+        onChange={handleEmailChange}
         name="email"
         id="email"
         required

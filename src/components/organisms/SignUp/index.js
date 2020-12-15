@@ -25,7 +25,7 @@ const SignUpSection = styled.section`
 `
 
 SignUpSection.CTA = styled.div`
-  padding: 4rem 1rem;
+  padding: 2rem 0;
   h1,
   p {
     color: white;
@@ -47,6 +47,7 @@ SignUpSection.CTA = styled.div`
 `
 
 SignUpSection.Overlay = styled.div`
+  display: none;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -54,6 +55,9 @@ SignUpSection.Overlay = styled.div`
   span {
     color: white;
     font-size: ${({ theme }) => theme.typography.small};
+  }
+  @media (min-width: 768px) {
+    display: block;
   }
 `
 
