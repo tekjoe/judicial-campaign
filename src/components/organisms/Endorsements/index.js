@@ -234,6 +234,7 @@ const Endorsements = () => {
                 <li>Tonit M. Calaway</li>
                 <li>Brian Christensen</li>
                 <li>James R. Clark</li>
+                <li>Michael J. Cohen</li>
                 <li>Gerald E. Connolly</li>
                 <li>Ignacio A. Cortina</li>
                 <li>Brian E. Cothroll</li>
@@ -262,7 +263,8 @@ const Endorsements = () => {
                 <li>Jerry Jendusa</li>
                 <li>Tina Jones</li>
                 <li>Paul J. Jones </li>
-                <li>Chris E. Kaltenbach</li>
+                <li>Jeffrey A. Joerres</li>
+                <li>Christopher E. Kaltenbach</li>
                 <li>Olivia M. Kelley</li>
                 <li>Ted D. Kellner</li>
                 <li>Daniel J. Kennedy</li>
@@ -290,11 +292,11 @@ const Endorsements = () => {
                 <li>Barbara A. O’Brien</li>
                 <li>John V. O'Connor</li>
                 <li>Jerome D. Okarma</li>
-                <li>Randy M. Pavlick</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
+                <li>Randy M. Pavlick</li>
                 <li>Thomas C. Pence</li>
                 <li>Lisa Preston</li>
                 <li>Bruce Prom</li>
