@@ -138,7 +138,7 @@ const Endorsements = () => {
                 <li>Hon. Faye M. Flancher</li>
                 <li>Hon. Kathryn W. Foster*</li>
                 <li>Hon. Jerome L. Fox*</li>
-                <li>Hon. Jon E. Frederickson</li>
+                <li>Hon. Jon E. Fredrickson</li>
                 <li>Hon. Sandra Jo Giernoth</li>
                 <li>Hon. Andrew T. Gonring*</li>
                 <li>Hon. Patrick C. Haughney*</li>
