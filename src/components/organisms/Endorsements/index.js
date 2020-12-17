@@ -300,6 +300,7 @@ const Endorsements = () => {
                 <li>Thomas C. Pence</li>
                 <li>Lisa Preston</li>
                 <li>Bruce Prom</li>
+                <li>Austin Ramirez</li>
                 <li>Jay O. Rothman</li>
                 <li>John A. Rothstein</li>
                 <li>Christopher M. Scherer</li>
