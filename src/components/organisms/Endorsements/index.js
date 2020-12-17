@@ -234,6 +234,7 @@ const Endorsements = () => {
                 <li>Tonit M. Calaway</li>
                 <li>Brian Christensen</li>
                 <li>James R. Clark</li>
+                <li>Peter L. Coffey</li>
                 <li>Michael J. Cohen</li>
                 <li>Gerald E. Connolly</li>
                 <li>Ignacio A. Cortina</li>
@@ -254,11 +255,11 @@ const Endorsements = () => {
                 <li>David Hecker</li>
                 <li>Thomas C. Hofbauer</li>
                 <li>Bryan B. House</li>
-                <li>Jonathan R. Ingrisano</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
+                <li>Jonathan R. Ingrisano</li>
                 <li>Kurt Janavitz</li>
                 <li>Jerry Jendusa</li>
                 <li>Tina Jones</li>
