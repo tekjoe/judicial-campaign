@@ -94,6 +94,7 @@ const Endorsements = () => {
                 <li>Hon. William W. Brash, III</li>
                 <li>Hon. Kitty K. Brennan*</li>
                 <li>Chief Judge Richard S. Brown*</li>
+                <li>Hon. Patricia S. Curley*</li>
                 <li>Hon. M. Joseph Donald</li>
                 <li>Hon. Timothy J. Dugan</li>
               </EndorsementsList>
@@ -259,6 +260,7 @@ const Endorsements = () => {
             <Column>
               <EndorsementsList>
                 <li>Jonathan R. Ingrisano</li>
+                <li>Stephen T. Jacobs</li>
                 <li>Kurt Janavitz</li>
                 <li>Jerry Jendusa</li>
                 <li>Tina Jones</li>
