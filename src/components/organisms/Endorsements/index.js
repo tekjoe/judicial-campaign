@@ -141,11 +141,11 @@ const Endorsements = () => {
                 <li>Hon. Jon E. Fredrickson</li>
                 <li>Hon. Sandra Jo Giernoth</li>
                 <li>Hon. Andrew T. Gonring*</li>
-                <li>Hon. Patrick C. Haughney*</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
+                <li>Hon. Patrick C. Haughney*</li>
                 <li>Hon. Kent R. Hoffmann</li>
                 <li>Hon. John A. Jorgensen</li>
                 <li>Hon. Chad G. Kerkman</li>
@@ -157,18 +157,17 @@ const Endorsements = () => {
                 <li>Hon. Robert G. Mawdsley*</li>
                 <li>Hon. Anthony G. Milisauskas</li>
                 <li>Hon. James K. Muehlbauer</li>
-                <li>Hon. Emily S. Mueller</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
+                <li>Hon. Emily S. Mueller</li>
                 <li>Hon. Christine E. Ohlis</li>
                 <li>Hon. James G. Pouros</li>
                 <li>Hon. Gerald P. Ptacek*</li>
                 <li>Hon. Ralph M. Ramirez</li>
                 <li>Hon. David M. Reddy</li>
                 <li>Hon. Mark R. Rohrer</li>
-                <li>Hon. Jason A. Rossell</li>
                 <li>Hon. Karen L. Siefert</li>
                 <li>Hon. L. Edward Stengel</li>
                 <li>Hon. Angela W. Sutkiewicz</li>
