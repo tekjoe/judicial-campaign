@@ -322,6 +322,7 @@ const Endorsements = () => {
                 <li>Xuan Thi Tran</li>
                 <li>Joseph B. Tyson, Jr.</li>
                 <li>Thomas E. Valentyn</li>
+                <li>Julie Van Cleave</li>
                 <li>Daniel G. Vliet</li>
                 <li>Heidi L. Vogt</li>
                 <li>Eric J. Van Vugt</li>
