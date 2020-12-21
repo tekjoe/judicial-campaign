@@ -66,6 +66,35 @@ const DonatePage = () => (
               I am a U.S. citizen or lawfully admitted permanent resident (i.e.
               green card holder).
             </li>
+            <li>
+              Corporations may not contribute to local or state candidates in
+              the State of Wisconsin. WIS. STAT. § 11.1112.
+            </li>
+            <li>
+              Sole-proprietorships may contribute. The contribution must be
+              reported under the name of the individual owner. This contribution
+              counts toward the contribution limits from that individual to the
+              candidate. WIS. STAT. § 11.1113(1).
+            </li>
+
+            <li>
+              Partnerships may contribute. The contribution must be reported
+              under the names of the individual partners. The partnership may
+              agree beforehand on how to allocate a portion of the contribution
+              to each partner. If the partnership does not inform the candidate
+              how the contribution should be allocated between the partners,
+              then the contribution should be divided up according to each
+              partner’s share of the partnership’s profits. WIS. STAT. §
+              11.1113(2).
+            </li>
+
+            <li>
+              LLCs taxed as a sole-proprietorship or partnership may contribute.
+              The contribution must be reported under the name(s) of the
+              individual owner(s). If there is more than one owner,
+              contributions should be allocated as described in the partnership
+              section above. WIS. STAT. § 11.1113(3).
+            </li>
           </ol>
         </p>
       </Blog.Text>

@@ -58,263 +58,7 @@ const EndorsementsList = styled.ul`
   }
 `
 
-const courtOfAppeals = [
-  "Hon. Rachel A. Graham",
-  "Hon. Thomas M. Hruz",
-  "Hon. JoAnne F. Kloppenburg",
-  "Hon. Jennifer E. Nashold",
-  "Hon. Neal P. Nettesheim*",
-  "Chief Judge Lisa S. Neubauer",
-  "Hon. Paul F. Reilly",
-  "Hon. Mark A. Seidl",
-  "Hon. Kitty K. Brennan*",
-  "Chief Judge Richard S. Brown*",
-  "Hon. Patricia S. Curley*",
-  "Hon. M. Joseph Donald",
-  "Hon. Timothy J. Dugan",
-  "Hon. Charles P. Dykman*",
-  "Hon. Lisa K. Stark",
-  "Hon. Maxine A. White",
-  "Hon. Brian W. Blanchard",
-  "Hon. William W. Brash, III",
-  "Hon. Michael R. Fitzpatrick",
-]
-
-const supremeCourt = [
-  "Chief Justice Patience D. Roggensack",
-  "Justice Annette K. Ziegler",
-  "Justice David T. Prosser, Jr.*",
-  "Justice Jon P. Wilcox*",
-]
-
-const districtTwo = [
-  "Hon. Teresa S. Basiliere",
-  "Hon. David M. Bastianelli*",
-  "Hon. Michael O. Bohren",
-  "Hon. Robert P. Dewane",
-  "Hon. Jerilyn M. Dietz",
-  "Hon. Dale L. English",
-  "Hon. Faye M. Flancher",
-  "Hon. Kathryn W. Foster*",
-  "Hon. Jerome L. Fox*",
-  "Hon. Jon E. Fredrickson",
-  "Hon. Sandra Jo Giernoth",
-  "Hon. James R. Kieffer*",
-  "Hon. Barbara A. Kluka*",
-  "Hon. Phillip A. Koss",
-  "Hon. Todd K. Martens",
-  "Hon. Robert G. Mawdsley*",
-  "Hon. Anthony G. Milisauskas",
-  "Hon. James K. Muehlbauer",
-  "Hon. Emily S. Mueller",
-  "Hon. Christine E. Ohlis",
-  "Hon. James G. Pouros",
-  "Hon. Gerald P. Ptacek*",
-  "Hon. Ralph M. Ramirez",
-  "Hon. David M. Reddy",
-  "Hon. Mark R. Rohrer",
-  "Hon. Karen L. Siefert",
-  "Hon. L. Edward Stengel",
-  "Hon. Angela W. Sutkiewicz",
-  "Hon. Mary Kay Wagner",
-  "Hon. Robert J. Wirtz",
-  "Hon. Andrew T. Gonring*",
-  "Hon. Patrick C. Haughney*",
-  "Hon. Kent R. Hoffmann",
-  "Hon. John A. Jorgensen",
-  "Hon. Chad G. Kerkman",
-  "Hon. Barbara Hart Key",
-]
-
-const electedOfficials = [
-  "DA Mark D. Bensen",
-  "Hon. Ellen A. Brostrom",
-  "Sen. Alberta Darling",
-  "Hon. T. Christopher Dee",
-  "Hon. Daniel T. Dillon",
-  "Hon. Patrick J. Fiedler*",
-  "Hon. Gregory B. Gill, Jr.",
-  "Hon. Dennis P. Moroney*",
-  "Mayor Shawn Reilly",
-  "Sheriff Christopher K. Schmaling",
-  "Sheriff Martin Schulteis",
-  "Hon. Michael A. Schumacher",
-  "Hon. David C. Swanson",
-]
-
-const leaders = [
-  "Michael Aldana",
-  "Brad C. Backer",
-  "Chess Barbatelli",
-  "William J. Barrett",
-  "Steve J. Berryman",
-  "Ave M. Bie",
-  "Joanne M. Bischmann",
-  "Patrick M. Blaney",
-  "Keith A. Bruett",
-  "John A. Busch",
-  "Tonit M. Calaway",
-  "Brian Christensen",
-  "James R. Clark",
-  "Peter L. Coffey",
-  "Michael J. Cohen",
-  "Gerald E. Connolly",
-  "Ignacio A. Cortina",
-  "Brian E. Cothroll",
-  "John W. Daniels, Jr.",
-  "John A. Dickens",
-  "Thomas L. Doerr",
-  "Robert A. Dudek",
-  "Daniel T. Flaherty",
-  "Mark P. Fogarty",
-  "Michelle M. Friedman",
-  "James D. Friedman",
-  "Carol A. Gehl",
-  "Brandon R. Gutschow",
-  "Douglas M. Hagerman",
-  "Aaron E. Hall",
-  "Scott W. Hansen",
-  "Emery K. Harlan",
-  "David Hecker",
-  "Thomas C. Hofbauer",
-  "Bryan B. House",
-  "Jonathan R. Ingrisano",
-  "Stephen T. Jacobs",
-  "Kurt Janavitz",
-  "Jerry Jendusa",
-  "Tina Jones",
-  "Paul J. Jones",
-  "Jeffrey A. Joerres",
-  "Christopher E. Kaltenbach",
-  "Olivia M. Kelley",
-  "Ted D. Kellner",
-  "Daniel J. Kennedy",
-  "John P. Kennedy",
-  "Rebecca F. Kennedy",
-  "Jennie J. Kent",
-  "Khalaf M. Khalaf",
-  "John L. Kirtley",
-  "Thomas F. Kissinger",
-  "Daniel J. La Fave",
-  "Michael A. Levey",
-  "Kevin M. Long",
-  "Susan E. Lovern",
-  "Vincent P. Lyles",
-  "Natalie G. Maciolek",
-  "Quinn W. Martin",
-  "L. Katie Mason",
-  "Eric W. Matzke",
-  "Todd R. Meyer",
-  "James W. Mohr",
-  "Jeffrey T. Mohr",
-  "David P. Muth",
-  "Deni D. Naumann",
-  "Michael E. Naumann",
-  "William Nitkowski",
-  "Barbara A. O’Brien",
-  "John V. O'Connor",
-  "Jerome D. Okarma",
-  "Randy M. Pavlick",
-  "Thomas C. Pence",
-  "Lisa Preston",
-  "Bruce Prom",
-  "Austin Ramirez",
-  "Jay O. Rothman",
-  "John A. Rothstein",
-  "Christopher M. Scherer",
-  "William P. Schultz",
-  "Sara P. Scullen",
-  "Sean M. Scullen",
-  "Lee M. Seese",
-  "John G. Shannon",
-  "Thomas L. Shriner, Jr.",
-  "Brian R. Smigelski",
-  "Jesse Sondreal",
-  "Thomas L. Spero",
-  "Jeffrey K. Spoerk",
-  "Jay R. Starrett",
-  "James F. Stern",
-  "William J. Toman",
-  "Xuan Thi Tran",
-  "Joseph B. Tyson, Jr.",
-  "Thomas E. Valentyn",
-  "Julie Van Cleave",
-  "Daniel G. Vliet",
-  "Heidi L. Vogt",
-  "Eric J. Van Vugt",
-  "Nicholas P. Wahl",
-  "Brent Walters",
-  "Blair Wangman",
-  "Ralph A. Weber",
-  "Monte E. Weiss",
-  "Patricia M. Whaley",
-  "Mark C. Witt",
-]
-
-const sortEndorsementsByLastName = endorsements => {
-  function compare(a, b) {
-    //split the names as strings into arrays
-    let aName = a.split(" ")
-    let bName = b.split(" ")
-    // get the last names by selecting
-    // the last element in the name arrays
-    // using array.length - 1 since full names
-    // may also have a middle name or initial
-    let aLastName = aName[aName.length - 1]
-    let bLastName = ""
-
-    // Handle suffixes
-    if (
-      bName[bName.length - 1] === "III" ||
-      bName[bName.length - 1] === "Jr."
-    ) {
-      bLastName = bName[bName.length - 2]
-    } else {
-      bLastName = bName[bName.length - 1]
-    }
-
-    // compare the names and return either
-    // a negative number, positive number
-    // or zero.
-    if (aLastName < bLastName) return -1
-    if (aLastName > bLastName) return 1
-    return 0
-  }
-  return endorsements.sort(compare)
-}
-
-const distributeEndorsementsEvenly = sortedEndorsements => {
-  const numberOfColumns = 3
-  const result = [[], [], []]
-
-  const namesPerList = Math.ceil(sortedEndorsements.length / numberOfColumns)
-
-  for (let line = 0; line < numberOfColumns; line++) {
-    for (let i = 0; i < namesPerList; i++) {
-      const value = sortedEndorsements[i + line * namesPerList]
-      if (!value) continue //avoid adding "undefined" values
-      result[line].push(value)
-    }
-  }
-  return result
-}
-
 const Endorsements = () => {
-  const courtOfAppealsList = distributeEndorsementsEvenly(
-    sortEndorsementsByLastName(courtOfAppeals)
-  )
-  const supremeCourtList = distributeEndorsementsEvenly(
-    sortEndorsementsByLastName(supremeCourt)
-  )
-  const districtTwoList = distributeEndorsementsEvenly(
-    sortEndorsementsByLastName(districtTwo)
-  )
-  const electedList = distributeEndorsementsEvenly(
-    sortEndorsementsByLastName(electedOfficials)
-  )
-  const leadersList = distributeEndorsementsEvenly(
-    sortEndorsementsByLastName(leaders)
-  )
   return (
     <>
       <ContentContainer>
@@ -323,23 +67,18 @@ const Endorsements = () => {
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                {supremeCourtList[0].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Justice David T. Prosser Jr.*</li>
+                <li>Chief Justice Patience D. Roggensack</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                {supremeCourtList[1].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Justice Jon P. Wilcox*</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                {supremeCourtList[2].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Justice Annette K. Ziegler</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>
@@ -351,23 +90,33 @@ const Endorsements = () => {
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                {courtOfAppealsList[0].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Hon. Brian W. Blanchard</li>
+                <li>Hon. William W. Brash, III</li>
+                <li>Hon. Kitty K. Brennan*</li>
+                <li>Chief Judge Richard S. Brown*</li>
+                <li>Hon. Patricia S. Curley*</li>
+                <li>Hon. M. Joseph Donald</li>
+                <li>Hon. Timothy J. Dugan</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                {courtOfAppealsList[1].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Hon. Charles P. Dykman*</li>
+                <li>Hon. Michael R. Fitzpatrick </li>
+                <li>Hon. Rachel A. Graham</li>
+                <li>Hon. Thomas M. Hruz</li>
+                <li>Hon. JoAnne F. Kloppenburg</li>
+                <li>Hon. Jennifer E. Nashold</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                {courtOfAppealsList[2].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Hon. Neal P. Nettesheim*</li>
+                <li>Chief Judge Lisa S. Neubauer</li>
+                <li>Hon. Paul F. Reilly</li>
+                <li>Hon. Mark A. Seidl</li>
+                <li>Hon. Lisa K. Stark</li>
+                <li>Hon. Maxine A. White</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>
@@ -381,23 +130,50 @@ const Endorsements = () => {
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                {districtTwoList[0].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Hon. Teresa S. Basiliere</li>
+                <li>Hon. David M. Bastianelli*</li>
+                <li>Hon. Michael O. Bohren</li>
+                <li>Hon. Robert P. Dewane</li>
+                <li>Hon. Jerilyn M. Dietz</li>
+                <li>Hon. Dale L. English</li>
+                <li>Hon. Faye M. Flancher</li>
+                <li>Hon. Kathryn W. Foster*</li>
+                <li>Hon. Jerome L. Fox*</li>
+                <li>Hon. Jon E. Fredrickson</li>
+                <li>Hon. Sandra Jo Giernoth</li>
+                <li>Hon. Andrew T. Gonring*</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                {districtTwoList[1].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Hon. Patrick C. Haughney*</li>
+                <li>Hon. Kent R. Hoffmann</li>
+                <li>Hon. John A. Jorgensen</li>
+                <li>Hon. Chad G. Kerkman</li>
+                <li>Hon. Barbara Hart Key</li>
+                <li>Hon. James R. Kieffer*</li>
+                <li>Hon. Barbara A. Kluka*</li>
+                <li>Hon. Phillip A. Koss</li>
+                <li>Hon. Todd K. Martens</li>
+                <li>Hon. Robert G. Mawdsley*</li>
+                <li>Hon. Anthony G. Milisauskas</li>
+                <li>Hon. James K. Muehlbauer</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                {districtTwoList[2].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Hon. Emily S. Mueller</li>
+                <li>Hon. Christine E. Ohlis</li>
+                <li>Hon. James G. Pouros</li>
+                <li>Hon. Gerald P. Ptacek*</li>
+                <li>Hon. Ralph M. Ramirez</li>
+                <li>Hon. David M. Reddy</li>
+                <li>Hon. Mark R. Rohrer</li>
+                <li>Hon. Karen L. Siefert</li>
+                <li>Hon. L. Edward Stengel</li>
+                <li>Hon. Angela W. Sutkiewicz</li>
+                <li>Hon. Mary Kay Wagner</li>
+                <li>Hon. Robert J. Wirtz</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>
@@ -411,23 +187,27 @@ const Endorsements = () => {
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                {electedList[0].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>DA Mark D. Bensen</li>
+                <li>Hon. Ellen A. Brostrom</li>
+                <li>Sen. Alberta Darling</li>
+                <li>Hon. T. Christopher Dee</li>
+                <li>Hon. Daniel T. Dillon</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                {electedList[1].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Hon. Patrick J. Fiedler*</li>
+                <li>Hon. Gregory B. Gill Jr.</li>
+                <li>Hon. Dennis P. Moroney*</li>
+                <li>Mayor Shawn Reilly</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                {electedList[2].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Sheriff Christopher K. Schmaling</li>
+                <li>Sheriff Martin Schulteis</li>
+                <li>Hon. Michael A. Schumacher</li>
+                <li>Hon. David C. Swanson</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>
@@ -441,23 +221,122 @@ const Endorsements = () => {
           <EndorsementsGrid>
             <Column>
               <EndorsementsList>
-                {leadersList[0].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Santiago “Jimmy” Alaniz</li>
+                <li>Michael Aldana</li>
+                <li>Brad C. Backer</li>
+                <li>Chess Barbatelli</li>
+                <li>William J. Barrett</li>
+                <li>Steve J. Berryman</li>
+                <li>Ave M. Bie</li>
+                <li>Joanne M. Bischmann</li>
+                <li>Patrick M. Blaney</li>
+                <li>Keith A. Bruett</li>
+                <li>John A. Busch</li>
+                <li>Tonit M. Calaway</li>
+                <li>Brian Christensen</li>
+                <li>James R. Clark</li>
+                <li>Peter L. Coffey</li>
+                <li>Michael J. Cohen</li>
+                <li>Gerald E. Connolly</li>
+                <li>Ignacio A. Cortina</li>
+                <li>Brian E. Cothroll</li>
+                <li>John W. Daniels, Jr.</li>
+                <li>John A. Dickens</li>
+                <li>Thomas L. Doerr</li>
+                <li>Robert A. Dudek</li>
+                <li>Daniel T. Flaherty</li>
+                <li>Mark P. Fogarty</li>
+                <li>Michelle M. Friedman</li>
+                <li>James D. Friedman</li>
+                <li>Carol A. Gehl</li>
+                <li>Brandon R. Gutschow</li>
+                <li>Douglas M. Hagerman</li>
+                <li>Aaron E. Hall</li>
+                <li>Scott W. Hansen</li>
+                <li>Emery K. Harlan</li>
+                <li>David Hecker</li>
+                <li>Thomas C. Hofbauer</li>
+                <li>Bryan B. House</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                {leadersList[1].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Jonathan R. Ingrisano</li>
+                <li>Stephen T. Jacobs</li>
+                <li>Kurt Janavitz</li>
+                <li>Jerry Jendusa</li>
+                <li>Tina Jones</li>
+                <li>Paul J. Jones</li>
+                <li>Jeffrey A. Joerres</li>
+                <li>Christopher E. Kaltenbach</li>
+                <li>Olivia M. Kelley</li>
+                <li>Ted D. Kellner</li>
+                <li>Daniel J. Kennedy</li>
+                <li>John P. Kennedy</li>
+                <li>Rebecca F. Kennedy</li>
+                <li>Jennie J. Kent</li>
+                <li>Khalaf M. Khalaf</li>
+                <li>John L. Kirtley</li>
+                <li>Thomas F. Kissinger</li>
+                <li>Daniel J. La Fave</li>
+                <li>Mary E. Leonard</li>
+                <li>Michael A. Levey</li>
+                <li>Kevin M. Long</li>
+                <li>Susan E. Lovern</li>
+                <li>Vincent P. Lyles</li>
+                <li>Natalie G. Maciolek</li>
+                <li>Quinn W. Martin</li>
+                <li>L. Katie Mason</li>
+                <li>Eric W. Matzke</li>
+                <li>Todd R. Meyer</li>
+                <li>James W. Mohr</li>
+                <li>Jeffrey T. Mohr</li>
+                <li>David P. Muth</li>
+                <li>Deni D. Naumann</li>
+                <li>Michael E. Naumann</li>
+                <li>William Nitkowski</li>
+                <li>Barbara A. O'Brien</li>
+                <li>John V. O'Connor</li>
               </EndorsementsList>
             </Column>
             <Column>
               <EndorsementsList>
-                {leadersList[2].map(endorsement => (
-                  <li key={endorsement}>{endorsement}</li>
-                ))}
+                <li>Jerome D. Okarma</li>
+                <li>Randy M. Pavlick</li>
+                <li>Thomas C. Pence</li>
+                <li>Lisa Preston</li>
+                <li>Bruce Prom</li>
+                <li>Austin Ramirez</li>
+                <li>Jay O. Rothman</li>
+                <li>John A. Rothstein</li>
+                <li>Christopher M. Scherer</li>
+                <li>William P. Schultz</li>
+                <li>Sara P. Scullen</li>
+                <li>Sean M. Scullen</li>
+                <li>Lee M. Seese</li>
+                <li>John G. Shannon</li>
+                <li>Thomas L. Shriner Jr.</li>
+                <li>Brian R. Smigelski</li>
+                <li>Jesse Sondreal</li>
+                <li>Thomas L. Spero</li>
+                <li>Jeffrey K. Spoerk</li>
+                <li>Jay R. Starrett</li>
+                <li>James F. Stern</li>
+                <li>William J. Toman</li>
+                <li>Xuan Thi Tran</li>
+                <li>Joseph B. Tyson, Jr.</li>
+                <li>Thomas E. Valentyn</li>
+                <li>Julie Van Cleave</li>
+                <li>Daniel G. Vliet</li>
+                <li>Heidi L. Vogt</li>
+                <li>Eric J. Van Vugt</li>
+                <li>Nicholas P. Wahl</li>
+                <li>Brent Walters</li>
+                <li>Blair Wangman</li>
+                <li>Ralph A. Weber</li>
+                <li>Monte E. Weiss</li>
+                <li>Patricia M. Whaley</li>
+                <li>Mark C. Witt</li>
               </EndorsementsList>
             </Column>
           </EndorsementsGrid>
