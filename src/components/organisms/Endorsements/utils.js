@@ -99,9 +99,11 @@ const endorsements = {
     "Ignacio A. Cortina",
     "Brian E. Cothroll",
     "John W. Daniels, Jr.",
+    "Thomas L. Shriner, Jr.",
     "John A. Dickens",
     "Thomas L. Doerr",
     "Robert A. Dudek",
+    "Joseph B. Tyson, Jr.",
     "Daniel T. Flaherty",
     "Mark P. Fogarty",
     "Michelle M. Friedman",
@@ -164,7 +166,6 @@ const endorsements = {
     "Sean M. Scullen",
     "Lee M. Seese",
     "John G. Shannon",
-    "Thomas L. Shriner, Jr.",
     "Brian R. Smigelski",
     "Jesse Sondreal",
     "Thomas L. Spero",
@@ -173,7 +174,6 @@ const endorsements = {
     "James F. Stern",
     "William J. Toman",
     "Xuan Thi Tran",
-    "Joseph B. Tyson, Jr.",
     "Thomas E. Valentyn",
     "Julie Van Cleave",
     "Daniel G. Vliet",
@@ -187,26 +187,34 @@ const endorsements = {
     "Patricia M. Whaley",
     "Mark C. Witt",
     "Mary E. Leonard",
+    "Margaret “Peggy” C. Kelsey",
+    "Daniel Sapiro",
+    "Ralph V. Topinka",
+    "Santiago “Jimmy” Alaniz",
   ],
 }
 
 const sortEndorsementsByLastName = endorsements => {
-  function compare(a, b) {
-    //split the names as strings into arrays
-    let aName = a.split(" ")
-    let bName = b.split(" ")
-    // get the last names by selecting
-    // the last element in the name arrays
-    // using array.length - 1 since full names
-    // may also have a middle name or initial
-    let aLastName = aName[aName.length - 1]
-    let bLastName = ""
+  const compare = (a, b) => {
+    const aName = a.split(" ")
+    const bName = b.split(" ")
 
-    // Handle suffixes
-    if (
-      bName[bName.length - 1] === "III" ||
-      bName[bName.length - 1] === "Jr."
-    ) {
+    let aLastName
+    let bLastName
+
+    // Handle edge cases with aLastName
+    if (aName[aName.length - 1] === "III") {
+      aLastName = aName[aName.length - 2]
+    } else if (aName[aName.length - 1] === "Jr.") {
+      aLastName = aName[aName.length - 2]
+    } else {
+      aLastName = aName[aName.length - 1]
+    }
+
+    // Handle edge cases with bLastName
+    if (bName[bName.length - 1] === "III") {
+      bLastName = bName[bName.length - 2]
+    } else if (bName[bName.length - 1] === "Jr.") {
       bLastName = bName[bName.length - 2]
     } else {
       bLastName = bName[bName.length - 1]
@@ -238,8 +246,25 @@ const distributeEndorsementsEvenly = sortedEndorsements => {
   return result
 }
 
+const sortedLeaders = distributeEndorsementsEvenly(
+  sortEndorsementsByLastName(endorsements.leaders)
+)
+
+const sortedElectedOfficials = distributeEndorsementsEvenly(
+  sortEndorsementsByLastName(endorsements.electedOfficials)
+)
+
+const sortedCourtOfAppeals = distributeEndorsementsEvenly(
+  sortEndorsementsByLastName(endorsements.courtOfAppeals)
+)
+
+const sortedDistrictTwo = distributeEndorsementsEvenly(
+  sortEndorsementsByLastName(endorsements.districtTwo)
+)
+
 export {
-  endorsements,
-  sortEndorsementsByLastName,
-  distributeEndorsementsEvenly,
+  sortedLeaders,
+  sortedElectedOfficials,
+  sortedCourtOfAppeals,
+  sortedDistrictTwo,
 }
