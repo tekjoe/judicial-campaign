@@ -63,6 +63,7 @@ const endorsements = {
     "Hon. John A. Jorgensen",
     "Hon. Chad G. Kerkman",
     "Hon. Barbara Hart Key",
+    "Hon. Dennis J. Flynn*",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
