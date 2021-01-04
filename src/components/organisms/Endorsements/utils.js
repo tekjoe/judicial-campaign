@@ -192,6 +192,7 @@ const endorsements = {
     "Daniel Sapiro",
     "Ralph V. Topinka",
     "Santiago “Jimmy” Alaniz",
+    "Gregory Mager",
   ],
 }
 
