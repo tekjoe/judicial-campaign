@@ -193,6 +193,7 @@ const endorsements = {
     "Ralph V. Topinka",
     "Santiago “Jimmy” Alaniz",
     "Gregory Mager",
+    "Jack Enea",
   ],
 }
 
