@@ -64,6 +64,7 @@ const endorsements = {
     "Hon. Chad G. Kerkman",
     "Hon. Barbara Hart Key",
     "Hon. Dennis J. Flynn*",
+    "Hon. Paul Malloy",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
@@ -194,6 +195,7 @@ const endorsements = {
     "Santiago “Jimmy” Alaniz",
     "Gregory Mager",
     "Jack Enea",
+    "Leslie Tector",
   ],
 }
 
