@@ -95,7 +95,7 @@ const Endorsements = () => {
           <EndorsementsTitle>Wisconsin Court of Appeals</EndorsementsTitle>
           <EndorsementsGrid>
             {sortedCourtOfAppeals.map(sortedArray => (
-              <Column key={sortedArray[0][0]}>
+              <Column key={sortedArray[0]}>
                 <EndorsementsList>
                   {sortedArray.map(endorsement => (
                     <li key={endorsement}>{endorsement}</li>
@@ -113,7 +113,7 @@ const Endorsements = () => {
           </EndorsementsTitle>
           <EndorsementsGrid>
             {sortedDistrictTwo.map(sortedArray => (
-              <Column key={sortedArray[0][0]}>
+              <Column key={sortedArray[0]}>
                 <EndorsementsList>
                   {sortedArray.map(endorsement => (
                     <li key={endorsement}>{endorsement}</li>
@@ -131,7 +131,7 @@ const Endorsements = () => {
           </EndorsementsTitle>
           <EndorsementsGrid>
             {sortedElectedOfficials.map(sortedArray => (
-              <Column key={sortedArray[0][0]}>
+              <Column key={sortedArray[0]}>
                 <EndorsementsList>
                   {sortedArray.map(endorsement => (
                     <li key={endorsement}>{endorsement}</li>
@@ -149,7 +149,7 @@ const Endorsements = () => {
           </EndorsementsTitle>
           <EndorsementsGrid>
             {sortedLeaders.map(sortedArray => (
-              <Column key={sortedArray[0][0]}>
+              <Column key={sortedArray[0]}>
                 <EndorsementsList>
                   {sortedArray.map(endorsement => (
                     <li key={endorsement}>{endorsement}</li>

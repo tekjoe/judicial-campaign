@@ -4,6 +4,7 @@ import SEO from "../utils/seo"
 import PageHeader from "../components/organisms/PageHeader"
 import Endorsements from "../components/organisms/Endorsements"
 import Endorse from "../components/organisms/Endorse"
+import EndorseButton from "../components/molecules/EndorseButton"
 
 const EndorsementsPage = () => (
   <>
@@ -14,6 +15,7 @@ const EndorsementsPage = () => (
     <PageHeader subtitle="my supporters" title="Endorsements" />
     <Endorsements />
     <Endorse />
+    <EndorseButton />
     <Footer />
   </>
 )
