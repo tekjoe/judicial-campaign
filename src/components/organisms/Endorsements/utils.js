@@ -197,6 +197,7 @@ const endorsements = {
     "Jack Enea",
     "Leslie Tector",
     "Mike Lappin",
+    "Scott Langlois",
   ],
 }
 
