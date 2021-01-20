@@ -204,9 +204,6 @@ const Contact = ({ queryParams }) => {
                     <option value="" disabled selected hidden>
                       Select here
                     </option>
-                    <option value="nomination">
-                      Collect nomination papers
-                    </option>
                     <option value="zoom">Host a Zoom call</option>
                     <option value="endorse">Endorse</option>
                     <option value="donate">Donate</option>

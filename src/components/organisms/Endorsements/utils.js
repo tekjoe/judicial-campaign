@@ -64,7 +64,7 @@ const endorsements = {
     "Hon. Chad G. Kerkman",
     "Hon. Barbara Hart Key",
     "Hon. Dennis J. Flynn*",
-    "Hon. Paul Malloy",
+    "Hon. Paul V. Malloy",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
@@ -190,14 +190,14 @@ const endorsements = {
     "Mark C. Witt",
     "Mary E. Leonard",
     "Margaret “Peggy” C. Kelsey",
-    "Daniel Sapiro",
+    "Daniel J. Sapiro",
     "Ralph V. Topinka",
     "Santiago “Jimmy” Alaniz",
-    "Gregory Mager",
-    "Jack Enea",
-    "Leslie Tector",
-    "Mike Lappin",
-    "Scott Langlois",
+    "Gregory S. Mager",
+    "Jack A. Enea",
+    "Leslie M. Tector",
+    "Michael H. Lappin",
+    "Scott L. Langlois",
   ],
 }
 
@@ -218,10 +218,15 @@ const sortEndorsementsByLastName = endorsements => {
       aLastName = aName[aName.length - 1]
     }
 
-    // Handle edge cases with bLastName
+    // Handle edge cases with bLastName suffixes
     if (bName[bName.length - 1] === "III") {
       bLastName = bName[bName.length - 2]
     } else if (bName[bName.length - 1] === "Jr.") {
+      bLastName = bName[bName.length - 2]
+    } else if (
+      bName[bName.length - 2] === "Van" ||
+      bName[bName.length - 2] === "La"
+    ) {
       bLastName = bName[bName.length - 2]
     } else {
       bLastName = bName[bName.length - 1]
