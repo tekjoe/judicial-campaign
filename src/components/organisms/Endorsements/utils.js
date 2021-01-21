@@ -198,6 +198,8 @@ const endorsements = {
     "Leslie M. Tector",
     "Michael H. Lappin",
     "Scott L. Langlois",
+    "Bernard J. Kearney",
+    "Katie A. Falk",
   ],
 }
 
