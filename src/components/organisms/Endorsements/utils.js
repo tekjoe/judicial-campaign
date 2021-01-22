@@ -65,6 +65,7 @@ const endorsements = {
     "Hon. Barbara Hart Key",
     "Hon. Dennis J. Flynn*",
     "Hon. Paul V. Malloy",
+    "Hon. Rebecca L. Persick",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
