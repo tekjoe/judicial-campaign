@@ -201,6 +201,8 @@ const endorsements = {
     "Scott L. Langlois",
     "Bernard J. Kearney",
     "Katie A. Falk",
+    "Jeffrey L. Leavell",
+    "Kelly L. Centofanti",
   ],
 }
 
