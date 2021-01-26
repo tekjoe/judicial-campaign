@@ -66,6 +66,7 @@ const endorsements = {
     "Hon. Dennis J. Flynn*",
     "Hon. Paul V. Malloy",
     "Hon. Rebecca L. Persick",
+    "Timothy Van Akkeren",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
@@ -203,6 +204,7 @@ const endorsements = {
     "Katie A. Falk",
     "Jeffrey L. Leavell",
     "Kelly L. Centofanti",
+    "Jill Hamill Sopha",
   ],
 }
 
