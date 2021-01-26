@@ -66,7 +66,7 @@ const endorsements = {
     "Hon. Dennis J. Flynn*",
     "Hon. Paul V. Malloy",
     "Hon. Rebecca L. Persick",
-    "Timothy Van Akkeren",
+    "Hon. imothy Van Akkeren*",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
