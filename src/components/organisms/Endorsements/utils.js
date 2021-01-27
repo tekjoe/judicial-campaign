@@ -67,6 +67,7 @@ const endorsements = {
     "Hon. Paul V. Malloy",
     "Hon. Rebecca L. Persick",
     "Hon. Timothy Van Akkeren*",
+    "Hon. Eugene A. Gasiorkiewicz",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
@@ -205,6 +206,7 @@ const endorsements = {
     "Jeffrey L. Leavell",
     "Kelly L. Centofanti",
     "Jill Hamill Sopha",
+    "Jennifer K. Rothstein",
   ],
 }
 
