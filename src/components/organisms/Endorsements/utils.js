@@ -207,6 +207,7 @@ const endorsements = {
     "Kelly L. Centofanti",
     "Jill Hamill Sopha",
     "Jennifer K. Rothstein",
+    "Joshua B. Cronin",
   ],
 }
 
