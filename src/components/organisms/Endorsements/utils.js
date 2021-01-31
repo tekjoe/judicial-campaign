@@ -208,6 +208,8 @@ const endorsements = {
     "Jill Hamill Sopha",
     "Jennifer K. Rothstein",
     "Joshua B. Cronin",
+    "Julie M. Gay",
+    "Michael M. Hayes",
   ],
 }
 
