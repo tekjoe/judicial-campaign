@@ -215,6 +215,9 @@ const endorsements = {
     "John P. Hawley",
     "William P. Te Winkle",
     "Lisa C. Stengel",
+    "David P. Muth",
+    "Patrick J. Fiedler",
+    "Laura A. Brenner",
   ],
 }
 
