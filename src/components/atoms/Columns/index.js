@@ -5,6 +5,7 @@ const Columns = styled.div`
   flex-direction: column;
   @media (min-width: 768px) {
     flex-direction: row;
+    gap: 1rem;
   }
 `
 

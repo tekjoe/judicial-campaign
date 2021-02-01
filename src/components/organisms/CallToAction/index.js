@@ -151,16 +151,7 @@ const CallToAction = () => {
             </svg>
             <p>Meet Jeff</p>
           </Box>
-          <Box to="/contact?involved=endorse">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-              <path
-                d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"
-                fill="#fff"
-              />
-            </svg>
-            <p>Endorse</p>
-          </Box>
-          <Box to="/contact">
+          <Box to="/contact/">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
               <path
                 d="M7.03 2.6a3 3 0 0 1 5.94 0L15 3v1h1a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h1V3l2.03-.4zM5 6H4v12h12V6h-1v1H5V6zm5-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
@@ -168,6 +159,16 @@ const CallToAction = () => {
               />
             </svg>
             <p>Support</p>
+          </Box>
+          <Box to="/endorsements/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path
+                xmlns="http://www.w3.org/2000/svg"
+                d="M12.3 3.7l4 4L4 20H0v-4L12.3 3.7zm1.4-1.4L16 0l4 4-2.3 2.3-4-4z"
+                fill="#fff"
+              />
+            </svg>
+            <p>Endorse</p>
           </Box>
         </FlexBoxes>
       </ContentContainer>

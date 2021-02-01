@@ -210,6 +210,11 @@ const endorsements = {
     "Joshua B. Cronin",
     "Julie M. Gay",
     "Michael M. Hayes",
+    "John M. (“Jack”) Cashman",
+    "Timothy M. Salutz ",
+    "John P. Hawley",
+    "William P. Te Winkle",
+    "Lisa C. Stengel",
   ],
 }
 
@@ -237,7 +242,8 @@ const sortEndorsementsByLastName = endorsements => {
       bLastName = bName[bName.length - 2]
     } else if (
       bName[bName.length - 2] === "Van" ||
-      bName[bName.length - 2] === "La"
+      bName[bName.length - 2] === "La" ||
+      bName[bName.length - 2] === "Te"
     ) {
       bLastName = bName[bName.length - 2]
     } else {

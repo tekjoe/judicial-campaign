@@ -1,5 +1,7 @@
 import React from "react"
 import styled from "styled-components"
+import reilly from "../../../images/reilly.jpg"
+import ziegler from "../../../images/ziegler.jpg"
 
 const Section = styled.section`
   background: ${({ theme }) => theme.colors.lightBlue};
@@ -12,7 +14,7 @@ const Section = styled.section`
   }
 `
 
-const Test = styled.div`
+const Testimonial = styled.div`
   max-width: 60ch;
   display: flex;
   flex-direction: column;
@@ -20,7 +22,7 @@ const Test = styled.div`
   align-items: center;
   text-align: center;
   @media (min-width: 1200px) {
-    max-width: 80ch;
+    max-width: 100ch;
   }
 `
 
@@ -43,18 +45,39 @@ const QuoteMark = styled.span`
 
 const Quote = styled.p`
   color: ${({ theme }) => theme.colors.blue};
-  font-weight: bold;
+  font-weight: 600;
+  font-style: italic;
   font-size: ${({ theme }) => theme.typography.h6};
-  line-height: 1.3;
+  line-height: 1.4;
   @media (min-width: 768px) {
     font-size: ${({ theme }) => theme.typography.h5};
     margin: 1rem 0;
   }
   @media (min-width: 1200px) {
-    line-height: 1.05;
-    font-size: ${({ theme }) => theme.typography.h3};
   }
 `
+
+const Attribution = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+`
+
+Attribution.Image = styled.div`
+  flex: 1;
+  img {
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    object-position: center;
+  }
+`
+Attribution.Body = styled.div``
 
 const Attestant = styled.p`
   color: ${({ theme }) => theme.colors.blue};
@@ -66,20 +89,27 @@ const Attestant = styled.p`
   }
 `
 
-const Testimonial = () => {
+const Position = styled.p`
+  color: ${({ theme }) => theme.colors.blue};
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: ${({ theme }) => theme.typography.paragraph};
+`
+
+export default ({ testimonial, attestant, position, image }) => {
   return (
     <Section>
-      <Test>
+      <Testimonial>
         <QuoteMark>"</QuoteMark>
-        <Quote>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dicta
-          minus pariatur perferendis dignissimos tenetur!
-        </Quote>
+        <Quote>{testimonial}</Quote>
         <QuoteMark>"</QuoteMark>
-        <Attestant>Joe Ramirez, Web Developer</Attestant>
-      </Test>
+        <Attribution>
+          <Attribution.Body>
+            <Attestant>{attestant}</Attestant>
+            <Position>{position}</Position>
+          </Attribution.Body>
+        </Attribution>
+      </Testimonial>
     </Section>
   )
 }
-
-export default Testimonial

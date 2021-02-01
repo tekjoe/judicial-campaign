@@ -22,7 +22,7 @@ export default () => {
       draggable="false"
       target="_blank"
     >
-      Endorse Jeff
+      Endorse Jeff Now
     </EndorseButton>
   )
 }

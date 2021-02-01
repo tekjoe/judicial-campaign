@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import ContentContainer from "../../atoms/ContentContainer"
 import { Columns, Column } from "../../atoms/Columns"
+import Testimonial from "../../molecules/Testimonial"
 import checkMark from "../../../images/checkmark-outline.svg"
 import {
   sortedLeaders,
@@ -90,6 +91,11 @@ const Endorsements = () => {
           </EndorsementsGrid>
         </Grid>
       </ContentContainer>
+      <Testimonial
+        testimonial="Judge Jeff Davis has demonstrated a commitment to the rule of law by his judicial decision making. Judge Davis knows that judges must not be an activist and that legislation does not come from the bench. He has an exemplary depth and breath of private practice and judicial experience which imminently qualifies him to serve as a District II Appellate Court judge."
+        attestant="Justice Annette K. Ziegler"
+        position="Wisconsin Supreme Court"
+      />
       <ContentContainer>
         <Grid>
           <EndorsementsTitle>Wisconsin Court of Appeals</EndorsementsTitle>
@@ -124,6 +130,11 @@ const Endorsements = () => {
           </EndorsementsGrid>
         </Grid>
       </ContentContainer>
+      <Testimonial
+        testimonial="Judge Davis has been a great addition to our court. He is thoughtful, collegial and smart. His breadth of real world experience, combined with his deep knowledge of the law and analytical ability, has been an enormous asset to us and makes him uniquely qualified for his current position."
+        attestant="Hon. Paul F. Reilly"
+        position="Wisconsin Court of Appeals, District II"
+      />
       <ContentContainer>
         <Grid>
           <EndorsementsTitle>

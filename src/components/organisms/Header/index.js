@@ -86,7 +86,7 @@ const CTA = styled.div`
 
 CTA.Button = styled(Link)`
   text-transform: uppercase;
-  background: #264577;
+  background: #e25252;
   font-size: 0.8rem;
   padding: 1rem;
   color: white;
@@ -95,7 +95,7 @@ CTA.Button = styled(Link)`
   letter-spacing: 2px;
   transition: background 0.3s;
   &:hover {
-    background: #e25252;
+    background: #264577;
   }
 `
 
