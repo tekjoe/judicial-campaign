@@ -164,7 +164,7 @@ const Next = styled.button`
 const testimonials = [
   {
     quote:
-      "Judge Jeff Davis has demonstrated a commitment to the rule of law by his judicial decision making. Judge Davis knows that judges must not be an activist and that legislation does not come from the bench. He has an exemplary depth and breath of private practice and judicial experience which imminently qualifies him to serve as a District II Appellate Court judge.",
+      "Judge Jeff Davis has demonstrated a commitment to the rule of law by his judicial decision making. Judge Davis knows that judges must not be an activist and that legislation does not come from the bench. He has an exemplary depth and breadth of private practice and judicial experience which eminently qualifies him to serve as a District II Appellate Court judge.",
     attestant: "Justice Annette K. Ziegler",
     position: "Wisconsin Supreme Court",
     image: ziegler,

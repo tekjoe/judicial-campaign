@@ -68,6 +68,7 @@ const endorsements = {
     "Hon. Rebecca L. Persick",
     "Hon. Timothy Van Akkeren*",
     "Hon. Eugene A. Gasiorkiewicz",
+    "Hon. Wilbur W. Warren, III",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
