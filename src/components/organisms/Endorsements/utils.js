@@ -217,8 +217,8 @@ const endorsements = {
     "William P. Te Winkle",
     "Lisa C. Stengel",
     "David P. Muth",
-    "Patrick J. Fiedler",
     "Laura A. Brenner",
+    "Dean P. Laing",
   ],
 }
 
@@ -234,6 +234,12 @@ const sortEndorsementsByLastName = endorsements => {
     if (aName[aName.length - 1] === "III") {
       aLastName = aName[aName.length - 2]
     } else if (aName[aName.length - 1] === "Jr.") {
+      aLastName = aName[aName.length - 2]
+    } else if (
+      aName[aName.length - 2] === "Van" ||
+      aName[aName.length - 2] === "La" ||
+      aName[aName.length - 2] === "Te"
+    ) {
       aLastName = aName[aName.length - 2]
     } else {
       aLastName = aName[aName.length - 1]
