@@ -219,6 +219,12 @@ const endorsements = {
     "David P. Muth",
     "Laura A. Brenner",
     "Dean P. Laing",
+    "Michael E. Lambert",
+    "Andrew J. Steimle",
+    "Timothy J. Young",
+    "Donald A. Levy",
+    "Rebecca J. Smith",
+    "Jessica E. Slavin",
   ],
 }
 
