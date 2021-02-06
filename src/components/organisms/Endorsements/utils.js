@@ -19,6 +19,8 @@ const endorsements = {
     "Hon. Brian W. Blanchard",
     "Hon. William W. Brash, III",
     "Hon. Michael R. Fitzpatrick",
+    "Hon. Joan F. Kessler*",
+    "Hon. Paul Lundsten*",
   ],
   supremeCourt: [
     "Chief Justice Patience D. Roggensack",
@@ -225,6 +227,8 @@ const endorsements = {
     "Donald A. Levy",
     "Rebecca J. Smith",
     "Jessica E. Slavin",
+    "Shannon A. Allen",
+    "Patrick J. Schott",
   ],
 }
 
