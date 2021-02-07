@@ -12,7 +12,7 @@ const Section = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 650px;
+  height: 700px;
   @media (min-width: 1200px) {
     padding: 1rem 2rem 4rem 2rem;
   }
@@ -173,7 +173,7 @@ const testimonials = [
     quote:
       "Judge Davis has been a great addition to our court. He is thoughtful, collegial and smart. His breadth of real world experience, combined with his deep knowledge of the law and analytical ability, has been an enormous asset to us and makes him uniquely qualified for his current position.",
     attestant: "Hon. Paul F. Reilly",
-    position: "Wisconsin Court of Appeals, District II",
+    position: "Presiding Judge, Wisconsin Court of Appeals, District II",
     image: reilly,
   },
 ]

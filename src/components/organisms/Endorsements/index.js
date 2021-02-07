@@ -133,7 +133,7 @@ const Endorsements = () => {
       <Testimonial
         testimonial="Judge Davis has been a great addition to our court. He is thoughtful, collegial and smart. His breadth of real world experience, combined with his deep knowledge of the law and analytical ability, has been an enormous asset to us and makes him uniquely qualified for his current position."
         attestant="Hon. Paul F. Reilly"
-        position="Wisconsin Court of Appeals, District II"
+        position="Presiding Judge, Wisconsin Court of Appeals, District II"
       />
       <ContentContainer>
         <Grid>
