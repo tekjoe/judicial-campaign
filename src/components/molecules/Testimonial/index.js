@@ -1,7 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import reilly from "../../../images/reilly.jpg"
-import ziegler from "../../../images/ziegler.jpg"
 
 const Section = styled.section`
   background: ${({ theme }) => theme.colors.lightBlue};

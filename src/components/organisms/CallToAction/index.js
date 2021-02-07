@@ -3,7 +3,6 @@ import styled from "styled-components"
 import { darken } from "polished"
 import { Link } from "gatsby"
 import ContentContainer from "../../atoms/ContentContainer"
-import nominationPapers from "../../../images/jeff-davis-nomination-papers.pdf"
 
 const CTASection = styled.section`
   background: #aabcd9;
@@ -27,57 +26,6 @@ const FlexBoxes = styled.div`
 `
 
 const Box = styled(Link)`
-  flex: 1;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  background: #133987;
-  color: white;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  &:nth-of-type(2n) {
-    background: #264577;
-    &:hover {
-      background: ${darken(0.1, "#264577")};
-    }
-  }
-  &:last-of-type {
-    background: #f3304a;
-    &:hover {
-      background: ${darken(0.1, "#f3304a")};
-    }
-  }
-  svg {
-    height: 2rem;
-    width: 2rem;
-    margin-bottom: 0.5rem;
-  }
-  p {
-    color: white;
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: bold;
-  }
-  &:hover {
-    background: ${darken(0.1, "#133987")};
-  }
-  @media (min-width: 1024px) {
-    padding: 3rem;
-    svg {
-      height: 3rem;
-      width: 3rem;
-    }
-    p {
-      font-size: 1.25rem;
-    }
-  }
-`
-
-const ExternalBox = styled.a`
   flex: 1;
   height: 100%;
   display: flex;

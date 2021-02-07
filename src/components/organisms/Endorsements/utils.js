@@ -214,7 +214,7 @@ const endorsements = {
     "Julie M. Gay",
     "Michael M. Hayes",
     "John M. (“Jack”) Cashman",
-    "Timothy M. Salutz ",
+    "Timothy M. Salutz",
     "John P. Hawley",
     "William P. Te Winkle",
     "Lisa C. Stengel",
