@@ -229,6 +229,7 @@ const endorsements = {
     "Jessica E. Slavin",
     "Shannon A. Allen",
     "Patrick J. Schott",
+    "Susan R. Tyndall",
   ],
 }
 
