@@ -1,9 +1,10 @@
 import React from "react"
 import styled from "styled-components"
 import masthead from "../../../images/investiture.jpg"
-import LinkButton from "../../atoms/LinkButton"
 import { Column, Columns } from "../../atoms/Columns"
 import ContentContainer from "../../atoms/ContentContainer"
+import OutboundLinkButton from "../../atoms/OutboundLinkButton"
+import { darken } from "polished"
 
 const EndorseSection = styled.section`
   display: ${props => (props.centered ? "flex" : "block")};
@@ -33,7 +34,7 @@ EndorseSection.CTA = styled.div`
   p {
     font-size: ${({ theme }) => theme.typography.h3};
     font-weight: 900;
-    line-height: 1;
+    line-height: 1.1;
     margin-bottom: 2rem;
   }
   @media (min-width: 768px) {
@@ -57,6 +58,24 @@ EndorseSection.Overlay = styled.div`
   }
 `
 
+const EndorseButton = styled(OutboundLinkButton)`
+  background: #f3304a;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.125rem;
+  min-width: 250px;
+  font-family: "Source Sans Pro", sans-serif;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  &:hover {
+    background: ${darken(0.1, "#f3304a")};
+  }
+`
+
 const Endorse = () => {
   return (
     <EndorseSection centered>
@@ -70,10 +89,10 @@ const Endorse = () => {
         <Columns>
           <Column>
             <EndorseSection.CTA>
-              <p>Join Us - Endorse Judge Davis</p>
-              <LinkButton to="/contact?involved=endorse">
+              <p>Add your name in support of Judge Jeff Davis</p>
+              <EndorseButton href="https://docs.google.com/forms/d/e/1FAIpQLSdtcFHg9GlDFTqgqJ-gebSWJUtuGpk4QSQIhwlMwkHe0PayUw/viewform?gxids=7628">
                 Endorse Jeff
-              </LinkButton>
+              </EndorseButton>
             </EndorseSection.CTA>
           </Column>
           <Column></Column>
