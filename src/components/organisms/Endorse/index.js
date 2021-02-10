@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import masthead from "../../../images/investiture.jpg"
+import masthead from "../../../images/sign-up-background.png"
 import { Column, Columns } from "../../atoms/Columns"
 import ContentContainer from "../../atoms/ContentContainer"
 import OutboundLinkButton from "../../atoms/OutboundLinkButton"
@@ -13,10 +13,10 @@ const EndorseSection = styled.section`
   align-items: center;
   background: linear-gradient(
       to right,
-      hsla(217, 52%, 31%, 60%),
+      hsla(217, 52%, 31%, 90%),
       hsla(217, 52%, 31%, 15%)
     ),
-    url(${masthead}) center/cover;
+    url(${masthead}) top right/cover;
   @media (min-width: 1024px) {
     height: 400px;
   }
@@ -47,17 +47,6 @@ EndorseSection.CTA = styled.div`
   }
 `
 
-EndorseSection.Overlay = styled.div`
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 0.25rem;
-  span {
-    color: white;
-    font-size: ${({ theme }) => theme.typography.small};
-  }
-`
-
 const EndorseButton = styled(OutboundLinkButton)`
   background: #f3304a;
   padding: 1rem;
@@ -79,12 +68,6 @@ const EndorseButton = styled(OutboundLinkButton)`
 const Endorse = () => {
   return (
     <EndorseSection centered>
-      <EndorseSection.Overlay>
-        <span>
-          December 3, 2019: Judge Davis and colleagues attending his official
-          Investiture ceremony.
-        </span>
-      </EndorseSection.Overlay>
       <ContentContainer>
         <Columns>
           <Column>

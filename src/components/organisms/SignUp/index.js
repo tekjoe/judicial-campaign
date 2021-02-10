@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import masthead from "../../../images/investiture.jpg"
+import masthead from "../../../images/sign-up-background.png"
 import EmailForm from "../../molecules/EmailForm"
 import { Column, Columns } from "../../atoms/Columns"
 import ContentContainer from "../../atoms/ContentContainer"
@@ -12,10 +12,10 @@ const SignUpSection = styled.section`
   position: relative;
   background: linear-gradient(
       to right,
-      hsla(217, 52%, 31%, 60%),
+      hsla(217, 52%, 31%, 90%),
       hsla(217, 52%, 31%, 15%)
     ),
-    url(${masthead}) center/cover;
+    url(${masthead}) top right/cover;
   @media (min-width: 1024px) {
     height: 400px;
   }
@@ -46,30 +46,9 @@ SignUpSection.CTA = styled.div`
   }
 `
 
-SignUpSection.Overlay = styled.div`
-  display: none;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 1rem;
-  span {
-    color: white;
-    font-size: ${({ theme }) => theme.typography.small};
-  }
-  @media (min-width: 768px) {
-    display: block;
-  }
-`
-
 const SignUp = () => {
   return (
     <SignUpSection centered>
-      <SignUpSection.Overlay>
-        <span>
-          December 3, 2019: Judge Davis and colleagues attending his official
-          Investiture ceremony.
-        </span>
-      </SignUpSection.Overlay>
       <ContentContainer>
         <Columns>
           <Column>
