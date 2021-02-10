@@ -14,7 +14,7 @@ const EndorseSection = styled.section`
   background: linear-gradient(
       to right,
       hsla(217, 52%, 31%, 90%),
-      hsla(217, 52%, 31%, 15%)
+      hsla(217, 52%, 31%, 1%)
     ),
     url(${masthead}) top right/cover;
   @media (min-width: 1024px) {
