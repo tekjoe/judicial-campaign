@@ -86,6 +86,7 @@ const endorsements = {
     "Sheriff Martin Schulteis",
     "Hon. Michael A. Schumacher",
     "Hon. David C. Swanson",
+    "Fmr. Mayor Larry Nelson",
   ],
   leaders: [
     "Michael Aldana",
@@ -231,6 +232,8 @@ const endorsements = {
     "Patrick J. Schott",
     "Susan R. Tyndall",
     "Dolores Anne Bomrad",
+    "Johan C. R. Segerdahl",
+    "Mitchel Cox",
   ],
 }
 
