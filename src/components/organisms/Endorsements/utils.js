@@ -21,6 +21,7 @@ const endorsements = {
     "Hon. Michael R. Fitzpatrick",
     "Hon. Joan F. Kessler*",
     "Hon. Paul Lundsten*",
+    "Hon. David G. Deininger*",
   ],
   supremeCourt: [
     "Chief Justice Patience D. Roggensack",
@@ -233,6 +234,12 @@ const endorsements = {
     "Dolores Anne Bomrad",
     "Johan C. R. Segerdahl",
     "Mitchel Cox",
+    "Meggin R. McNamara",
+    "Mark Lasky",
+    "Sheldon Lasky",
+    "Bradford Lasky",
+    "Lacey Sadoff",
+    "Todd C. Lemke",
   ],
 }
 
