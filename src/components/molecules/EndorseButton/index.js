@@ -10,6 +10,7 @@ const EndorseButton = styled(OutboundLinkButton)`
   background: #f3304a;
   min-width: calc(100% - 4rem);
   display: ${({ isHidden }) => (isHidden ? "none" : "block")};
+  z-index: 100;
   @media (min-width: 768px) {
     min-width: 200px;
   }

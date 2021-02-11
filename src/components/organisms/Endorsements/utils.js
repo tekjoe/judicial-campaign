@@ -219,7 +219,6 @@ const endorsements = {
     "John P. Hawley",
     "William P. Te Winkle",
     "Lisa C. Stengel",
-    "David P. Muth",
     "Laura A. Brenner",
     "Dean P. Laing",
     "Michael E. Lambert",

@@ -5,10 +5,13 @@ const Section = styled.section`
   background: ${({ theme }) => theme.colors.lightBlue};
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 2rem 2rem 3rem 2rem;
+  margin-top: ${({ withImage }) => (withImage ? "6rem" : 0)};
   @media (min-width: 1200px) {
     padding: 1rem 2rem 4rem 2rem;
+    margin-top: ${({ withImage }) => (withImage ? "10rem" : 0)};
   }
 `
 
@@ -94,9 +97,43 @@ const Position = styled.p`
   font-size: ${({ theme }) => theme.typography.paragraph};
 `
 
-export default ({ testimonial, attestant, position, image }) => {
+const TestimonialImageWrapper = styled.div`
+  width: clamp(320px, 780px, 80%);
+  margin-top: ${({ withImage }) => (withImage ? "-6rem" : 0)};
+  position: relative;
+  z-index: 2;
+  &::before {
+    content: "";
+    position: absolute;
+    background: ${({ theme }) => theme.colors.blue};
+    width: 4rem;
+    height: 4rem;
+    z-index: -1;
+    display: block;
+    left: -0.5rem;
+    top: -0.5rem;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    background: ${({ theme }) => theme.colors.blue};
+    width: 4rem;
+    height: 4rem;
+    z-index: 2;
+    display: block;
+    right: -0.5rem;
+    bottom: -0.5rem;
+  }
+`
+
+export default ({ testimonial, attestant, position, withImage, children }) => {
   return (
-    <Section>
+    <Section withImage={withImage}>
+      {withImage ? (
+        <TestimonialImageWrapper withImage={withImage}>
+          {children}
+        </TestimonialImageWrapper>
+      ) : null}
       <Testimonial>
         <QuoteMark>"</QuoteMark>
         <Quote>{testimonial}</Quote>

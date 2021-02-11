@@ -7,9 +7,11 @@ export const Blog = styled.section`
   max-width: 1140px;
   margin: 0 2rem;
   padding: ${({ withImage }) => (withImage ? "0 0 4rem 0" : "4rem 0")};
+  padding: ${({ isTestimonial }) => (isTestimonial ? "0" : "0 0 4rem 0")};
   @media (min-width: 1024px) {
     margin: 0 auto;
     padding: ${({ withImage }) => (withImage ? "0 0 5rem 0" : "5rem 0")};
+    padding: ${({ isTestimonial }) => (isTestimonial ? "0" : "0 0 3rem 0")};
   }
 `
 
@@ -57,11 +59,11 @@ Blog.Text = styled.div`
 
 Blog.Figure = styled.figure`
   grid-column: 1/-1;
-  margin-bottom: 3rem;
+  margin-bottom: ${({ isTestimonial }) => (isTestimonial ? "2rem" : "3rem")};
   margin-top: ${({ isHeader }) => (isHeader ? "-4rem" : 0)};
   position: relative;
   @media (min-width: 1024px) {
-    margin-bottom: 5rem;
+    margin-bottom: ${({ isTestimonial }) => (isTestimonial ? "3rem" : "5rem")};
     grid-column: 2/-2;
   }
 `
@@ -71,8 +73,12 @@ Blog.Caption = styled.figcaption`
   margin-top: 0.5rem;
 `
 
-const BlogLayout = ({ children, withImage }) => {
-  return <Blog withImage={withImage}>{children}</Blog>
+const BlogLayout = ({ children, withImage, isTestimonial }) => {
+  return (
+    <Blog withImage={withImage} isTestimonial={isTestimonial}>
+      {children}
+    </Blog>
+  )
 }
 
 export default BlogLayout

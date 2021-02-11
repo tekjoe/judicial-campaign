@@ -10,6 +10,7 @@ import {
   sortedCourtOfAppeals,
   sortedDistrictTwo,
 } from "./utils"
+import ZieglerPhoto from "../../atoms/ZieglerPhoto"
 
 const Grid = styled.div`
   grid-template-columns: repeat(12, 1fr);
@@ -95,7 +96,10 @@ const Endorsements = () => {
         testimonial="Judge Jeff Davis has demonstrated a commitment to the rule of law by his judicial decision making. Judge Davis knows that judges must not be an activist and that legislation does not come from the bench. He has an exemplary depth and breadth of private practice and judicial experience which eminently qualifies him to serve as a District II Appellate Court judge."
         attestant="Justice Annette K. Ziegler"
         position="Wisconsin Supreme Court"
-      />
+        withImage
+      >
+        <ZieglerPhoto style={{ width: "100%", zIndex: 4 }} />
+      </Testimonial>
       <ContentContainer>
         <Grid>
           <EndorsementsTitle>Wisconsin Court of Appeals</EndorsementsTitle>
