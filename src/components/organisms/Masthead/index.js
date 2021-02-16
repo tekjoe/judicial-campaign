@@ -69,8 +69,8 @@ const MastheadSection = () => {
       </Masthead.Image>
       <Masthead.CTA>
         <ContentContainer>
-          <p>Proven Commitment to Justice</p>
-          <h1>Judge Jeff Davis for Wisconsin Court of Appeals</h1>
+          <p>Proven Experience on the Bench</p>
+          <h1>Retain Judge Jeff Davis on the Wisconsin Court of Appeals</h1>
           <EmailForm />
         </ContentContainer>
       </Masthead.CTA>
