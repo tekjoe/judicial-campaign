@@ -72,6 +72,8 @@ const endorsements = {
     "Hon. Timothy Van Akkeren*",
     "Hon. Eugene A. Gasiorkiewicz",
     "Hon. Wilbur W. Warren, III",
+    "Hon. James B. Duquette",
+    "Hon. Edward F. Thompson",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
@@ -240,6 +242,12 @@ const endorsements = {
     "Bradford Lasky",
     "Lacey Sadoff",
     "Todd C. Lemke",
+    "Susan Herro",
+    "Brian G. Gilpin",
+    "J.D. Olson",
+    "Det. Lt. Tim Kemps",
+    "Patrick G. McBride",
+    "Sheila Reynolds",
   ],
 }
 
