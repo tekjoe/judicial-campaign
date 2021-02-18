@@ -248,6 +248,9 @@ const endorsements = {
     "Det. Lt. Tim Kemps",
     "Patrick G. McBride",
     "Sheila Reynolds",
+    "Kyle Borkenhagen",
+    "Michael T. Jones",
+    "Gary Ballesteros",
   ],
 }
 
