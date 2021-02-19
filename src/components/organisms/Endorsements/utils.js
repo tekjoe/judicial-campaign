@@ -90,6 +90,7 @@ const endorsements = {
     "Hon. Michael A. Schumacher",
     "Hon. David C. Swanson",
     "Fmr. Mayor Larry Nelson",
+    "Janet C. Protasiewicz",
   ],
   leaders: [
     "Michael Aldana",
@@ -251,6 +252,8 @@ const endorsements = {
     "Kyle Borkenhagen",
     "Michael T. Jones",
     "Gary Ballesteros",
+    "Robert R. Henzl",
+    "Gregory J. Sell",
   ],
 }
 
