@@ -254,6 +254,8 @@ const endorsements = {
     "Gary Ballesteros",
     "Robert R. Henzl",
     "Gregory J. Sell",
+    "Albert S. Orr",
+    "Mark G. Blum",
   ],
 }
 
