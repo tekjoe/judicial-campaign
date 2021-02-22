@@ -256,6 +256,13 @@ const endorsements = {
     "Gregory J. Sell",
     "Albert S. Orr",
     "Mark G. Blum",
+    "Amanda M. Belville",
+    "Robert E. Bellin, Jr.",
+    "Kristina Sanders-Brown",
+    "William J. Hammett",
+    "Amy L. Menzel",
+    "Jeffrey T. Oswald",
+    "Jennifer F. Thompson",
   ],
 }
 
