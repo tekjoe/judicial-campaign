@@ -74,6 +74,7 @@ const endorsements = {
     "Hon. Wilbur W. Warren, III",
     "Hon. James B. Duquette",
     "Hon. Edward F. Thompson",
+    "Hon. Ness Flores*",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
