@@ -92,6 +92,7 @@ const endorsements = {
     "Hon. David C. Swanson",
     "Fmr. Mayor Larry Nelson",
     "Janet C. Protasiewicz",
+    "Fmr. Governor Scott McCallum",
   ],
   leaders: [
     "Michael Aldana",
