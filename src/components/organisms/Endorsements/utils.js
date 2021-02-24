@@ -264,6 +264,7 @@ const endorsements = {
     "Amy L. Menzel",
     "Jeffrey T. Oswald",
     "Jennifer F. Thompson",
+    "Paul Gagliardi",
   ],
 }
 
