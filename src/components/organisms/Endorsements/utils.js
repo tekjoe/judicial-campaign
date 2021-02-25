@@ -91,7 +91,7 @@ const endorsements = {
     "Hon. Michael A. Schumacher",
     "Hon. David C. Swanson",
     "Fmr. Mayor Larry Nelson",
-    "Janet C. Protasiewicz",
+    "Hon. Janet C. Protasiewicz",
     "Fmr. Governor Scott McCallum",
   ],
   leaders: [
