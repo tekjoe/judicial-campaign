@@ -75,6 +75,7 @@ const endorsements = {
     "Hon. James B. Duquette",
     "Hon. Edward F. Thompson",
     "Hon. Ness Flores*",
+    "Hon. Allan B. Torhorst",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
@@ -266,6 +267,8 @@ const endorsements = {
     "Jeffrey T. Oswald",
     "Jennifer F. Thompson",
     "Paul Gagliardi",
+    "Danielle White",
+    "Eric G. Pearson",
   ],
 }
 
