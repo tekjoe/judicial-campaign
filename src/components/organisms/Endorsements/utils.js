@@ -76,6 +76,7 @@ const endorsements = {
     "Hon. Edward F. Thompson",
     "Hon. Ness Flores*",
     "Hon. Allan B. Torhorst",
+    "Hon. Maureen M. Martinez",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
@@ -94,6 +95,7 @@ const endorsements = {
     "Fmr. Mayor Larry Nelson",
     "Hon. Janet C. Protasiewicz",
     "Fmr. Governor Scott McCallum",
+    "Hon. John Franke*",
   ],
   leaders: [
     "Michael Aldana",
@@ -269,6 +271,15 @@ const endorsements = {
     "Paul Gagliardi",
     "Danielle White",
     "Eric G. Pearson",
+    "Robert B. Corris",
+    "Charles C. Adams",
+    "Nathaniel Cade, Jr.",
+    "Nathan Mathews",
+    "Patrick O. Dunphy",
+    "Michael Ostermeyer",
+    "James L. Dunlap",
+    "Kelly L. Neitzke",
+    "David G. Peterson",
   ],
 }
 
