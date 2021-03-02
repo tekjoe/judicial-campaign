@@ -280,6 +280,11 @@ const endorsements = {
     "James L. Dunlap",
     "Kelly L. Neitzke",
     "David G. Peterson",
+    "Jeffrey J. Ek",
+    "Malinda J. Eskra",
+    "John E. Bermingham",
+    "Donna Kuchler",
+    "Jane E. Probst",
   ],
 }
 
