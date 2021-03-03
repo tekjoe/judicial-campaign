@@ -55,7 +55,7 @@ const endorsements = {
     "Hon. Ralph M. Ramirez",
     "Hon. David M. Reddy",
     "Hon. Mark R. Rohrer",
-    "Hon. Karen L. Siefert",
+    "Hon. Karen L. Seifert",
     "Hon. L. Edward Stengel",
     "Hon. Angela W. Sutkiewicz",
     "Hon. Mary Kay Wagner",
