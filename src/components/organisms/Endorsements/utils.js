@@ -77,6 +77,7 @@ const endorsements = {
     "Hon. Ness Flores*",
     "Hon. Allan B. Torhorst",
     "Hon. Maureen M. Martinez",
+    "Hon. Daniel J. Bissett",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
