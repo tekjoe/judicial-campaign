@@ -78,6 +78,7 @@ const endorsements = {
     "Hon. Allan B. Torhorst",
     "Hon. Maureen M. Martinez",
     "Hon. Daniel J. Bissett",
+    "Hon. Michael J. Piontek",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
@@ -286,6 +287,7 @@ const endorsements = {
     "John E. Bermingham",
     "Donna Kuchler",
     "Jane E. Probst",
+    "Craig Leipold",
   ],
 }
 
