@@ -98,6 +98,7 @@ const endorsements = {
     "Hon. Janet C. Protasiewicz",
     "Fmr. Governor Scott McCallum",
     "Hon. John Franke*",
+    "Congressman Tom Petri*",
   ],
   leaders: [
     "Michael Aldana",
@@ -234,7 +235,7 @@ const endorsements = {
     "Dean P. Laing",
     "Michael E. Lambert",
     "Andrew J. Steimle",
-    "Timothy J. Young",
+    "Timothy R. Young",
     "Donald A. Levy",
     "Rebecca J. Smith",
     "Jessica E. Slavin",
@@ -288,6 +289,8 @@ const endorsements = {
     "Donna Kuchler",
     "Jane E. Probst",
     "Craig Leipold",
+    "Renee H. Ramirez",
+    "William H. Harbeck",
   ],
 }
 
