@@ -37,8 +37,8 @@ const AboutPage = () => (
           Practice Group. In cases before the Wisconsin Supreme Court and
           elsewhere, Jeff secured precedent setting legal decisions such as
           Plastics Engineering v. Liberty Mutual and multi-million-dollar
-          judgements on behalf of his clients in disputes arising out of
-          asbestos and other long tail insurance claims.
+          judgments on behalf of his clients in disputes arising out of asbestos
+          and other long tail insurance claims.
         </p>
         <p>
           Jeff has lectured and served as an adjunct professor at Marquette
