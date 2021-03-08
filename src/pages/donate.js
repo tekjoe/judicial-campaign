@@ -4,9 +4,8 @@ import Footer from "../components/organisms/Footer"
 import PageHeader from "../components/organisms/PageHeader"
 import BlogLayout, { Blog } from "../components/organisms/BlogLayout"
 import SEO from "../utils/seo"
-import OutboundLinkButton from "../components/atoms/OutboundLinkButton"
-import nominationPapers from "../images/jeff-davis-nomination-papers.pdf"
 import PayPalButton from "../components/atoms/PayPalButton"
+import LinkButton from "../components/atoms/LinkButton"
 
 const DonatePage = () => (
   <>
@@ -101,19 +100,13 @@ const DonatePage = () => (
       <Blog.Text>
         <h3>Looking for other ways to get involved?</h3>
         <p>
-          <strong>
-            We need your help gathering signatures on Jeff's nomination papers.
-          </strong>
+          Get out the vote! Encourage your friends, neighbors, relatives,
+          co-workers to vote for Judge Jeff Davis!
         </p>
         <p>
-          Any adult in your office, home, or neighborhood, provided they are
-          eligible District II voters, can sign. Every signature is important!
+          <strong>Request a yard sign today!</strong>
         </p>
-        <p>
-          <OutboundLinkButton href={nominationPapers}>
-            Download Nomination Papers
-          </OutboundLinkButton>
-        </p>
+        <LinkButton to="/contact?involved=signs">Request Yard Sign</LinkButton>
       </Blog.Text>
     </BlogLayout>
     <SignUp />

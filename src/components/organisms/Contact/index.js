@@ -217,10 +217,14 @@ const Contact = ({ queryParams }) => {
                   Your{" "}
                   {state.involved && state.involved === "endorse"
                     ? "Endorsement (Required)"
+                    : state.involved === "signs"
+                    ? "Full Address (Required)"
                     : "Message (Optional)"}
                 </p>
                 <TextArea
-                  required={state.involved === "endorse" ? true : false}
+                  required={
+                    state.involved === "endorse" || "signs" ? true : false
+                  }
                   name="message"
                   id="message"
                   onChange={handleChange}
