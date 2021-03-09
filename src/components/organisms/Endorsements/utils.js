@@ -99,6 +99,8 @@ const endorsements = {
     "Fmr. Governor Scott McCallum",
     "Hon. John Franke*",
     "Congressman Tom Petri*",
+    "Fmr. Sheriff Jed Dolnick",
+    "Washington County Supervisor Kristine Deiss",
   ],
   leaders: [
     "Michael Aldana",
@@ -295,6 +297,7 @@ const endorsements = {
     "Kelly Hart Grebe",
     "Raymond D. Jamieson",
     "Patrick W. Schmidt",
+    "Markus Savaglio",
   ],
 }
 
