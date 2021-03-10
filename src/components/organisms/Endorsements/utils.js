@@ -99,7 +99,7 @@ const endorsements = {
     "Fmr. Governor Scott McCallum",
     "Hon. John Franke*",
     "Congressman Tom Petri*",
-    "Fmr. Sheriff Jed Dolnick",
+    "Sheriff Jed Dolnick",
     "Washington County Supervisor Kristine Deiss",
   ],
   leaders: [
