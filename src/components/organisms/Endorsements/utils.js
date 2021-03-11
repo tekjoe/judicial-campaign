@@ -90,7 +90,6 @@ const endorsements = {
     "Hon. Gregory B. Gill, Jr.",
     "Hon. Dennis P. Moroney*",
     "Mayor Shawn Reilly",
-    "Sheriff Christopher K. Schmaling",
     "Sheriff Martin Schulteis",
     "Hon. Michael A. Schumacher",
     "Hon. David C. Swanson",
