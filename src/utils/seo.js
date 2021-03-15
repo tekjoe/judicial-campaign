@@ -62,6 +62,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         { name: `msvalidate.01`, content: `A8AAE8BF7129E670726C386E623BCCD5` },
+        {
+          name: "google-site-verification",
+          content: "hDWP22wDRTBOt_VeqiLK3DtW4-pLhtK5jJzHGJaJ260",
+        },
       ].concat(meta)}
     >
       <style>
