@@ -227,7 +227,11 @@ const HeaderComponent = () => {
               Endorsements
             </Nav.Link>
           </li>
-
+          <li>
+            <Nav.Link to="/in-the-news/" activeClassName="active">
+              In the News
+            </Nav.Link>
+          </li>
           <li>
             <Nav.Link to="/contact/" activeClassName="active">
               Contact Jeff
@@ -276,6 +280,13 @@ const HeaderComponent = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Nav.Link to="/endorsements/">Endorsements</Nav.Link>
+          </motion.li>
+          <motion.li
+            onClick={toggleMenu}
+            variants={item}
+            whileTap={{ scale: 0.95 }}
+          >
+            <Nav.Link to="/in-the-news/">In the News</Nav.Link>
           </motion.li>
           <motion.li
             onClick={toggleMenu}

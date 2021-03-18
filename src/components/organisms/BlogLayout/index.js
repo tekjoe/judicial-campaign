@@ -6,12 +6,12 @@ export const Blog = styled.section`
   grid-template-columns: repeat(12, 1fr);
   max-width: 1140px;
   margin: 0 2rem;
-  padding: ${({ withImage }) => (withImage ? "0 0 4rem 0" : "4rem 0")};
   padding: ${({ isTestimonial }) => (isTestimonial ? "0" : "0 0 4rem 0")};
+  padding: ${({ withImage }) => (withImage ? "0 0 4rem 0" : "4rem 0")};
   @media (min-width: 1024px) {
     margin: 0 auto;
+    padding: ${({ isTestimonial }) => (isTestimonial ? "0" : "3rem 0 3rem 0")};
     padding: ${({ withImage }) => (withImage ? "0 0 5rem 0" : "5rem 0")};
-    padding: ${({ isTestimonial }) => (isTestimonial ? "0" : "0 0 3rem 0")};
   }
 `
 
