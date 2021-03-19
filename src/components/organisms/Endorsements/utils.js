@@ -297,6 +297,7 @@ const endorsements = {
     "Patrick W. Schmidt",
     "Markus Savaglio",
     "Jed Dolnick",
+    "Daniel A. Gruhn",
   ],
 }
 

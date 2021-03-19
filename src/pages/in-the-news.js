@@ -5,6 +5,7 @@ import PageHeader from "../components/organisms/PageHeader"
 import BlogLayout, { Blog } from "../components/organisms/BlogLayout"
 import danBiceJanuary from "../images/DanBiceJanuary.pdf"
 import danBiceFebruary from "../images/DanBiceFebruary.pdf"
+import westBendDailyNews from "../images/westBendDailyNews.pdf"
 import SEO from "../utils/seo"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 
@@ -50,6 +51,12 @@ const AboutPage = () => (
               donors and former Gov. Scott Walker's family
             </OutboundLink>{" "}
             - <em>Milwaukee Journal Sentinel</em>
+          </li>
+          <li>
+            <OutboundLink href={westBendDailyNews}>
+              Return Judge Davis to Court of Appeals
+            </OutboundLink>{" "}
+            - <em>West Bend Daily News</em>
           </li>
         </ul>
       </Blog.Text>
