@@ -48,8 +48,8 @@ const EndorsementsList = styled.ul`
     &:before {
       content: "";
       display: inline-block;
-      height: 1.25rem;
-      width: 1.25rem;
+      min-height: 1.25rem;
+      min-width: 1.25rem;
       background-image: url(${checkMark});
       background-repeat: no-repeat;
       background-position: center center;

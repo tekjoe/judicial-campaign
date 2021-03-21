@@ -24,13 +24,13 @@ const AboutPage = () => (
             <OutboundLink href="https://www.riponpress.com/editorial/vote-for-davis-for-wis-appeals-court-judge/article_c59ac980-872c-11eb-858e-6b7d193f8005.html">
               Vote for Davis for Wis. Appeals Court judge
             </OutboundLink>{" "}
-            - <em>Rippon Press</em>
+            - <em>Ripon Press</em>
           </li>
           <li>
             <OutboundLink href="https://journaltimes.com/opinion/letters/gasiorkiewicz-retain-judge-jeff-davis/article_40ed61f6-e9a3-5337-9624-070ac2cf34a7.html">
               Gasiorkiewicz: Retain Judge Jeff Davis
             </OutboundLink>{" "}
-            - <em>The Journal Times</em>
+            - <em>The Racine Journal Times</em>
           </li>
           <li>
             <OutboundLink href="https://www.ozaukeepress.com/content/press-editorial-political-attack-judge-has-familiar-ring">

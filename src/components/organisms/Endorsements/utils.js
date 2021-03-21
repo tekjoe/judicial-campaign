@@ -99,6 +99,7 @@ const endorsements = {
     "Hon. John Franke*",
     "Congressman Tom Petri*",
     "Washington County Supervisor Kristine Deiss",
+    "Hon. Mary M Kuhnmuench*",
   ],
   leaders: [
     "Michael Aldana",
@@ -298,6 +299,8 @@ const endorsements = {
     "Markus Savaglio",
     "Jed Dolnick",
     "Daniel A. Gruhn",
+    "John Hess",
+    "Victor Schultz",
   ],
 }
 
