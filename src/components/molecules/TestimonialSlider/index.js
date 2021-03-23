@@ -176,6 +176,90 @@ const testimonials = [
     position: "Presiding Judge, Wisconsin Court of Appeals, District II",
     image: reilly,
   },
+  {
+    quote:
+      "Judge Davis has the experience needed to continue serving on the Court of Appeals. Additionally, he has shown himself to be a fair and impartial judge who will apply the law and not be swayed solely by a single ideology. His impressive endorsement list includes people with a wide variety of political views, demonstrating both his independence and his good reputation. Let's keep partisan politics out of non-partisan elections!",
+    attestant: "Charles C. Adams",
+    position: "Attorney",
+  },
+  {
+    quote:
+      "Judge Davis is extremely measured and thoughtful, which are key qualities for a member of the bench.",
+    attestant: "Shannon A. Allen",
+    position: "Attorney",
+  },
+  {
+    quote:
+      "I have known Jeff in various legal capacities for over twenty years. I have had no reason to question his honesty, trustworthiness or commitment to the law. I believe he is above the rancor of partisanship, and the voters of this state should not only support but also re-elect him.",
+    attestant: "Nathaniel Cade, Jr.",
+    position: "Attorney",
+  },
+  {
+    quote:
+      "I have known Jeff for years as an extremely knowledgeable and skilled attorney. From working with him on the same side, litigating against him, and joining him as a CLE lecturer, I have found him to be courteous and fair. By temperament, ethics, and knowledge, he meets all the requirements of a superb judge.",
+    attestant: "Bob Corris",
+    position: "Attorney",
+  },
+  {
+    quote:
+      "Jeff brings great experience as a practicing attorney working with Wisconsin Businesses during his career at Quarles & Brady. Jeff is highly ethical, fair minded, and a devoted scholar of the law. He is extremely qualified to represent our District as a Court of Appeals Judge.",
+    attestant: "Mitchel Cox",
+    position: "",
+  },
+  {
+    quote:
+      "As a lawyer with over 40 years of  experience in the court system I know the importance of having capable judges on the court of appeals. Experience and integrity matter and Judge Davis has both. Inexperienced judges with a political agenda are prone to bad decisions that hurt the people who turn to the courts to resolve disputes. Judge Davis will apply the law fairly and impartiality. Those who know the court system know Judge Davis is the right choice.",
+    attestant: "Patrick Dunphy",
+    position: "Attorney",
+  },
+  {
+    quote:
+      "The appointment of Jeff Davis to the Court of Appeals was a wonderful example of how the appointment process should work, placing a highly qualified person in a vital and non-partisan judicial position without regard for political agendas. ",
+    attestant: "Hon. John Franke",
+    position: "Attorney & Former Judge",
+  },
+  {
+    quote:
+      "I've known Jeff for over 20 years and there are few people I've encountered in my life better suited for the role of an appellate court judge. He is hard-working, thoughtful, deliberative, fair, and dedicated to his role in following the law. Having been a business lawyer for decades before assuming the bench, he also brings a much needed practical business perspective to the commercial cases that come before him.",
+    attestant: "Brian G. Gilpin",
+    position: "Attorney",
+  },
+  {
+    quote:
+      "Jeff is smart, thoughtful, independent, and fair. His years of courtroom experience, both as an advocate and more recently as an appellate judge, makes supporting him an easy choice.",
+    attestant: "William H. Harbeck",
+    position: "Attorney",
+  },
+  {
+    quote:
+      "I've known Jeff for years and he is a quality guy. He is always honest and fair, even on the tennis court.",
+    attestant: "John Hess",
+    position: "",
+  },
+  {
+    quote:
+      "The public rightfully expects their judges to be fair minded, hard working, and committed to the rule of law.  Court of Appeals Judge, Jeff Davis, exemplifies those very qualities, and that's why he has earned the respect of his judicial colleagues, as well as bi-partisan support across the political spectrum. Judge Davis is thoughtful, experienced and balanced, with unquestioned integrity. And that's why he deserves your vote on Tuesday, April 6th.   ",
+    attestant: "Hon. Mary Kuhnmuench",
+    position: "",
+  },
+  {
+    quote:
+      "Jeff is highly prepared with over thirty years of practicing law in our Wisconsin courts - he was not and is not a politician. He is highly committed, independent and fair.",
+    attestant: "Chief Judge Lisa S. Neubauer",
+    position: "Wisconsin Court of Appeals",
+  },
+  {
+    quote:
+      "I am endorsing Judge Davis to retain his seat on the Court of Appeals because he has the business law experience and expertise that is greatly needed in our courts.  As a business owner, it gives me comfort to know that the business cases that end up in the court of appeals will be decided by judges who include among their ranks lawyers with real-world experience representing businesses, and an appreciation for the implications their decisions have for the business community.",
+    attestant: "Austin Ramirez",
+    position: "President/CEO Husco International",
+  },
+  {
+    quote:
+      "Jeff's decades of experience, particularly in business litigation, serves the Appellate II judicial team well. Additionally, his thoughtfulness and fairness to all who appear before him is reflected by his commitment to deciding cases based on the law and facts, not by his personal perferences.",
+    attestant: "Chief Justice Patience D. Roggensack",
+    position: "Wisconsin Supreme Court",
+  },
 ]
 
 const variants = {
@@ -241,12 +325,14 @@ export default () => {
           <Quote>{testimonials[testimonialIndex].quote}</Quote>
           <QuoteMark>"</QuoteMark>
           <Attribution>
-            <Attribution.Image>
-              <img
-                src={testimonials[testimonialIndex].image}
-                alt="Attestant Portrait"
-              />
-            </Attribution.Image>
+            {testimonials[testimonialIndex].image ? (
+              <Attribution.Image>
+                <img
+                  src={testimonials[testimonialIndex].image}
+                  alt="Attestant Portrait"
+                />
+              </Attribution.Image>
+            ) : null}
             <Attribution.Body>
               <Attestant>{testimonials[testimonialIndex].attestant}</Attestant>
               <Position>{testimonials[testimonialIndex].position}</Position>
