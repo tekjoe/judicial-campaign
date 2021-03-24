@@ -238,7 +238,7 @@ const testimonials = [
   },
   {
     quote:
-      "The public rightfully expects their judges to be fair minded, hard working, and committed to the rule of law.  Court of Appeals Judge, Jeff Davis, exemplifies those very qualities, and that's why he has earned the respect of his judicial colleagues, as well as bi-partisan support across the political spectrum. Judge Davis is thoughtful, experienced and balanced, with unquestioned integrity. And that's why he deserves your vote on Tuesday, April 6th.   ",
+      "The public rightfully expects their judges to be fair minded, hard working, and committed to the rule of law.  Court of Appeals Judge, Jeff Davis, exemplifies those very qualities, and that's why he has earned the respect of his judicial colleagues, as well as bi-partisan support across the political spectrum. Judge Davis is thoughtful, experienced and balanced, with unquestioned integrity. And that's why he deserves your vote on Tuesday, April 6th.",
     attestant: "Hon. Mary Kuhnmuench",
     position: "",
   },
@@ -259,6 +259,12 @@ const testimonials = [
       "Jeff's decades of experience, particularly in business litigation, serves the Appellate II judicial team well. Additionally, his thoughtfulness and fairness to all who appear before him is reflected by his commitment to deciding cases based on the law and facts, not by his personal perferences.",
     attestant: "Chief Justice Patience D. Roggensack",
     position: "Wisconsin Supreme Court",
+  },
+  {
+    quote:
+      "Your extensive experience in the court system as a practitioner and jurist are impressive.",
+    attestant: "Gene Toboyek",
+    position: "Professor, University of Wisconsin-Whitewater",
   },
 ]
 

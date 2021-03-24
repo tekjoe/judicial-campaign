@@ -301,6 +301,7 @@ const endorsements = {
     "Daniel A. Gruhn",
     "John Hess",
     "Victor Schultz",
+    "Gene Toboyek",
   ],
 }
 
