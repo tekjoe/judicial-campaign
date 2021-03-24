@@ -58,6 +58,13 @@ const AboutPage = () => (
             </OutboundLink>{" "}
             - <em>West Bend Daily News</em>
           </li>
+          <li>
+            <OutboundLink href="https://shepherdexpress.com/news/features/court-of-appeals-district-2-judge-jeffrey-davis/">
+              Vote for Jeffrey Davis for Court of Appeals District 2 Judge on
+              April 6
+            </OutboundLink>{" "}
+            - <em>Shepherd Express</em>
+          </li>
         </ul>
       </Blog.Text>
     </BlogLayout>
