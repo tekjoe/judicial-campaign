@@ -27,7 +27,7 @@ const AboutPage = () => {
       <PageHeader subtitle="" title="Know the Facts" />
       <BlogLayout>
         <Blog.Text>
-          <h4> Support for this Nonpartisan Office</h4>
+          <h4>Bipartisan Support for this Nonpartisan Office</h4>
           <p>
             <strong>
               Jeff's endorsement list includes four conservatively leaning
@@ -47,7 +47,7 @@ const AboutPage = () => {
           <p>
             <Button onClick={scrollToOpinions}>Read his opinions</Button>
           </p>
-          <h4>Versus Grogan's Lack of Experience</h4>
+          <h4>Grogan's Lack of Experience</h4>
           <p>
             <strong>
               Grogan is a career entry level clerk willing to play politics and
