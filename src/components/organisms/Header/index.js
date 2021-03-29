@@ -59,7 +59,7 @@ const Nav = styled.nav`
       }
     }
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 1300px) {
     display: block;
     margin-left: auto;
   }
@@ -79,7 +79,7 @@ Nav.Link = styled(Link)`
 const CTA = styled.div`
   display: none;
   align-items: center;
-  @media (min-width: 1024px) {
+  @media (min-width: 1300px) {
     display: flex;
   }
 `
@@ -109,7 +109,7 @@ const HamburgerButton = styled.a`
       fill: ${({ isToggled }) => (isToggled ? "white" : "black")};
     }
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 1300px) {
     display: none;
   }
 `
@@ -158,7 +158,7 @@ const MobileNav = styled(motion.nav)`
     @media (min-width: 768px) {
       top: 5rem;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1300px) {
       display: none;
     }
   }
@@ -218,6 +218,11 @@ const HeaderComponent = () => {
             </Nav.Link>
           </li>
           <li>
+            <Nav.Link to="/know-the-facts/" activeClassName="active">
+              Know the Facts
+            </Nav.Link>
+          </li>
+          <li>
             <Nav.Link to="/judicial-philosophy/" activeClassName="active">
               Judicial Philosophy
             </Nav.Link>
@@ -266,6 +271,13 @@ const HeaderComponent = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Nav.Link to="/about/">Meet Judge Davis</Nav.Link>
+          </motion.li>
+          <motion.li
+            onClick={toggleMenu}
+            variants={item}
+            whileTap={{ scale: 0.95 }}
+          >
+            <Nav.Link to="/know-the-facts/">Know the Facts</Nav.Link>
           </motion.li>
           <motion.li
             onClick={toggleMenu}

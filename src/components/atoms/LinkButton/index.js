@@ -10,7 +10,7 @@ const Button = styled(Link)`
   background: #f3304a;
   padding: 1rem;
   color: white;
-  display: inline-block;
+  display: ${({ fullwidth }) => (fullwidth ? "block" : "inline-block")};
   font-weight: bold;
   letter-spacing: 1px;
   min-width: 300px;

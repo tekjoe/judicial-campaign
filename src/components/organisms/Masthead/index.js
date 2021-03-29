@@ -1,9 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 import ContentContainer from "../../atoms/ContentContainer"
-
+import LinkButton from "../../atoms/LinkButton"
 import MastheadImage from "../../atoms/MastheadImage"
-import EmailForm from "../../molecules/EmailForm"
 
 const Masthead = styled.section`
   background: #264577;
@@ -71,7 +70,9 @@ const MastheadSection = () => {
         <ContentContainer>
           <p>Proven Experience on the Bench</p>
           <h1>Retain Judge Jeff Davis on the Wisconsin Court of Appeals</h1>
-          <EmailForm />
+          <LinkButton to="/know-the-facts/" fullwidth>
+            Know the Facts
+          </LinkButton>
         </ContentContainer>
       </Masthead.CTA>
     </Masthead>
