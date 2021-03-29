@@ -64,7 +64,8 @@ const AboutPage = () => {
             know she cited iconic liberal jurists, e.g., Ruth Bader Ginsburg, as
             those she most admired, while now claiming to be a highly
             conservative "Constitutionalist". She was previously passed over for
-            a judicial appointment by Gov. Walker.
+            a judicial appointment by Gov. Walker without so much as an
+            interview.
           </p>
           <h4>Davis's Real-World Experience</h4>
           <p>
@@ -129,7 +130,7 @@ const AboutPage = () => {
             courts. <OutboundLink href={floridaGov}>Here</OutboundLink> is the
             letter Jeff wrote to the then Governor of Florida on the day of Van
             Poyck's execution and <OutboundLink href={jdWvp}>here</OutboundLink>{" "}
-            is the letter Van Poyck set to Judge Davis the day before his
+            is the letter Van Poyck sent to Judge Davis the day before his
             execution. Quarles & Brady received a national pro bono award from
             the American Bar Association in large part because of this case.
           </p>
