@@ -162,8 +162,8 @@ const AboutPage = () => {
             endorsement quotes from his colleagues on the bench, including from
             Chief Justice Roggensack, Justice Ziegler, Judges Neubauer, Reilly
             and Fitzpatrick at the court of appeals, as well as many trial
-            judges. Letters of support have been sent by trial judges to
-            numerous local papers including from{" "}
+            judges. Letters of support have been sent by judges to numerous
+            local papers including from{" "}
             <OutboundLink target="_blank" href={gasLetter}>
               Racine County Judge Gene Gasiorkiewicz
             </OutboundLink>
@@ -182,6 +182,7 @@ const AboutPage = () => {
             (Judge Reilly is the presiding judge of the court on which Judge
             Davis sits).
           </p>
+          <p>Links to Judge Davis's authored opinions are listed below.</p>
           <ul>
             <li>
               <OutboundLink
