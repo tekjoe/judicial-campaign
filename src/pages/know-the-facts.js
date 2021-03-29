@@ -6,6 +6,10 @@ import BlogLayout, { Blog } from "../components/organisms/BlogLayout"
 import SEO from "../utils/seo"
 import jdWvp from "../images/jd-wvp.pdf"
 import floridaGov from "../images/letter-to-florida-gov.pdf"
+import reillyLetter from "../images/judge-reilly-letter.pdf"
+import gasLetter from "../images/judge-gasiorkiewicz-letter.pdf"
+import gonringLetter from "../images/judge-gonring-letter.pdf"
+import fitzLetter from "../images/judge-fitzpatrick-letter.pdf"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import Button from "../components/atoms/Button"
 
@@ -25,31 +29,33 @@ const AboutPage = () => {
         <Blog.Text>
           <h4> Support for this Nonpartisan Office</h4>
           <p>
-            Jeff's endorsement list includes four conservatively leaning Supreme
-            Court justices, 22 current and retired court of appeals judges and
-            dozens of current and retired trial court judges throughout the
-            district (ten appointed by Governor Walker). The justices and judges
-            endorsing Judge Davis know that his experience handling hundreds of
-            cases in the trial and appellate courts matters and they know that,
-            as a sitting appellate judge, he has strived to apply the
-            law-whether it be a statute, case law, or the Constitution-as it
-            exists without bias and in a clear, well-reasoned manner.
+            <strong>
+              Jeff's endorsement list includes four conservatively leaning
+              Supreme Court justices, 22 current and retired court of appeals
+              judges and dozens of current and retired trial court judges
+              throughout the district (ten appointed by Governor Walker).
+            </strong>
+          </p>
+          <p>
+            The justices and judges endorsing Judge Davis know that his
+            experience handling hundreds of cases in the trial and appellate
+            courts matters and they know that, as a sitting appellate judge, he
+            has strived to apply the law-whether it be a statute, case law, or
+            the Constitution-as it exists without bias and in a clear,
+            well-reasoned manner.
           </p>
           <p>
             <Button onClick={scrollToOpinions}>Read his opinions</Button>
           </p>
-          <h4>Davis's Real-World Experience</h4>
-          <p>
-            Jeff was chosen and appointed by Governor Evers because of the
-            extensive real-world experience he brought to the bench, including
-            in high stakes business law cases that set landmark precedents in
-            the Wisconsin Supreme Court. Accomplished private practice attorneys
-            often don't consider the judiciary because they have thriving
-            practices, and frankly, because of the difference in pay. Judge
-            Davis had reached a point in his career where he felt it was time to
-            give back - this was his calling.
-          </p>
           <h4>Versus Grogan's Lack of Experience</h4>
+          <p>
+            <strong>
+              Grogan is a career entry level clerk willing to play politics and
+              mislead in an attempt to get a better job for which she is not
+              qualified. No governor, Republican or Democrat, has ever been
+              willing to appoint her to be a judge.
+            </strong>
+          </p>
           <p>
             Judge Davis's opponent, Shelley Grogan, is a career law clerk, which
             is an entry level position in the court system. She applied for the
@@ -60,6 +66,26 @@ const AboutPage = () => {
             conservative "Constitutionalist". She was previously passed over for
             a judicial appointment by Gov. Walker.
           </p>
+          <h4>Davis's Real-World Experience</h4>
+          <p>
+            <strong>
+              In contrast Davis took an enormous pay cut in order to provide a
+              public service and bring to the bench real world experience needed
+              so that Wisconsin businesses can thrive, in order to provide good
+              paying jobs.
+            </strong>
+          </p>
+          <p>
+            Jeff was chosen and appointed by Governor Evers because of the
+            extensive real-world experience he brought to the bench, including
+            in high stakes business law cases that set landmark precedents in
+            the Wisconsin Supreme Court. Accomplished private practice attorneys
+            often don't consider the judiciary because they have thriving
+            practices, and frankly, because of the difference in pay. Judge
+            Davis had reached a point in his career where he felt it was time to
+            give back - this was his calling.
+          </p>
+
           <h4>Grogan Hasn't Tried a Case or Handled an Appeal</h4>
           <p>
             To put the difference in experience in context, according to CCAP,
@@ -73,6 +99,14 @@ const AboutPage = () => {
             tried a case, handled an appeal, or been hired by a client.
           </p>
           <h4>Death Penalty Case</h4>
+          <p>
+            <strong>
+              As a young lawyer, and at the request of the American Bar
+              Association, Davis spent countless hours, unpaid, seeking to get
+              life in prison rather than death for a man who did not shoot
+              anyone, but was involved in a failed prison break.
+            </strong>
+          </p>
           <p>
             The death penalty case that is the subject of attack ads against
             Judge Davis concerned a death row inmate, William Van Poyck, who was
@@ -119,176 +153,189 @@ const AboutPage = () => {
           </p>
           <h4>Read Davis's Decisions Yourself</h4>
           <p>
-            Judge Davis has 19 authored opinions since joining the bench (links
-            to 16 of them below), in addition to numerous non-authored summary
-            disposition orders and per curiams, covering a wide array of issues,
-            including insurance, property tax, criminal, open records,
-            contracts, commitment issues, and termination of parental rights, to
-            name just a few. Judge Davis's work has received widespread public
-            praise in the form of endorsement quotes from his colleagues on the
-            bench, including from Chief Justice Roggensack, Justice Ziegler,
-            Judges Neubauer, Reilly and Fitzpatrick at the court of appeals, as
-            well as many trial judges. Letters of support have been sent by
-            trial judges to numerous local papers including from Racine County
-            Judge Gene Gasiorkiewicz, Washington County Judge Andy Gonring, and
-            Court of Appeals Judge Mike Fitzpatrick.
+            Judge Davis has 19 authored opinions since joining the bench, in
+            addition to numerous non-authored summary disposition orders and per
+            curiams, covering a wide array of issues, including insurance,
+            property tax, criminal, open records, contracts, commitment issues,
+            and termination of parental rights, to name just a few. Judge
+            Davis's work has received widespread public praise in the form of
+            endorsement quotes from his colleagues on the bench, including from
+            Chief Justice Roggensack, Justice Ziegler, Judges Neubauer, Reilly
+            and Fitzpatrick at the court of appeals, as well as many trial
+            judges. Letters of support have been sent by trial judges to
+            numerous local papers including from{" "}
+            <OutboundLink target="_blank" href={gasLetter}>
+              Racine County Judge Gene Gasiorkiewicz
+            </OutboundLink>
+            ,{" "}
+            <OutboundLink target="_blank" href={gonringLetter}>
+              Washington County Judge Andrew Gonring
+            </OutboundLink>
+            ,{" "}
+            <OutboundLink target="_blank" href={fitzLetter}>
+              Court of Appeals Judge Michael R. Fitzpatrick
+            </OutboundLink>
+            , and{" "}
+            <OutboundLink target="_blank" href={reillyLetter}>
+              Court of Appeals Judge Paul Reilly
+            </OutboundLink>{" "}
+            (Judge Reilly is the presiding judge of the court on which Judge
+            Davis sits).
           </p>
-          <p>
-            <ul>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=308165"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=287927"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=287941"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=273166"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=265185"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=264273"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=261924"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=261986"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=259665"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=256774"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=253396"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=319690"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=307830"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=301349"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=296051"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=287927"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=275253"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=346287"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-              <li>
-                <OutboundLink
-                  target="_blank"
-                  href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=348669"
-                >
-                  Link to document
-                </OutboundLink>
-              </li>
-            </ul>
-          </p>
+          <ul>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=308165"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=287927"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=287941"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=273166"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=265185"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=264273"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=261924"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=261986"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=259665"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=256774"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=253396"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=319690"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=307830"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=301349"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=296051"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=287927"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=275253"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=346287"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink
+                target="_blank"
+                href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=348669"
+              >
+                Link to document
+              </OutboundLink>
+            </li>
+          </ul>
         </Blog.Text>
       </BlogLayout>
       <SignUp />
