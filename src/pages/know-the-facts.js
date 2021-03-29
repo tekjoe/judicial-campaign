@@ -130,9 +130,8 @@ const AboutPage = () => {
             Judges Neubauer, Reilly and Fitzpatrick at the court of appeals, as
             well as many trial judges. Letters of support have been sent by
             trial judges to numerous local papers including from Racine County
-            Judge Gene Gasiorkiewicz, Judge Andy Gonring of Washington County,
-            Judge Edward Stengel of Sheboygan County and Judge Paul Malloy of
-            Ozaukee County.{" "}
+            Judge Gene Gasiorkiewicz, Washington County Judge Andy Gonring, and
+            Court of Appeals Judge Mike Fitzpatrick.
           </p>
           <p>
             <ul>
