@@ -278,6 +278,12 @@ const testimonials = [
     attestant: "Conrad Goodkind",
     position: "",
   },
+  {
+    quote:
+      "Back in 2008, when an F3 Tornado destroyed our home, I called Quarles & Brady for help. Even though they did not specialize in 'Home Owners' they still transferred me to their Attorney Jeff Davis. Attorney Davis not only wrote a brief and helped us scheduled a court date before a Judge to hear our grievances, but then actually drove from Milwaukee to Kenosha to represent us before this judge. (Until we could find an attorney who did specialize in homeowners.) When I asked what we owed him for his services, he told me not to worry about it. Pro Bono. You don't find many Attorneys like this! He truly fights for the little people. And definitely HAS MY VOTE !!",
+    attestant: "Angela Brooks",
+    position: "",
+  },
 ]
 
 const variants = {
