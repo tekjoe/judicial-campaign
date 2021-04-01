@@ -10,6 +10,7 @@ import reillyLetter from "../images/judge-reilly-letter.pdf"
 import gasLetter from "../images/judge-gasiorkiewicz-letter.pdf"
 import gonringLetter from "../images/judge-gonring-letter.pdf"
 import fitzLetter from "../images/judge-fitzpatrick-letter.pdf"
+import clarkOpinion from "../images/clark-opinion.pdf"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import Button from "../components/atoms/Button"
 
@@ -66,6 +67,16 @@ const AboutPage = () => {
             conservative "Constitutionalist". She was previously passed over for
             a judicial appointment by Gov. Walker without so much as an
             interview.
+          </p>
+          <p>
+            Despite this sound bi-partisan rejection, Grogan has repeatedly
+            touted her experience as a law clerk as akin to actually being a
+            sitting Supreme Court justice, claiming that she "performs the same
+            tasks" as the justice she works for and that she "may be the most
+            qualified candidate to ever run for the court of appeals" in its 43
+            year history, thus calling into question her trustworthiness,
+            thoughtfulness and humility--qualities that are essential to being
+            an effective judge.
           </p>
           <h4>Davis's Real-World Experience</h4>
           <p>
@@ -154,7 +165,7 @@ const AboutPage = () => {
           </p>
           <h4>Read Davis's Decisions Yourself</h4>
           <p>
-            Judge Davis has 19 authored opinions since joining the bench, in
+            Judge Davis has 20 authored opinions since joining the bench, in
             addition to numerous non-authored summary disposition orders and per
             curiams, covering a wide array of issues, including insurance,
             property tax, criminal, open records, contracts, commitment issues,
@@ -334,6 +345,11 @@ const AboutPage = () => {
                 target="_blank"
                 href="https://www.wicourts.gov/ca/opinion/DisplayDocument.pdf?content=pdf&seqNo=348669"
               >
+                Link to document
+              </OutboundLink>
+            </li>
+            <li>
+              <OutboundLink target="_blank" href={clarkOpinion}>
                 Link to document
               </OutboundLink>
             </li>

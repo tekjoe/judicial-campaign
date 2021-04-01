@@ -79,6 +79,7 @@ const endorsements = {
     "Hon. Maureen M. Martinez",
     "Hon. Daniel J. Bissett",
     "Hon. Michael J. Piontek",
+    "Hon. LaKeisha Haase",
   ],
   electedOfficials: [
     "DA Mark D. Bensen",
