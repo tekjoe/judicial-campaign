@@ -266,6 +266,18 @@ const testimonials = [
     attestant: "Gene Toboyek",
     position: "Professor, University of Wisconsin-Whitewater",
   },
+  {
+    quote:
+      "As General Counsel for Cities & Villages Mutual Insurance Company, the liability insurer for cities in District 2 like Kenosha, Racine, and Sheboygan, I know that CVMIC municipalities value judges who faithfully apply the law and refrain from legislating from the bench. In Jeff Davis I am confident we have such a judge and I fully support his candidacy.",
+    attestant: "Patrick Nolan",
+    position: "",
+  },
+  {
+    quote:
+      "Jeff Davis's practical experience and work ethic uniquely qualify him for the judiciary.",
+    attestant: "Conrad Goodkind",
+    position: "",
+  },
 ]
 
 const variants = {
