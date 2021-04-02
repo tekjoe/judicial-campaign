@@ -11,6 +11,7 @@ import gasLetter from "../images/judge-gasiorkiewicz-letter.pdf"
 import gonringLetter from "../images/judge-gonring-letter.pdf"
 import fitzLetter from "../images/judge-fitzpatrick-letter.pdf"
 import clarkOpinion from "../images/clark-opinion.pdf"
+import maherLetter from "../images/maher-to-judge-davis04022021.pdf"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import Button from "../components/atoms/Button"
 
@@ -144,6 +145,28 @@ const AboutPage = () => {
             is the letter Van Poyck sent to Judge Davis the day before his
             execution. Quarles & Brady received a national pro bono award from
             the American Bar Association in large part because of this case.
+          </p>
+          <p>
+            <OutboundLink href={maherLetter}>Here</OutboundLink> is a letter
+            from the former director of the American Bar Association Death
+            Penalty Representation project commending Judge Davis for the work
+            he did on this case, and explaining why such work is important to
+            the legal system. As you can see Judge Davis is in good company in
+            handling this type of case--others having done so include Chief
+            Justice John Roberts, former U.S. Solicitor Generals Kenneth Starr
+            and Donald Verilli, and U.S. Senators Ted Cruz and Tim Kaine."
+          </p>
+          <p>
+            In light of the above, it comes as no surprise that Politifact gave
+            Grogan's campaign a "Half True" in its assessment as to its
+            accuracy.{" "}
+            <OutboundLink
+              href="https://www.politifact.com/factchecks/2021/mar/30/shelley-grogan/attack-ad-overreaches-state-appeals-court-race/"
+              target="_blank"
+            >
+              See the Politifact piece here to obtain the truth about this
+              misleading ad campaign.
+            </OutboundLink>
           </p>
           <h4>People Who Know the Legal System Support Davis</h4>
           <p>
