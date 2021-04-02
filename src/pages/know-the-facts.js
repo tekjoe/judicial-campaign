@@ -152,9 +152,9 @@ const AboutPage = () => {
             Penalty Representation project commending Judge Davis for the work
             he did on this case, and explaining why such work is important to
             the legal system. As you can see Judge Davis is in good company in
-            handling this type of case--others having done so include Chief
+            handling this type of case – others having done so include Chief
             Justice John Roberts, former U.S. Solicitor Generals Kenneth Starr
-            and Donald Verilli, and U.S. Senators Ted Cruz and Tim Kaine."
+            and Donald Verilli, and U.S. Senators Ted Cruz and Tim Kaine.
           </p>
           <p>
             In light of the above, it comes as no surprise that Politifact gave
