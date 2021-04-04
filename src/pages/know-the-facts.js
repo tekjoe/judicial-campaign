@@ -76,8 +76,8 @@ const AboutPage = () => {
             tasks" as the justice she works for and that she "may be the most
             qualified candidate to ever run for the court of appeals" in its 43
             year history, thus calling into question her trustworthiness,
-            thoughtfulness and humility--qualities that are essential to being
-            an effective judge.
+            thoughtfulness and humility &mdash; qualities that are essential to
+            being an effective judge.
           </p>
           <h4>Davis's Real-World Experience</h4>
           <p>
@@ -152,9 +152,9 @@ const AboutPage = () => {
             Penalty Representation project commending Judge Davis for the work
             he did on this case, and explaining why such work is important to
             the legal system. As you can see Judge Davis is in good company in
-            handling this type of case – others having done so include Chief
-            Justice John Roberts, former U.S. Solicitor Generals Kenneth Starr
-            and Donald Verilli, and U.S. Senators Ted Cruz and Tim Kaine.
+            handling this type of case &mdash; others having done so include
+            Chief Justice John Roberts, former U.S. Solicitor Generals Kenneth
+            Starr and Donald Verilli, and U.S. Senators Ted Cruz and Tim Kaine.
           </p>
           <p>
             In light of the above, it comes as no surprise that Politifact gave

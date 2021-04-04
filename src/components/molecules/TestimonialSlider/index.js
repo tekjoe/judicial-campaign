@@ -284,6 +284,12 @@ const testimonials = [
     attestant: "Angela Brooks",
     position: "",
   },
+  {
+    quote:
+      "Jeff has many justices endorsing him - I like that. I am a conservative and having a lot of difficulty with the way the country is heading.",
+    attestant: "Christopher J. Fox",
+    position: "",
+  },
 ]
 
 const variants = {

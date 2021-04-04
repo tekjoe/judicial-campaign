@@ -21,6 +21,12 @@ const AboutPage = () => (
         <h4>News & Articles</h4>
         <ul>
           <li>
+            <OutboundLink href="https://urbanmilwaukee.com/2021/04/04/op-ed-grogans-smear-campaign-against-davis/">
+              Grogan’s Smear Campaign Against Davis
+            </OutboundLink>{" "}
+            - <em>Urban Milwaukee</em>
+          </li>
+          <li>
             <OutboundLink href="https://www.riponpress.com/editorial/vote-for-davis-for-wis-appeals-court-judge/article_c59ac980-872c-11eb-858e-6b7d193f8005.html">
               Vote for Davis for Wis. Appeals Court judge
             </OutboundLink>{" "}
